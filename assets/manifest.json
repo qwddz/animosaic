@@ -1,0 +1,4329 @@
+{
+  "version": 4,
+  "minAppVersion": "1.0.0",
+  "categories": [
+    {
+      "id": "sea",
+      "title": {
+        "uk": "Морські мешканці",
+        "en": "Sea friends",
+        "ru": "Морские жители"
+      },
+      "puzzles": [
+        {
+          "id": "sea_turtle",
+          "title": {
+            "uk": "Морська черепаха",
+            "en": "Sea turtle",
+            "ru": "Морская черепаха"
+          },
+          "free": true,
+          "asset": "images/free/sea_turtle.webp",
+          "url": "pictures/sea_turtle-ba875cd2.webp",
+          "sha256": "ba875cd25ea6a25501dae88eb6434511ea76ba38200a6945388ece6f493f123b",
+          "bytes": 290042,
+          "thumb": "thumbs/sea_turtle.webp",
+          "thumbUrl": "thumbs/sea_turtle-20c6bcfa.webp"
+        },
+        {
+          "id": "sea_dolphin_waves",
+          "title": {
+            "uk": "Дельфін на хвилях",
+            "en": "Dolphin on waves",
+            "ru": "Дельфин на волнах"
+          },
+          "free": true,
+          "asset": "images/free/sea_dolphin_waves.webp",
+          "url": "pictures/sea_dolphin_waves-96366712.webp",
+          "sha256": "963667120c71d3cd5004857b910f0d0b10044809ac4a4d9117faf502c4de3026",
+          "bytes": 161942,
+          "thumb": "thumbs/sea_dolphin_waves.webp",
+          "thumbUrl": "thumbs/sea_dolphin_waves-444a2580.webp"
+        },
+        {
+          "id": "sea_octopus_reef",
+          "title": {
+            "uk": "Восьминіг",
+            "en": "Octopus",
+            "ru": "Осьминог"
+          },
+          "free": true,
+          "asset": "images/free/sea_octopus_reef.webp",
+          "url": "pictures/sea_octopus_reef-4d7eca46.webp",
+          "sha256": "4d7eca462c90c4dee2c84d44debd894c147637e0d542027be84231ffad49b40c",
+          "bytes": 257644,
+          "thumb": "thumbs/sea_octopus_reef.webp",
+          "thumbUrl": "thumbs/sea_octopus_reef-50312846.webp"
+        },
+        {
+          "id": "sea_clownfish_anemone",
+          "title": {
+            "uk": "Риба-клоун",
+            "en": "Clownfish",
+            "ru": "Рыба-клоун"
+          },
+          "free": true,
+          "asset": "images/free/sea_clownfish_anemone.webp",
+          "url": "pictures/sea_clownfish_anemone-4922b5e3.webp",
+          "sha256": "4922b5e3ad665fd4b20bc43416d6d27cae1e8a1ae6b215b774ad9183683dab2f",
+          "bytes": 296256,
+          "thumb": "thumbs/sea_clownfish_anemone.webp",
+          "thumbUrl": "thumbs/sea_clownfish_anemone-a95fdbd9.webp"
+        },
+        {
+          "id": "sea_whale_spout",
+          "title": {
+            "uk": "Кит",
+            "en": "Whale",
+            "ru": "Кит"
+          },
+          "free": true,
+          "asset": "images/free/sea_whale_spout.webp",
+          "url": "pictures/sea_whale_spout-a1578258.webp",
+          "sha256": "a1578258a1831d5f37518936ae0c22a4bac32f1cdf4073c98318ab0b2119a3f9",
+          "bytes": 194650,
+          "thumb": "thumbs/sea_whale_spout.webp",
+          "thumbUrl": "thumbs/sea_whale_spout-21cd2140.webp"
+        },
+        {
+          "id": "sea_seal_ice",
+          "title": {
+            "uk": "Тюлень",
+            "en": "Seal",
+            "ru": "Тюлень"
+          },
+          "free": false,
+          "url": "pictures/sea_seal_ice-41493f28.webp",
+          "sha256": "41493f28b23ad2d50f48db3f552fe8460926335cf296a3c79114524ecc4c0de3",
+          "bytes": 146198,
+          "thumb": "thumbs/sea_seal_ice.webp",
+          "thumbUrl": "thumbs/sea_seal_ice-f28d98a0.webp"
+        },
+        {
+          "id": "sea_seahorse_seagrass",
+          "title": {
+            "uk": "Морський коник",
+            "en": "Seahorse",
+            "ru": "Морской конёк"
+          },
+          "free": false,
+          "url": "pictures/sea_seahorse_seagrass-1cb0d8a2.webp",
+          "sha256": "1cb0d8a2e42771bbd64290da159e85530a8e4beedd547165ade96fa4ea14319a",
+          "bytes": 247860,
+          "thumb": "thumbs/sea_seahorse_seagrass.webp",
+          "thumbUrl": "thumbs/sea_seahorse_seagrass-c0ca23e0.webp"
+        },
+        {
+          "id": "sea_crab_beach",
+          "title": {
+            "uk": "Краб",
+            "en": "Crab",
+            "ru": "Краб"
+          },
+          "free": false,
+          "url": "pictures/sea_crab_beach-c5cf88bd.webp",
+          "sha256": "c5cf88bd5b24e5b39585d57a0c477ada0c0f1d8dce6c40816f5cb20d6126870b",
+          "bytes": 303658,
+          "thumb": "thumbs/sea_crab_beach.webp",
+          "thumbUrl": "thumbs/sea_crab_beach-6a7400d1.webp"
+        },
+        {
+          "id": "sea_starfish_tidepool",
+          "title": {
+            "uk": "Морська зірка",
+            "en": "Starfish",
+            "ru": "Морская звезда"
+          },
+          "free": false,
+          "url": "pictures/sea_starfish_tidepool-4b32c980.webp",
+          "sha256": "4b32c9802a321b1ab8916cb61dbaf0fee9ea1be094ccca2dd5bf152fb6c13022",
+          "bytes": 275986,
+          "thumb": "thumbs/sea_starfish_tidepool.webp",
+          "thumbUrl": "thumbs/sea_starfish_tidepool-ae5f73e2.webp"
+        },
+        {
+          "id": "sea_jellyfish_glow",
+          "title": {
+            "uk": "Медуза",
+            "en": "Jellyfish",
+            "ru": "Медуза"
+          },
+          "free": false,
+          "url": "pictures/sea_jellyfish_glow-70b42776.webp",
+          "sha256": "70b4277627d81ab66ba3dee599a9c84269e6843b7d463947bfc91f559f9fdb98",
+          "bytes": 180306,
+          "thumb": "thumbs/sea_jellyfish_glow.webp",
+          "thumbUrl": "thumbs/sea_jellyfish_glow-26581abb.webp"
+        },
+        {
+          "id": "sea_penguin_slide",
+          "title": {
+            "uk": "Пінгвін",
+            "en": "Penguin",
+            "ru": "Пингвин"
+          },
+          "free": false,
+          "url": "pictures/sea_penguin_slide-aa158c10.webp",
+          "sha256": "aa158c1062db34cf96fb450244e5658d91aa2a357051cbee234f71ed9b0c20b1",
+          "bytes": 143906,
+          "thumb": "thumbs/sea_penguin_slide.webp",
+          "thumbUrl": "thumbs/sea_penguin_slide-e6bb2b80.webp"
+        },
+        {
+          "id": "sea_walrus_rocks",
+          "title": {
+            "uk": "Морж",
+            "en": "Walrus",
+            "ru": "Морж"
+          },
+          "free": false,
+          "url": "pictures/sea_walrus_rocks-95972365.webp",
+          "sha256": "95972365efc323497dc224162d382141b7b645503d9445dafa4699fc29b33987",
+          "bytes": 272956,
+          "thumb": "thumbs/sea_walrus_rocks.webp",
+          "thumbUrl": "thumbs/sea_walrus_rocks-a3e6374b.webp"
+        },
+        {
+          "id": "sea_manatee_lagoon",
+          "title": {
+            "uk": "Ламантин",
+            "en": "Manatee",
+            "ru": "Ламантин"
+          },
+          "free": false,
+          "url": "pictures/sea_manatee_lagoon-3ed70095.webp",
+          "sha256": "3ed7009550f31b7b10be3115080298f398c51d2ef4503ee2abf516936bb7ba38",
+          "bytes": 227144,
+          "thumb": "thumbs/sea_manatee_lagoon.webp",
+          "thumbUrl": "thumbs/sea_manatee_lagoon-b5de041f.webp"
+        },
+        {
+          "id": "sea_otter_kelp",
+          "title": {
+            "uk": "Морська видра",
+            "en": "Sea otter",
+            "ru": "Морская выдра"
+          },
+          "free": false,
+          "url": "pictures/sea_otter_kelp-0536a149.webp",
+          "sha256": "0536a1494bc2947fbbe57e3fe5a822d05aba32ef5dc45c5724a9ce4b4afb1c2a",
+          "bytes": 270274,
+          "thumb": "thumbs/sea_otter_kelp.webp",
+          "thumbUrl": "thumbs/sea_otter_kelp-275b0c15.webp"
+        },
+        {
+          "id": "sea_manta_ray",
+          "title": {
+            "uk": "Скат-манта",
+            "en": "Manta ray",
+            "ru": "Скат-манта"
+          },
+          "free": false,
+          "url": "pictures/sea_manta_ray-21b40dcf.webp",
+          "sha256": "21b40dcf42d4b2de502a8d4dde80df59b9674842112b9f7745c859bf0b31cd78",
+          "bytes": 208530,
+          "thumb": "thumbs/sea_manta_ray.webp",
+          "thumbUrl": "thumbs/sea_manta_ray-f7192f09.webp"
+        },
+        {
+          "id": "sea_pufferfish_coral",
+          "title": {
+            "uk": "Риба-їжак",
+            "en": "Pufferfish",
+            "ru": "Рыба-ёж"
+          },
+          "free": false,
+          "url": "pictures/sea_pufferfish_coral-048b2fc4.webp",
+          "sha256": "048b2fc463b9236b37b3d7b6fae8666be2a011e44f2084de32ca2c7500829bda",
+          "bytes": 261348,
+          "thumb": "thumbs/sea_pufferfish_coral.webp",
+          "thumbUrl": "thumbs/sea_pufferfish_coral-a30e43d0.webp"
+        },
+        {
+          "id": "sea_lobster_rocks",
+          "title": {
+            "uk": "Омар",
+            "en": "Lobster",
+            "ru": "Омар"
+          },
+          "free": false,
+          "url": "pictures/sea_lobster_rocks-0414b337.webp",
+          "sha256": "0414b337434058678c1beed9963c21789e53a639bf2b5fa6a322c15edd3822d0",
+          "bytes": 258134,
+          "thumb": "thumbs/sea_lobster_rocks.webp",
+          "thumbUrl": "thumbs/sea_lobster_rocks-72c55fd7.webp"
+        },
+        {
+          "id": "sea_narwhal_arctic",
+          "title": {
+            "uk": "Нарвал",
+            "en": "Narwhal",
+            "ru": "Нарвал"
+          },
+          "free": false,
+          "url": "pictures/sea_narwhal_arctic-8f063e60.webp",
+          "sha256": "8f063e60a762d0155edcd8b3b63d5e10bd9593932558f117001f4e38eaddeb7b",
+          "bytes": 186224,
+          "thumb": "thumbs/sea_narwhal_arctic.webp",
+          "thumbUrl": "thumbs/sea_narwhal_arctic-2a449d55.webp"
+        },
+        {
+          "id": "sea_turtle_baby_beach",
+          "title": {
+            "uk": "Черепашеня",
+            "en": "Baby turtle",
+            "ru": "Черепашонок"
+          },
+          "free": false,
+          "url": "pictures/sea_turtle_baby_beach-5d5062f3.webp",
+          "sha256": "5d5062f328c541835d65359ba643c61260037fcca8c0eac7b6106de9cefc06e9",
+          "bytes": 212038,
+          "thumb": "thumbs/sea_turtle_baby_beach.webp",
+          "thumbUrl": "thumbs/sea_turtle_baby_beach-2d563ec2.webp"
+        },
+        {
+          "id": "sea_sea_lion_rock",
+          "title": {
+            "uk": "Морський лев",
+            "en": "Sea lion",
+            "ru": "Морской лев"
+          },
+          "free": false,
+          "url": "pictures/sea_sea_lion_rock-d595f051.webp",
+          "sha256": "d595f0516cd3426f547aeb5962468ecb97bf451effdd7bf423a8acc14416d95a",
+          "bytes": 289316,
+          "thumb": "thumbs/sea_sea_lion_rock.webp",
+          "thumbUrl": "thumbs/sea_sea_lion_rock-60fd3512.webp"
+        },
+        {
+          "id": "sea_beluga_bubbles",
+          "title": {
+            "uk": "Білуха",
+            "en": "Beluga whale",
+            "ru": "Белуха"
+          },
+          "free": false,
+          "url": "pictures/sea_beluga_bubbles-30e8a62f.webp",
+          "sha256": "30e8a62ff8e386f1660702027bc41859dd2a382824f0e6451e125b324347e7a5",
+          "bytes": 221566,
+          "thumb": "thumbs/sea_beluga_bubbles.webp",
+          "thumbUrl": "thumbs/sea_beluga_bubbles-a4e1a5c1.webp"
+        },
+        {
+          "id": "sea_orca_sunset",
+          "title": {
+            "uk": "Косатка",
+            "en": "Orca",
+            "ru": "Косатка"
+          },
+          "free": false,
+          "url": "pictures/sea_orca_sunset-f577da23.webp",
+          "sha256": "f577da238be97bbf818fd11b13c5ed9811aa6e3ea93145480ec64f12c3ad72c7",
+          "bytes": 149292,
+          "thumb": "thumbs/sea_orca_sunset.webp",
+          "thumbUrl": "thumbs/sea_orca_sunset-a62b695d.webp"
+        },
+        {
+          "id": "sea_hermit_crab",
+          "title": {
+            "uk": "Рак-самітник",
+            "en": "Hermit crab",
+            "ru": "Рак-отшельник"
+          },
+          "free": false,
+          "url": "pictures/sea_hermit_crab-d4eaacac.webp",
+          "sha256": "d4eaacacbaf49c2f0424fd10e128cd744bd2799d4fb603acf1f60559f42accf4",
+          "bytes": 271768,
+          "thumb": "thumbs/sea_hermit_crab.webp",
+          "thumbUrl": "thumbs/sea_hermit_crab-dbd759f9.webp"
+        },
+        {
+          "id": "sea_puffin_cliff",
+          "title": {
+            "uk": "Тупик",
+            "en": "Puffin",
+            "ru": "Тупик"
+          },
+          "free": false,
+          "url": "pictures/sea_puffin_cliff-7cde7ee6.webp",
+          "sha256": "7cde7ee6ae12d93af1bf5ba2eb88651b8f0b626cc530666f2683dce9e2be2f44",
+          "bytes": 349606,
+          "thumb": "thumbs/sea_puffin_cliff.webp",
+          "thumbUrl": "thumbs/sea_puffin_cliff-782059b0.webp"
+        },
+        {
+          "id": "sea_angelfish_reef",
+          "title": {
+            "uk": "Риба-ангел",
+            "en": "Angelfish",
+            "ru": "Рыба-ангел"
+          },
+          "free": false,
+          "url": "pictures/sea_angelfish_reef-7d183b88.webp",
+          "sha256": "7d183b880e5a50bc436c70ac1e59a55e4bef2a82c7018ee4816fbb1db66653ed",
+          "bytes": 300484,
+          "thumb": "thumbs/sea_angelfish_reef.webp",
+          "thumbUrl": "thumbs/sea_angelfish_reef-0f35bf4a.webp"
+        },
+        {
+          "id": "sea_dolphin_baby",
+          "title": {
+            "uk": "Дельфіненя",
+            "en": "Baby dolphin",
+            "ru": "Дельфинёнок"
+          },
+          "free": false,
+          "url": "pictures/sea_dolphin_baby-fb1b044d.webp",
+          "sha256": "fb1b044dead4cc093913383268d827f7536f245c637e48816ada55f6fb4f2570",
+          "bytes": 241046,
+          "thumb": "thumbs/sea_dolphin_baby.webp",
+          "thumbUrl": "thumbs/sea_dolphin_baby-19ce48a0.webp"
+        },
+        {
+          "id": "sea_humpback_moon",
+          "title": {
+            "uk": "Горбатий кит",
+            "en": "Humpback whale",
+            "ru": "Горбатый кит"
+          },
+          "free": false,
+          "url": "pictures/sea_humpback_moon-e8478b47.webp",
+          "sha256": "e8478b47f5ee280a1508da2061e14bd1406295020e3ee1393e93f1f5b28e1c85",
+          "bytes": 249182,
+          "thumb": "thumbs/sea_humpback_moon.webp",
+          "thumbUrl": "thumbs/sea_humpback_moon-65755474.webp"
+        }
+      ]
+    },
+    {
+      "id": "farm",
+      "title": {
+        "uk": "На фермі",
+        "en": "On the farm",
+        "ru": "На ферме"
+      },
+      "puzzles": [
+        {
+          "id": "farm_pig",
+          "title": {
+            "uk": "Порося",
+            "en": "Piglet",
+            "ru": "Поросёнок"
+          },
+          "free": true,
+          "asset": "images/free/farm_pig.webp",
+          "url": "pictures/farm_pig-32ddf390.webp",
+          "sha256": "32ddf390fb5ea8c1ef260186d308863b34e6cfe8e38187696368eaceb775ceaa",
+          "bytes": 253834,
+          "thumb": "thumbs/farm_pig.webp",
+          "thumbUrl": "thumbs/farm_pig-89cdef07.webp"
+        },
+        {
+          "id": "farm_cow_meadow",
+          "title": {
+            "uk": "Корова на лузі",
+            "en": "Cow in Meadow",
+            "ru": "Корова на лугу"
+          },
+          "free": true,
+          "asset": "images/free/farm_cow_meadow.webp",
+          "url": "pictures/farm_cow_meadow-faea5bce.webp",
+          "sha256": "faea5bce5484ce3dbe656fdecc2092171de17683cb9a7dab8153f55eab88fd93",
+          "bytes": 266592,
+          "thumb": "thumbs/farm_cow_meadow.webp",
+          "thumbUrl": "thumbs/farm_cow_meadow-452527d8.webp"
+        },
+        {
+          "id": "farm_horse_paddock",
+          "title": {
+            "uk": "Кінь",
+            "en": "Horse",
+            "ru": "Лошадь"
+          },
+          "free": true,
+          "asset": "images/free/farm_horse_paddock.webp",
+          "url": "pictures/farm_horse_paddock-ee559f16.webp",
+          "sha256": "ee559f1631a139fdc8583f6603b4246b3be103c1fc9c8f4baff9b2137f6a79d1",
+          "bytes": 195760,
+          "thumb": "thumbs/farm_horse_paddock.webp",
+          "thumbUrl": "thumbs/farm_horse_paddock-eec5c45f.webp"
+        },
+        {
+          "id": "farm_sheep_hill",
+          "title": {
+            "uk": "Овечка",
+            "en": "Sheep",
+            "ru": "Овечка"
+          },
+          "free": true,
+          "asset": "images/free/farm_sheep_hill.webp",
+          "url": "pictures/farm_sheep_hill-e295c0db.webp",
+          "sha256": "e295c0dbf3f37e0f79eb016bb5084c841d902253dff296d158e02a88470bde41",
+          "bytes": 312058,
+          "thumb": "thumbs/farm_sheep_hill.webp",
+          "thumbUrl": "thumbs/farm_sheep_hill-516c4840.webp"
+        },
+        {
+          "id": "farm_hen_chicks",
+          "title": {
+            "uk": "Курка з курчатами",
+            "en": "Hen and Chicks",
+            "ru": "Курица с цыплятами"
+          },
+          "free": true,
+          "asset": "images/free/farm_hen_chicks.webp",
+          "url": "pictures/farm_hen_chicks-3616ebac.webp",
+          "sha256": "3616ebacfaa78f369f4cbafb5958f745318d84fb30b7c758d16493a0b98761be",
+          "bytes": 297876,
+          "thumb": "thumbs/farm_hen_chicks.webp",
+          "thumbUrl": "thumbs/farm_hen_chicks-32c609ad.webp"
+        },
+        {
+          "id": "farm_goat_rocks",
+          "title": {
+            "uk": "Коза",
+            "en": "Goat",
+            "ru": "Коза"
+          },
+          "free": false,
+          "url": "pictures/farm_goat_rocks-e1a13328.webp",
+          "sha256": "e1a1332877fa253f9b71ffffbff35895c12667e4229798f5b23d602495ed8221",
+          "bytes": 203162,
+          "thumb": "thumbs/farm_goat_rocks.webp",
+          "thumbUrl": "thumbs/farm_goat_rocks-cd8f8b12.webp"
+        },
+        {
+          "id": "farm_donkey_cart",
+          "title": {
+            "uk": "Віслюк",
+            "en": "Donkey",
+            "ru": "Ослик"
+          },
+          "free": false,
+          "url": "pictures/farm_donkey_cart-ed405d22.webp",
+          "sha256": "ed405d228a630a54959d0c80ea27213ba31fb2f00f5e9947d2e3e0ede94d9e38",
+          "bytes": 425160,
+          "thumb": "thumbs/farm_donkey_cart.webp",
+          "thumbUrl": "thumbs/farm_donkey_cart-a3c930b1.webp"
+        },
+        {
+          "id": "farm_duck_pond",
+          "title": {
+            "uk": "Качка",
+            "en": "Duck",
+            "ru": "Утка"
+          },
+          "free": false,
+          "url": "pictures/farm_duck_pond-4c3ddf94.webp",
+          "sha256": "4c3ddf94d5814bab726df367c533a256c3923affea60642a656c166497deeb50",
+          "bytes": 308646,
+          "thumb": "thumbs/farm_duck_pond.webp",
+          "thumbUrl": "thumbs/farm_duck_pond-ce11229e.webp"
+        },
+        {
+          "id": "farm_goose_orchard",
+          "title": {
+            "uk": "Гуска",
+            "en": "Goose",
+            "ru": "Гусь"
+          },
+          "free": false,
+          "url": "pictures/farm_goose_orchard-a8c4a265.webp",
+          "sha256": "a8c4a265531b2856c0e2c7d725f3a8685de0ec0dd386144b9c118df5a9136778",
+          "bytes": 318906,
+          "thumb": "thumbs/farm_goose_orchard.webp",
+          "thumbUrl": "thumbs/farm_goose_orchard-b04788ff.webp"
+        },
+        {
+          "id": "farm_turkey_autumn",
+          "title": {
+            "uk": "Індик",
+            "en": "Turkey",
+            "ru": "Индюк"
+          },
+          "free": false,
+          "url": "pictures/farm_turkey_autumn-94ee5894.webp",
+          "sha256": "94ee5894890338d2da9861dbbe1394a60a44d9aced8753db0497c3ca23e25372",
+          "bytes": 415182,
+          "thumb": "thumbs/farm_turkey_autumn.webp",
+          "thumbUrl": "thumbs/farm_turkey_autumn-ee2a2c9f.webp"
+        },
+        {
+          "id": "farm_rooster_fence",
+          "title": {
+            "uk": "Півень",
+            "en": "Rooster",
+            "ru": "Петух"
+          },
+          "free": false,
+          "url": "pictures/farm_rooster_fence-e5dfb5ec.webp",
+          "sha256": "e5dfb5ec5f52d29e283fbe93d8851f588177a77e7b4a37db5b66276ab062916d",
+          "bytes": 230124,
+          "thumb": "thumbs/farm_rooster_fence.webp",
+          "thumbUrl": "thumbs/farm_rooster_fence-1459ff5a.webp"
+        },
+        {
+          "id": "farm_rabbit_garden",
+          "title": {
+            "uk": "Кролик",
+            "en": "Rabbit",
+            "ru": "Кролик"
+          },
+          "free": false,
+          "url": "pictures/farm_rabbit_garden-6d1b7c53.webp",
+          "sha256": "6d1b7c53f0fa788224f5fcdb4737204acc9ce9601a1efc1c974e2c62fb798f1b",
+          "bytes": 338710,
+          "thumb": "thumbs/farm_rabbit_garden.webp",
+          "thumbUrl": "thumbs/farm_rabbit_garden-80cc650e.webp"
+        },
+        {
+          "id": "farm_llama_gate",
+          "title": {
+            "uk": "Лама",
+            "en": "Llama",
+            "ru": "Лама"
+          },
+          "free": false,
+          "url": "pictures/farm_llama_gate-7ece641f.webp",
+          "sha256": "7ece641f9fd2aed8f6721d0c3556f3c093d201056799aaecbaa71135c194d49d",
+          "bytes": 228900,
+          "thumb": "thumbs/farm_llama_gate.webp",
+          "thumbUrl": "thumbs/farm_llama_gate-618aa4dc.webp"
+        },
+        {
+          "id": "farm_calf_barn",
+          "title": {
+            "uk": "Теля",
+            "en": "Calf",
+            "ru": "Телёнок"
+          },
+          "free": false,
+          "url": "pictures/farm_calf_barn-8014817f.webp",
+          "sha256": "8014817fcf352b86841152710aa5c7ac3df556dde24df6db3791574b827dbe71",
+          "bytes": 260000,
+          "thumb": "thumbs/farm_calf_barn.webp",
+          "thumbUrl": "thumbs/farm_calf_barn-d0c880ca.webp"
+        },
+        {
+          "id": "farm_foal_spring",
+          "title": {
+            "uk": "Лоша",
+            "en": "Foal",
+            "ru": "Жеребёнок"
+          },
+          "free": false,
+          "url": "pictures/farm_foal_spring-040f898a.webp",
+          "sha256": "040f898a6ac9cd9ca946a55c2644b3297cc57e9bd0760a1f8af51ab4f0190505",
+          "bytes": 430188,
+          "thumb": "thumbs/farm_foal_spring.webp",
+          "thumbUrl": "thumbs/farm_foal_spring-7a7840ef.webp"
+        },
+        {
+          "id": "farm_lamb_snow",
+          "title": {
+            "uk": "Ягня",
+            "en": "Lamb",
+            "ru": "Ягнёнок"
+          },
+          "free": false,
+          "url": "pictures/farm_lamb_snow-ead371d3.webp",
+          "sha256": "ead371d359f17a340daaf96c384dbfea22bd51c12fedb031df898865c96200f3",
+          "bytes": 274346,
+          "thumb": "thumbs/farm_lamb_snow.webp",
+          "thumbUrl": "thumbs/farm_lamb_snow-a45a949c.webp"
+        },
+        {
+          "id": "farm_highland_cow",
+          "title": {
+            "uk": "Кудлата корова",
+            "en": "Shaggy Cow",
+            "ru": "Лохматая корова"
+          },
+          "free": false,
+          "url": "pictures/farm_highland_cow-c109a608.webp",
+          "sha256": "c109a60842caa8857987c9592376871248a707c18ebc31a5d56f75e18e613f93",
+          "bytes": 312728,
+          "thumb": "thumbs/farm_highland_cow.webp",
+          "thumbUrl": "thumbs/farm_highland_cow-9312d2eb.webp"
+        },
+        {
+          "id": "farm_pony_stable",
+          "title": {
+            "uk": "Поні",
+            "en": "Pony",
+            "ru": "Пони"
+          },
+          "free": false,
+          "url": "pictures/farm_pony_stable-8380ec9d.webp",
+          "sha256": "8380ec9db149013ebc7141e2b4f7de9a640b7775cee659e2a2a77a9e6af5e4ff",
+          "bytes": 323614,
+          "thumb": "thumbs/farm_pony_stable.webp",
+          "thumbUrl": "thumbs/farm_pony_stable-b39700d5.webp"
+        },
+        {
+          "id": "farm_duckling_puddle",
+          "title": {
+            "uk": "Каченя",
+            "en": "Duckling",
+            "ru": "Утёнок"
+          },
+          "free": false,
+          "url": "pictures/farm_duckling_puddle-bd9aa3b4.webp",
+          "sha256": "bd9aa3b43f89cd320d60e014cee09c2f6b54627e539f2be4853370c93c20b28f",
+          "bytes": 343500,
+          "thumb": "thumbs/farm_duckling_puddle.webp",
+          "thumbUrl": "thumbs/farm_duckling_puddle-42ebc361.webp"
+        },
+        {
+          "id": "farm_goat_kid_hay",
+          "title": {
+            "uk": "Козеня",
+            "en": "Goat Kid",
+            "ru": "Козлёнок"
+          },
+          "free": false,
+          "url": "pictures/farm_goat_kid_hay-836c00a0.webp",
+          "sha256": "836c00a0c913f0b312b9c94f4bed913ae3099b72ec8f74f7f08db58fb0576b3f",
+          "bytes": 271198,
+          "thumb": "thumbs/farm_goat_kid_hay.webp",
+          "thumbUrl": "thumbs/farm_goat_kid_hay-149d37ff.webp"
+        },
+        {
+          "id": "farm_alpaca_sunflowers",
+          "title": {
+            "uk": "Альпака",
+            "en": "Alpaca",
+            "ru": "Альпака"
+          },
+          "free": false,
+          "url": "pictures/farm_alpaca_sunflowers-08007b4f.webp",
+          "sha256": "08007b4f6d19bd58ebb1c4b4679d618e34bb2c705320c7f36f634100e5e31dcc",
+          "bytes": 373522,
+          "thumb": "thumbs/farm_alpaca_sunflowers.webp",
+          "thumbUrl": "thumbs/farm_alpaca_sunflowers-a6134927.webp"
+        },
+        {
+          "id": "farm_horse_wheat",
+          "title": {
+            "uk": "Кінь у полі",
+            "en": "Horse in Field",
+            "ru": "Лошадь в поле"
+          },
+          "free": false,
+          "url": "pictures/farm_horse_wheat-31860f96.webp",
+          "sha256": "31860f9664457db99cf9b688550732e1dd7bdf72484456375c25469ea82fd719",
+          "bytes": 272002,
+          "thumb": "thumbs/farm_horse_wheat.webp",
+          "thumbUrl": "thumbs/farm_horse_wheat-ba1cee2e.webp"
+        },
+        {
+          "id": "farm_chick_eggs",
+          "title": {
+            "uk": "Курча",
+            "en": "Chick",
+            "ru": "Цыплёнок"
+          },
+          "free": false,
+          "url": "pictures/farm_chick_eggs-13496911.webp",
+          "sha256": "1349691179a992563c135cb047c33e0b2961228c35bd28530e1825bb9eb1dfff",
+          "bytes": 268234,
+          "thumb": "thumbs/farm_chick_eggs.webp",
+          "thumbUrl": "thumbs/farm_chick_eggs-6557ff9a.webp"
+        },
+        {
+          "id": "farm_pig_harvest",
+          "title": {
+            "uk": "Порося на городі",
+            "en": "Piglet in Garden",
+            "ru": "Поросёнок в огороде"
+          },
+          "free": false,
+          "url": "pictures/farm_pig_harvest-4703eca6.webp",
+          "sha256": "4703eca635556d4baaa2894d7a6849ff5eb935306fe5d818bf9177c5d2c8c230",
+          "bytes": 337486,
+          "thumb": "thumbs/farm_pig_harvest.webp",
+          "thumbUrl": "thumbs/farm_pig_harvest-358df862.webp"
+        },
+        {
+          "id": "farm_black_sheep",
+          "title": {
+            "uk": "Чорна овечка",
+            "en": "Black Sheep",
+            "ru": "Чёрная овечка"
+          },
+          "free": false,
+          "url": "pictures/farm_black_sheep-d4b26a8d.webp",
+          "sha256": "d4b26a8d83532d3f5e3af1394f417bf96fda33329e357cbe9db4971f4eef78e6",
+          "bytes": 373692,
+          "thumb": "thumbs/farm_black_sheep.webp",
+          "thumbUrl": "thumbs/farm_black_sheep-e0c21e19.webp"
+        },
+        {
+          "id": "farm_gosling_river",
+          "title": {
+            "uk": "Гусеня",
+            "en": "Gosling",
+            "ru": "Гусёнок"
+          },
+          "free": false,
+          "url": "pictures/farm_gosling_river-3118d34f.webp",
+          "sha256": "3118d34f6aca9958b5236d5b1f63d2d65dbeb39540a76774a3d45b380be87c03",
+          "bytes": 364578,
+          "thumb": "thumbs/farm_gosling_river.webp",
+          "thumbUrl": "thumbs/farm_gosling_river-584dc1f8.webp"
+        },
+        {
+          "id": "farm_cow_mountains",
+          "title": {
+            "uk": "Корова в горах",
+            "en": "Cow in Mountains",
+            "ru": "Корова в горах"
+          },
+          "free": false,
+          "url": "pictures/farm_cow_mountains-8b1b0283.webp",
+          "sha256": "8b1b028347929456232a7e8d6f44f8c58f1e1ff8c3bf75c1eb559cba68b6be10",
+          "bytes": 378524,
+          "thumb": "thumbs/farm_cow_mountains.webp",
+          "thumbUrl": "thumbs/farm_cow_mountains-e182c865.webp"
+        }
+      ]
+    },
+    {
+      "id": "pets",
+      "title": {
+        "uk": "Улюбленці",
+        "en": "Pets",
+        "ru": "Питомцы"
+      },
+      "puzzles": [
+        {
+          "id": "pets_hamster_seeds",
+          "title": {
+            "uk": "Хомʼячок",
+            "en": "Hamster",
+            "ru": "Хомячок"
+          },
+          "free": true,
+          "asset": "images/free/pets_hamster_seeds.webp",
+          "url": "pictures/pets_hamster_seeds-1bc10965.webp",
+          "sha256": "1bc10965e68868fa2162ef780080d4d880602fed8b905819c5ace8de1ca7c3c3",
+          "bytes": 288680,
+          "thumb": "thumbs/pets_hamster_seeds.webp",
+          "thumbUrl": "thumbs/pets_hamster_seeds-0e179ff9.webp"
+        },
+        {
+          "id": "pets_parrot_swing",
+          "title": {
+            "uk": "Папуга",
+            "en": "Parrot",
+            "ru": "Попугай"
+          },
+          "free": true,
+          "asset": "images/free/pets_parrot_swing.webp",
+          "url": "pictures/pets_parrot_swing-1387a1dd.webp",
+          "sha256": "1387a1ddb842444f4dbfa9f767493d3166087ebd525f135c9ae4fa17661c7c58",
+          "bytes": 390040,
+          "thumb": "thumbs/pets_parrot_swing.webp",
+          "thumbUrl": "thumbs/pets_parrot_swing-69d1adc6.webp"
+        },
+        {
+          "id": "pets_goldfish_bowl",
+          "title": {
+            "uk": "Золота рибка",
+            "en": "Goldfish",
+            "ru": "Золотая рыбка"
+          },
+          "free": true,
+          "asset": "images/free/pets_goldfish_bowl.webp",
+          "url": "pictures/pets_goldfish_bowl-f7e4f206.webp",
+          "sha256": "f7e4f206b83f6c85f7378fa287476c96592bea7c671190b50150ad59560bca63",
+          "bytes": 261398,
+          "thumb": "thumbs/pets_goldfish_bowl.webp",
+          "thumbUrl": "thumbs/pets_goldfish_bowl-3d4f9f2a.webp"
+        },
+        {
+          "id": "pets_bunny_playroom",
+          "title": {
+            "uk": "Кролик",
+            "en": "Bunny",
+            "ru": "Кролик"
+          },
+          "free": true,
+          "asset": "images/free/pets_bunny_playroom.webp",
+          "url": "pictures/pets_bunny_playroom-2d0f5110.webp",
+          "sha256": "2d0f5110b13d3ce983791a3b1386beac5069dfc2cf83db9704f85609632a81a8",
+          "bytes": 169048,
+          "thumb": "thumbs/pets_bunny_playroom.webp",
+          "thumbUrl": "thumbs/pets_bunny_playroom-2a169f11.webp"
+        },
+        {
+          "id": "pets_tortoise_garden",
+          "title": {
+            "uk": "Черепаха",
+            "en": "Tortoise",
+            "ru": "Черепаха"
+          },
+          "free": true,
+          "asset": "images/free/pets_tortoise_garden.webp",
+          "url": "pictures/pets_tortoise_garden-b78d1a7e.webp",
+          "sha256": "b78d1a7e316f480b2a38cfde094dc69c8d5af4cc2306e673babece8e14120a85",
+          "bytes": 390732,
+          "thumb": "thumbs/pets_tortoise_garden.webp",
+          "thumbUrl": "thumbs/pets_tortoise_garden-bf16c2bd.webp"
+        },
+        {
+          "id": "pets_guinea_pig_hutch",
+          "title": {
+            "uk": "Морська свинка",
+            "en": "Guinea Pig",
+            "ru": "Морская свинка"
+          },
+          "free": false,
+          "url": "pictures/pets_guinea_pig_hutch-a7be8ae9.webp",
+          "sha256": "a7be8ae9e3f2d42daba7754f459c6fde452600f8d4ff765bf18f9496045bb021",
+          "bytes": 316442,
+          "thumb": "thumbs/pets_guinea_pig_hutch.webp",
+          "thumbUrl": "thumbs/pets_guinea_pig_hutch-b0f7407d.webp"
+        },
+        {
+          "id": "pets_budgie_perch",
+          "title": {
+            "uk": "Хвилястий папужка",
+            "en": "Budgie",
+            "ru": "Волнистый попугайчик"
+          },
+          "free": false,
+          "url": "pictures/pets_budgie_perch-2e55369b.webp",
+          "sha256": "2e55369b00dc0308397fe817d0bc46109c38363dafa18a0486d2f696fd7f8ef4",
+          "bytes": 272440,
+          "thumb": "thumbs/pets_budgie_perch.webp",
+          "thumbUrl": "thumbs/pets_budgie_perch-844a4034.webp"
+        },
+        {
+          "id": "pets_ferret_blanket",
+          "title": {
+            "uk": "Фретка",
+            "en": "Ferret",
+            "ru": "Хорёк"
+          },
+          "free": false,
+          "url": "pictures/pets_ferret_blanket-04f92387.webp",
+          "sha256": "04f923878be202204cc8ed1513fc9cb555af50601ecce62606da740c27dffb67",
+          "bytes": 254016,
+          "thumb": "thumbs/pets_ferret_blanket.webp",
+          "thumbUrl": "thumbs/pets_ferret_blanket-efad3a88.webp"
+        },
+        {
+          "id": "pets_chinchilla_shelf",
+          "title": {
+            "uk": "Шиншила",
+            "en": "Chinchilla",
+            "ru": "Шиншилла"
+          },
+          "free": false,
+          "url": "pictures/pets_chinchilla_shelf-cce60f13.webp",
+          "sha256": "cce60f130f2609dda05fdbd8fa31b97ff2ba86cf2313e4a2249adff7ac234edb",
+          "bytes": 219136,
+          "thumb": "thumbs/pets_chinchilla_shelf.webp",
+          "thumbUrl": "thumbs/pets_chinchilla_shelf-84f822f0.webp"
+        },
+        {
+          "id": "pets_canary_kitchen",
+          "title": {
+            "uk": "Канарка",
+            "en": "Canary",
+            "ru": "Канарейка"
+          },
+          "free": false,
+          "url": "pictures/pets_canary_kitchen-4c10c65e.webp",
+          "sha256": "4c10c65ee47b44bf02419234672a4688141bc7337286936242b97695f9ec5804",
+          "bytes": 329926,
+          "thumb": "thumbs/pets_canary_kitchen.webp",
+          "thumbUrl": "thumbs/pets_canary_kitchen-905cb68a.webp"
+        },
+        {
+          "id": "pets_hamster_wheel",
+          "title": {
+            "uk": "Хомʼяк у колесі",
+            "en": "Hamster on Wheel",
+            "ru": "Хомяк в колесе"
+          },
+          "free": false,
+          "url": "pictures/pets_hamster_wheel-e7c622c1.webp",
+          "sha256": "e7c622c1c3abf4c07d5577f27e7cf0c0ffde748773697fea837fe560a8356dd2",
+          "bytes": 342472,
+          "thumb": "thumbs/pets_hamster_wheel.webp",
+          "thumbUrl": "thumbs/pets_hamster_wheel-a5ae331f.webp"
+        },
+        {
+          "id": "pets_puppy_basket",
+          "title": {
+            "uk": "Цуценя в кошику",
+            "en": "Puppy in Basket",
+            "ru": "Щенок в корзинке"
+          },
+          "free": false,
+          "url": "pictures/pets_puppy_basket-9f54ca0e.webp",
+          "sha256": "9f54ca0e24fd1a6c217e59c33318d2d58ca3910f338dff635548ba47156a16b9",
+          "bytes": 234172,
+          "thumb": "thumbs/pets_puppy_basket.webp",
+          "thumbUrl": "thumbs/pets_puppy_basket-1894e0e4.webp"
+        },
+        {
+          "id": "pets_axolotl_aquarium",
+          "title": {
+            "uk": "Аксолотль",
+            "en": "Axolotl",
+            "ru": "Аксолотль"
+          },
+          "free": false,
+          "url": "pictures/pets_axolotl_aquarium-adec259b.webp",
+          "sha256": "adec259b3c3a084eabfe0d900020fcb7fe08256a0bebd230ba34462f083681ea",
+          "bytes": 277750,
+          "thumb": "thumbs/pets_axolotl_aquarium.webp",
+          "thumbUrl": "thumbs/pets_axolotl_aquarium-fe14276b.webp"
+        },
+        {
+          "id": "pets_hedgehog_playpen",
+          "title": {
+            "uk": "Їжачок",
+            "en": "Hedgehog",
+            "ru": "Ёжик"
+          },
+          "free": false,
+          "url": "pictures/pets_hedgehog_playpen-d3e99042.webp",
+          "sha256": "d3e990422209c91dfe6347353bba7363a45242e3f6b39835f8ec6246af17622f",
+          "bytes": 389550,
+          "thumb": "thumbs/pets_hedgehog_playpen.webp",
+          "thumbUrl": "thumbs/pets_hedgehog_playpen-90524e8e.webp"
+        },
+        {
+          "id": "pets_gerbil_tunnels",
+          "title": {
+            "uk": "Піщанка",
+            "en": "Gerbil",
+            "ru": "Песчанка"
+          },
+          "free": false,
+          "url": "pictures/pets_gerbil_tunnels-538e3e25.webp",
+          "sha256": "538e3e25007106e976bd9c12145c5e501c2a4b97fe6762542104604defcb77ae",
+          "bytes": 371262,
+          "thumb": "thumbs/pets_gerbil_tunnels.webp",
+          "thumbUrl": "thumbs/pets_gerbil_tunnels-1c474fb8.webp"
+        },
+        {
+          "id": "pets_lovebird_balcony",
+          "title": {
+            "uk": "Нерозлучник",
+            "en": "Lovebird",
+            "ru": "Неразлучник"
+          },
+          "free": false,
+          "url": "pictures/pets_lovebird_balcony-79e08721.webp",
+          "sha256": "79e0872199955f19935c7b2f694b151685d1d0d5678a323636c25c069f83f9df",
+          "bytes": 352512,
+          "thumb": "thumbs/pets_lovebird_balcony.webp",
+          "thumbUrl": "thumbs/pets_lovebird_balcony-00fa20d9.webp"
+        },
+        {
+          "id": "pets_mouse_ladder",
+          "title": {
+            "uk": "Мишка",
+            "en": "Mouse",
+            "ru": "Мышка"
+          },
+          "free": false,
+          "url": "pictures/pets_mouse_ladder-a5c8ac6e.webp",
+          "sha256": "a5c8ac6e250e7a9178f9d8822a746d1f92ac521bfa313321e64475ea69998c2d",
+          "bytes": 402752,
+          "thumb": "thumbs/pets_mouse_ladder.webp",
+          "thumbUrl": "thumbs/pets_mouse_ladder-ddd08761.webp"
+        },
+        {
+          "id": "pets_betta_fish",
+          "title": {
+            "uk": "Рибка-півник",
+            "en": "Betta Fish",
+            "ru": "Рыбка-петушок"
+          },
+          "free": false,
+          "url": "pictures/pets_betta_fish-05ae4753.webp",
+          "sha256": "05ae4753a93ead8f1edf400269ed1f78e5645baa959833c246be5194793d4b50",
+          "bytes": 289032,
+          "thumb": "thumbs/pets_betta_fish.webp",
+          "thumbUrl": "thumbs/pets_betta_fish-bb4d3114.webp"
+        },
+        {
+          "id": "pets_cockatiel_stand",
+          "title": {
+            "uk": "Корела",
+            "en": "Cockatiel",
+            "ru": "Корелла"
+          },
+          "free": false,
+          "url": "pictures/pets_cockatiel_stand-a7e049fc.webp",
+          "sha256": "a7e049fc79f357f21621dc69ccf1297106ac1db36be4a2d6c85b7914afc99063",
+          "bytes": 247206,
+          "thumb": "thumbs/pets_cockatiel_stand.webp",
+          "thumbUrl": "thumbs/pets_cockatiel_stand-b95edc1d.webp"
+        },
+        {
+          "id": "pets_kitten_kitchen",
+          "title": {
+            "uk": "Кошеня на кухні",
+            "en": "Kitten in Kitchen",
+            "ru": "Котёнок на кухне"
+          },
+          "free": false,
+          "url": "pictures/pets_kitten_kitchen-451d0ea0.webp",
+          "sha256": "451d0ea0bdad2279dee43482c0db9ed63798a256b4a176360fc1f9db576572d7",
+          "bytes": 328706,
+          "thumb": "thumbs/pets_kitten_kitchen.webp",
+          "thumbUrl": "thumbs/pets_kitten_kitchen-310e44a4.webp"
+        },
+        {
+          "id": "pets_dwarf_rabbit_balcony",
+          "title": {
+            "uk": "Карликовий кролик",
+            "en": "Dwarf Bunny",
+            "ru": "Карликовый кролик"
+          },
+          "free": false,
+          "url": "pictures/pets_dwarf_rabbit_balcony-68b972b7.webp",
+          "sha256": "68b972b784fb9fe7d8c3a4713826b73e4fa2a5e1c284f049767a5e6061103a22",
+          "bytes": 486812,
+          "thumb": "thumbs/pets_dwarf_rabbit_balcony.webp",
+          "thumbUrl": "thumbs/pets_dwarf_rabbit_balcony-e862a92b.webp"
+        },
+        {
+          "id": "pets_grey_parrot_ring",
+          "title": {
+            "uk": "Жако",
+            "en": "Grey Parrot",
+            "ru": "Жако"
+          },
+          "free": false,
+          "url": "pictures/pets_grey_parrot_ring-49ad57a8.webp",
+          "sha256": "49ad57a837b947854029c245d3b2521f8bc08e1e745dbbb52b9064d4f6083b3c",
+          "bytes": 331436,
+          "thumb": "thumbs/pets_grey_parrot_ring.webp",
+          "thumbUrl": "thumbs/pets_grey_parrot_ring-a7bdf79f.webp"
+        },
+        {
+          "id": "pets_hermit_crab",
+          "title": {
+            "uk": "Рак-відлюдник",
+            "en": "Hermit Crab",
+            "ru": "Рак-отшельник"
+          },
+          "free": false,
+          "url": "pictures/pets_hermit_crab-eac9c7c3.webp",
+          "sha256": "eac9c7c36d9f03b451d2bfdf80b698b1e8b147630499662e124696012714fe45",
+          "bytes": 284690,
+          "thumb": "thumbs/pets_hermit_crab.webp",
+          "thumbUrl": "thumbs/pets_hermit_crab-bdb11883.webp"
+        },
+        {
+          "id": "pets_guinea_pig_lawn",
+          "title": {
+            "uk": "Свинка на травичці",
+            "en": "Guinea Pig Outside",
+            "ru": "Свинка на травке"
+          },
+          "free": false,
+          "url": "pictures/pets_guinea_pig_lawn-c5157d60.webp",
+          "sha256": "c5157d6092e7f32a482f89d035b4f2d9e326a276e4efb2cb687844335d6bee50",
+          "bytes": 413656,
+          "thumb": "thumbs/pets_guinea_pig_lawn.webp",
+          "thumbUrl": "thumbs/pets_guinea_pig_lawn-8b2b9822.webp"
+        },
+        {
+          "id": "pets_koi_pond",
+          "title": {
+            "uk": "Короп кої",
+            "en": "Koi Fish",
+            "ru": "Карп кои"
+          },
+          "free": false,
+          "url": "pictures/pets_koi_pond-2e8c0d62.webp",
+          "sha256": "2e8c0d6292dc19fb275fc04cef7ee703c2d1c56e3a13a9c6bbcf6fca0697c710",
+          "bytes": 411262,
+          "thumb": "thumbs/pets_koi_pond.webp",
+          "thumbUrl": "thumbs/pets_koi_pond-40f73bf6.webp"
+        },
+        {
+          "id": "pets_water_turtle",
+          "title": {
+            "uk": "Водяна черепаха",
+            "en": "Water Turtle",
+            "ru": "Водяная черепаха"
+          },
+          "free": false,
+          "url": "pictures/pets_water_turtle-5e249b1b.webp",
+          "sha256": "5e249b1bd265cee20517df0e9fb35cb46b21be5f3f72a9aafd84e21732611070",
+          "bytes": 318292,
+          "thumb": "thumbs/pets_water_turtle.webp",
+          "thumbUrl": "thumbs/pets_water_turtle-aa87ffb7.webp"
+        },
+        {
+          "id": "pets_rat_castle",
+          "title": {
+            "uk": "Щурик",
+            "en": "Pet Rat",
+            "ru": "Крыска"
+          },
+          "free": false,
+          "url": "pictures/pets_rat_castle-63e61d3d.webp",
+          "sha256": "63e61d3d1c851b335ca6e4d57302738b7de42e4a14345239d55d537c8348cb0f",
+          "bytes": 340552,
+          "thumb": "thumbs/pets_rat_castle.webp",
+          "thumbUrl": "thumbs/pets_rat_castle-284f7933.webp"
+        }
+      ]
+    },
+    {
+      "id": "jungle",
+      "title": {
+        "uk": "У джунглях",
+        "en": "In the jungle",
+        "ru": "В джунглях"
+      },
+      "puzzles": [
+        {
+          "id": "jungle_monkey_vine",
+          "title": {
+            "uk": "Мавпочка",
+            "en": "Monkey",
+            "ru": "Обезьянка"
+          },
+          "free": true,
+          "asset": "images/free/jungle_monkey_vine.webp",
+          "url": "pictures/jungle_monkey_vine-20a33996.webp",
+          "sha256": "20a3399687948e54b482825e34a7ce8b4ce894d2eb0a8dcdb47668dde4eeb123",
+          "bytes": 365780,
+          "thumb": "thumbs/jungle_monkey_vine.webp",
+          "thumbUrl": "thumbs/jungle_monkey_vine-09461514.webp"
+        },
+        {
+          "id": "jungle_toucan_branch",
+          "title": {
+            "uk": "Тукан",
+            "en": "Toucan",
+            "ru": "Тукан"
+          },
+          "free": true,
+          "asset": "images/free/jungle_toucan_branch.webp",
+          "url": "pictures/jungle_toucan_branch-d2a491d6.webp",
+          "sha256": "d2a491d64f12b9b88e3e206a8666146e510e84035b09db1235c5dc8c65574d3d",
+          "bytes": 340542,
+          "thumb": "thumbs/jungle_toucan_branch.webp",
+          "thumbUrl": "thumbs/jungle_toucan_branch-90f2a29d.webp"
+        },
+        {
+          "id": "jungle_sloth_vine",
+          "title": {
+            "uk": "Лінивець",
+            "en": "Sloth",
+            "ru": "Ленивец"
+          },
+          "free": true,
+          "asset": "images/free/jungle_sloth_vine.webp",
+          "url": "pictures/jungle_sloth_vine-c9374c8c.webp",
+          "sha256": "c9374c8ce1ce24b66e039c3d4db6291052af1894e138ca9e34cb49ef9b17787b",
+          "bytes": 474272,
+          "thumb": "thumbs/jungle_sloth_vine.webp",
+          "thumbUrl": "thumbs/jungle_sloth_vine-bb7de728.webp"
+        },
+        {
+          "id": "jungle_gorilla_ferns",
+          "title": {
+            "uk": "Горила",
+            "en": "Gorilla",
+            "ru": "Горилла"
+          },
+          "free": true,
+          "asset": "images/free/jungle_gorilla_ferns.webp",
+          "url": "pictures/jungle_gorilla_ferns-7e686660.webp",
+          "sha256": "7e68666006e4bc97d27e1ab261ef140a45cc288a8f3a166cdca591e898920a18",
+          "bytes": 383510,
+          "thumb": "thumbs/jungle_gorilla_ferns.webp",
+          "thumbUrl": "thumbs/jungle_gorilla_ferns-21981a9c.webp"
+        },
+        {
+          "id": "jungle_parrot_waterfall",
+          "title": {
+            "uk": "Папуга",
+            "en": "Parrot",
+            "ru": "Попугай"
+          },
+          "free": true,
+          "asset": "images/free/jungle_parrot_waterfall.webp",
+          "url": "pictures/jungle_parrot_waterfall-7cf687c8.webp",
+          "sha256": "7cf687c81f7e781271e1b4a0c649b61a9526524e506d40c3de670147793cb3ae",
+          "bytes": 388872,
+          "thumb": "thumbs/jungle_parrot_waterfall.webp",
+          "thumbUrl": "thumbs/jungle_parrot_waterfall-3b195299.webp"
+        },
+        {
+          "id": "jungle_orangutan_rain",
+          "title": {
+            "uk": "Орангутан",
+            "en": "Orangutan",
+            "ru": "Орангутан"
+          },
+          "free": false,
+          "url": "pictures/jungle_orangutan_rain-cf7f9d7e.webp",
+          "sha256": "cf7f9d7e81dbf9d3d05f23de65704d231e03adf638da70cde11b14a40b507d38",
+          "bytes": 369996,
+          "thumb": "thumbs/jungle_orangutan_rain.webp",
+          "thumbUrl": "thumbs/jungle_orangutan_rain-91195f98.webp"
+        },
+        {
+          "id": "jungle_tapir_river",
+          "title": {
+            "uk": "Тапір",
+            "en": "Tapir",
+            "ru": "Тапир"
+          },
+          "free": false,
+          "url": "pictures/jungle_tapir_river-d987e5cd.webp",
+          "sha256": "d987e5cd5534515292974319ed47b3fd2f56b555304f12d96372c94e2ef31f87",
+          "bytes": 400082,
+          "thumb": "thumbs/jungle_tapir_river.webp",
+          "thumbUrl": "thumbs/jungle_tapir_river-53bdaa02.webp"
+        },
+        {
+          "id": "jungle_chameleon_twig",
+          "title": {
+            "uk": "Хамелеон",
+            "en": "Chameleon",
+            "ru": "Хамелеон"
+          },
+          "free": false,
+          "url": "pictures/jungle_chameleon_twig-00d9eecb.webp",
+          "sha256": "00d9eecb6ff058bb5cbdc171d5ef5b5757c3af585380af40d0136cb512b2daa4",
+          "bytes": 364172,
+          "thumb": "thumbs/jungle_chameleon_twig.webp",
+          "thumbUrl": "thumbs/jungle_chameleon_twig-a0e66a51.webp"
+        },
+        {
+          "id": "jungle_tree_frog",
+          "title": {
+            "uk": "Деревна жабка",
+            "en": "Tree Frog",
+            "ru": "Древесная лягушка"
+          },
+          "free": false,
+          "url": "pictures/jungle_tree_frog-02a26dd4.webp",
+          "sha256": "02a26dd4003e9b28b4df3f437596730407e904dc98b36578bc26f873e8a08651",
+          "bytes": 434386,
+          "thumb": "thumbs/jungle_tree_frog.webp",
+          "thumbUrl": "thumbs/jungle_tree_frog-856b8bea.webp"
+        },
+        {
+          "id": "jungle_okapi_clearing",
+          "title": {
+            "uk": "Окапі",
+            "en": "Okapi",
+            "ru": "Окапи"
+          },
+          "free": false,
+          "url": "pictures/jungle_okapi_clearing-1e294af4.webp",
+          "sha256": "1e294af4d786e95768b5d11ec002147d554d379e0b56303a62477741a44369ac",
+          "bytes": 370992,
+          "thumb": "thumbs/jungle_okapi_clearing.webp",
+          "thumbUrl": "thumbs/jungle_okapi_clearing-22e3d500.webp"
+        },
+        {
+          "id": "jungle_red_panda",
+          "title": {
+            "uk": "Червона панда",
+            "en": "Red Panda",
+            "ru": "Красная панда"
+          },
+          "free": false,
+          "url": "pictures/jungle_red_panda-8909ae29.webp",
+          "sha256": "8909ae298945a28ee53c8d8fcf133915291556f328b020c731f5a5a4d3f2e93d",
+          "bytes": 392766,
+          "thumb": "thumbs/jungle_red_panda.webp",
+          "thumbUrl": "thumbs/jungle_red_panda-8fdb49e5.webp"
+        },
+        {
+          "id": "jungle_elephant_river",
+          "title": {
+            "uk": "Слон у джунглях",
+            "en": "Jungle Elephant",
+            "ru": "Слон в джунглях"
+          },
+          "free": false,
+          "url": "pictures/jungle_elephant_river-7f7114e9.webp",
+          "sha256": "7f7114e9f844bdfab5a7c85a27c05e8d3b7c28071f33a9a0eea68e46b43530a2",
+          "bytes": 369452,
+          "thumb": "thumbs/jungle_elephant_river.webp",
+          "thumbUrl": "thumbs/jungle_elephant_river-1a26e8f2.webp"
+        },
+        {
+          "id": "jungle_butterfly_flower",
+          "title": {
+            "uk": "Метелик",
+            "en": "Butterfly",
+            "ru": "Бабочка"
+          },
+          "free": false,
+          "url": "pictures/jungle_butterfly_flower-9a5221bf.webp",
+          "sha256": "9a5221bf08dc979eabacc72d9901e8ae6a61e35f2b13f714586da526de10e382",
+          "bytes": 380608,
+          "thumb": "thumbs/jungle_butterfly_flower.webp",
+          "thumbUrl": "thumbs/jungle_butterfly_flower-5af23783.webp"
+        },
+        {
+          "id": "jungle_capybara_pond",
+          "title": {
+            "uk": "Капібара",
+            "en": "Capybara",
+            "ru": "Капибара"
+          },
+          "free": false,
+          "url": "pictures/jungle_capybara_pond-d719c4f1.webp",
+          "sha256": "d719c4f14f0e7e8dba92467f838904b26731669718ad2d20c3c98421d2c10b46",
+          "bytes": 364856,
+          "thumb": "thumbs/jungle_capybara_pond.webp",
+          "thumbUrl": "thumbs/jungle_capybara_pond-213f3b2a.webp"
+        },
+        {
+          "id": "jungle_lemur_branch",
+          "title": {
+            "uk": "Лемур",
+            "en": "Lemur",
+            "ru": "Лемур"
+          },
+          "free": false,
+          "url": "pictures/jungle_lemur_branch-3684f486.webp",
+          "sha256": "3684f486d45c64cdfd2ef1d9c5606e4732012aa4387e28f5eec3464e41d13dd2",
+          "bytes": 427028,
+          "thumb": "thumbs/jungle_lemur_branch.webp",
+          "thumbUrl": "thumbs/jungle_lemur_branch-f93b2ffc.webp"
+        },
+        {
+          "id": "jungle_anteater_floor",
+          "title": {
+            "uk": "Мурахоїд",
+            "en": "Anteater",
+            "ru": "Муравьед"
+          },
+          "free": false,
+          "url": "pictures/jungle_anteater_floor-2933d255.webp",
+          "sha256": "2933d255e6673b9bb6bc41d91c9ffbaa87ef27206a4ec19d7a52549dbfdb7a78",
+          "bytes": 362950,
+          "thumb": "thumbs/jungle_anteater_floor.webp",
+          "thumbUrl": "thumbs/jungle_anteater_floor-44412082.webp"
+        },
+        {
+          "id": "jungle_pangolin_night",
+          "title": {
+            "uk": "Панголін",
+            "en": "Pangolin",
+            "ru": "Панголин"
+          },
+          "free": false,
+          "url": "pictures/jungle_pangolin_night-de7361be.webp",
+          "sha256": "de7361be547133f714b85be97517c44916c09fdde92671768b9b3bdc47a65bf6",
+          "bytes": 306216,
+          "thumb": "thumbs/jungle_pangolin_night.webp",
+          "thumbUrl": "thumbs/jungle_pangolin_night-2be7b94f.webp"
+        },
+        {
+          "id": "jungle_monkey_banana",
+          "title": {
+            "uk": "Мавпочка з бананом",
+            "en": "Monkey with Banana",
+            "ru": "Обезьянка с бананом"
+          },
+          "free": false,
+          "url": "pictures/jungle_monkey_banana-8cd7fbc3.webp",
+          "sha256": "8cd7fbc386a02e40a88c1926fa3f114a563c6eadc5acb490468a2310656a4807",
+          "bytes": 355548,
+          "thumb": "thumbs/jungle_monkey_banana.webp",
+          "thumbUrl": "thumbs/jungle_monkey_banana-5725d932.webp"
+        },
+        {
+          "id": "jungle_peacock_tail",
+          "title": {
+            "uk": "Павич",
+            "en": "Peacock",
+            "ru": "Павлин"
+          },
+          "free": false,
+          "url": "pictures/jungle_peacock_tail-c93bd98a.webp",
+          "sha256": "c93bd98a6d2d719e2d82a4e859a4f7d5f36332e34aab48d2680f1c3fbcbf62ed",
+          "bytes": 573908,
+          "thumb": "thumbs/jungle_peacock_tail.webp",
+          "thumbUrl": "thumbs/jungle_peacock_tail-e12bcdbc.webp"
+        },
+        {
+          "id": "jungle_hornbill_figs",
+          "title": {
+            "uk": "Птах-носоріг",
+            "en": "Hornbill",
+            "ru": "Птица-носорог"
+          },
+          "free": false,
+          "url": "pictures/jungle_hornbill_figs-fcbdb630.webp",
+          "sha256": "fcbdb630c30fa30bd09e7cfa6f91991a4a7f52f1b47c1c8ff9322aaaafd7f94a",
+          "bytes": 449344,
+          "thumb": "thumbs/jungle_hornbill_figs.webp",
+          "thumbUrl": "thumbs/jungle_hornbill_figs-46b51318.webp"
+        },
+        {
+          "id": "jungle_proboscis_monkey",
+          "title": {
+            "uk": "Носач",
+            "en": "Proboscis Monkey",
+            "ru": "Носач"
+          },
+          "free": false,
+          "url": "pictures/jungle_proboscis_monkey-48504ad3.webp",
+          "sha256": "48504ad360155c361fb86d966283aae3cc8759713c2207366d476021ae312d2b",
+          "bytes": 360544,
+          "thumb": "thumbs/jungle_proboscis_monkey.webp",
+          "thumbUrl": "thumbs/jungle_proboscis_monkey-95dbfac7.webp"
+        },
+        {
+          "id": "jungle_slow_loris",
+          "title": {
+            "uk": "Товстий лорі",
+            "en": "Slow Loris",
+            "ru": "Толстый лори"
+          },
+          "free": false,
+          "url": "pictures/jungle_slow_loris-f0ddddf8.webp",
+          "sha256": "f0ddddf801176932bc3e9a938a680e5564d38f816153aa8593ede1a3965b0927",
+          "bytes": 282826,
+          "thumb": "thumbs/jungle_slow_loris.webp",
+          "thumbUrl": "thumbs/jungle_slow_loris-95c3df08.webp"
+        },
+        {
+          "id": "jungle_iguana_branch",
+          "title": {
+            "uk": "Ігуана",
+            "en": "Iguana",
+            "ru": "Игуана"
+          },
+          "free": false,
+          "url": "pictures/jungle_iguana_branch-bda11f59.webp",
+          "sha256": "bda11f593f13045e86b2e9ea71b9241559c59dcd9e23d5458446663c2d9e2fdd",
+          "bytes": 457878,
+          "thumb": "thumbs/jungle_iguana_branch.webp",
+          "thumbUrl": "thumbs/jungle_iguana_branch-c36acda8.webp"
+        },
+        {
+          "id": "jungle_hummingbird",
+          "title": {
+            "uk": "Колібрі",
+            "en": "Hummingbird",
+            "ru": "Колибри"
+          },
+          "free": false,
+          "url": "pictures/jungle_hummingbird-308668e0.webp",
+          "sha256": "308668e0f500c6ed44a3b3d96e63db7c3626dcd10afa8bfdc289126b9c0022f9",
+          "bytes": 414394,
+          "thumb": "thumbs/jungle_hummingbird.webp",
+          "thumbUrl": "thumbs/jungle_hummingbird-69e9195c.webp"
+        },
+        {
+          "id": "jungle_otter_river",
+          "title": {
+            "uk": "Видра",
+            "en": "Otter",
+            "ru": "Выдра"
+          },
+          "free": false,
+          "url": "pictures/jungle_otter_river-d81faadb.webp",
+          "sha256": "d81faadbf3c3e5986db63597502193236901a23fe0eb608d2dfa077f07cbab7a",
+          "bytes": 354052,
+          "thumb": "thumbs/jungle_otter_river.webp",
+          "thumbUrl": "thumbs/jungle_otter_river-b540a5b8.webp"
+        },
+        {
+          "id": "jungle_bird_of_paradise",
+          "title": {
+            "uk": "Райський птах",
+            "en": "Bird of Paradise",
+            "ru": "Райская птица"
+          },
+          "free": false,
+          "url": "pictures/jungle_bird_of_paradise-36f1958c.webp",
+          "sha256": "36f1958ce33aecd5dac9597bb25a2fe845ae70b0c87664379b939fd5d89e6e90",
+          "bytes": 429960,
+          "thumb": "thumbs/jungle_bird_of_paradise.webp",
+          "thumbUrl": "thumbs/jungle_bird_of_paradise-54f09925.webp"
+        },
+        {
+          "id": "jungle_marmoset_trunk",
+          "title": {
+            "uk": "Ігрунка",
+            "en": "Marmoset",
+            "ru": "Игрунка"
+          },
+          "free": false,
+          "url": "pictures/jungle_marmoset_trunk-c714084b.webp",
+          "sha256": "c714084b290860481038c818b1e87a3f9e8197174d7b4178fab04b0612916445",
+          "bytes": 488238,
+          "thumb": "thumbs/jungle_marmoset_trunk.webp",
+          "thumbUrl": "thumbs/jungle_marmoset_trunk-08922c27.webp"
+        }
+      ]
+    },
+    {
+      "id": "savanna",
+      "title": {
+        "uk": "У савані",
+        "en": "On the savanna",
+        "ru": "В саванне"
+      },
+      "puzzles": [
+        {
+          "id": "savanna_giraffe",
+          "title": {
+            "uk": "Жирафа",
+            "en": "Giraffe",
+            "ru": "Жираф"
+          },
+          "free": true,
+          "asset": "images/free/savanna_giraffe.webp",
+          "url": "pictures/savanna_giraffe-782f363a.webp",
+          "sha256": "782f363a5268c361ee31b110dc162b97b27b81515b7784597cd458fcbdc40106",
+          "bytes": 374736,
+          "thumb": "thumbs/savanna_giraffe.webp",
+          "thumbUrl": "thumbs/savanna_giraffe-679ad742.webp"
+        },
+        {
+          "id": "savanna_elephant_waterhole",
+          "title": {
+            "uk": "Слон біля водопою",
+            "en": "Elephant at Waterhole",
+            "ru": "Слон у водопоя"
+          },
+          "free": true,
+          "asset": "images/free/savanna_elephant_waterhole.webp",
+          "url": "pictures/savanna_elephant_waterhole-9929d814.webp",
+          "sha256": "9929d8143f6a12e391f8eda7778af9d40612d7a96f6b6f0d4a12a684ce1d74fe",
+          "bytes": 241986,
+          "thumb": "thumbs/savanna_elephant_waterhole.webp",
+          "thumbUrl": "thumbs/savanna_elephant_waterhole-a8e1c567.webp"
+        },
+        {
+          "id": "savanna_zebra_grass",
+          "title": {
+            "uk": "Зебра",
+            "en": "Zebra",
+            "ru": "Зебра"
+          },
+          "free": true,
+          "asset": "images/free/savanna_zebra_grass.webp",
+          "url": "pictures/savanna_zebra_grass-21325a64.webp",
+          "sha256": "21325a6459b1bcdfc96990b87a102b6e1a954116e04db9c0a565bea44bbc683c",
+          "bytes": 381718,
+          "thumb": "thumbs/savanna_zebra_grass.webp",
+          "thumbUrl": "thumbs/savanna_zebra_grass-1490d9c4.webp"
+        },
+        {
+          "id": "savanna_lion_family",
+          "title": {
+            "uk": "Лев з левенятами",
+            "en": "Lion with Cubs",
+            "ru": "Лев со львятами"
+          },
+          "free": true,
+          "asset": "images/free/savanna_lion_family.webp",
+          "url": "pictures/savanna_lion_family-30030b22.webp",
+          "sha256": "30030b22766ca69fb3c1650e1c76e14cfb40b516598ce5d28951f785d6ebdfb7",
+          "bytes": 230772,
+          "thumb": "thumbs/savanna_lion_family.webp",
+          "thumbUrl": "thumbs/savanna_lion_family-189b6ac5.webp"
+        },
+        {
+          "id": "savanna_hippo_river",
+          "title": {
+            "uk": "Бегемот",
+            "en": "Hippo",
+            "ru": "Бегемот"
+          },
+          "free": true,
+          "asset": "images/free/savanna_hippo_river.webp",
+          "url": "pictures/savanna_hippo_river-df751455.webp",
+          "sha256": "df7514551aedb168b6ffd1707d3ca1cdb1dc6b46c3fa181842301f309e2ccedb",
+          "bytes": 332138,
+          "thumb": "thumbs/savanna_hippo_river.webp",
+          "thumbUrl": "thumbs/savanna_hippo_river-a73d5780.webp"
+        },
+        {
+          "id": "savanna_cheetah_run",
+          "title": {
+            "uk": "Гепард",
+            "en": "Cheetah",
+            "ru": "Гепард"
+          },
+          "free": false,
+          "url": "pictures/savanna_cheetah_run-19d20f61.webp",
+          "sha256": "19d20f61d2dd912cd398383a07866b1e6030407f916e925604f3963778688cf9",
+          "bytes": 258124,
+          "thumb": "thumbs/savanna_cheetah_run.webp",
+          "thumbUrl": "thumbs/savanna_cheetah_run-aa57e220.webp"
+        },
+        {
+          "id": "savanna_rhino_mud",
+          "title": {
+            "uk": "Носоріг",
+            "en": "Rhino",
+            "ru": "Носорог"
+          },
+          "free": false,
+          "url": "pictures/savanna_rhino_mud-2ae18910.webp",
+          "sha256": "2ae18910247e7287e1814bed1aff8cf9486c8c59170355b88b7effa0f219103e",
+          "bytes": 322420,
+          "thumb": "thumbs/savanna_rhino_mud.webp",
+          "thumbUrl": "thumbs/savanna_rhino_mud-db2622a2.webp"
+        },
+        {
+          "id": "savanna_ostrich_nest",
+          "title": {
+            "uk": "Страус",
+            "en": "Ostrich",
+            "ru": "Страус"
+          },
+          "free": false,
+          "url": "pictures/savanna_ostrich_nest-d2ecc819.webp",
+          "sha256": "d2ecc819fb5a384b39dc62db558481fbb155c539301bf3e07d0ccfa3f54d7dc5",
+          "bytes": 327134,
+          "thumb": "thumbs/savanna_ostrich_nest.webp",
+          "thumbUrl": "thumbs/savanna_ostrich_nest-edd0ea30.webp"
+        },
+        {
+          "id": "savanna_warthog_burrow",
+          "title": {
+            "uk": "Бородавочник",
+            "en": "Warthog",
+            "ru": "Бородавочник"
+          },
+          "free": false,
+          "url": "pictures/savanna_warthog_burrow-fa9b7c86.webp",
+          "sha256": "fa9b7c8619adbd51521aad99554e1081e7db61320b5db4eef664a4ee05a9bce8",
+          "bytes": 393792,
+          "thumb": "thumbs/savanna_warthog_burrow.webp",
+          "thumbUrl": "thumbs/savanna_warthog_burrow-b3e29ec2.webp"
+        },
+        {
+          "id": "savanna_wildebeest_plain",
+          "title": {
+            "uk": "Антилопа гну",
+            "en": "Wildebeest",
+            "ru": "Антилопа гну"
+          },
+          "free": false,
+          "url": "pictures/savanna_wildebeest_plain-4c41b645.webp",
+          "sha256": "4c41b645f18cb084292d5645685d07d2a7d37f83bedb446252450ed2436f41fd",
+          "bytes": 204932,
+          "thumb": "thumbs/savanna_wildebeest_plain.webp",
+          "thumbUrl": "thumbs/savanna_wildebeest_plain-dce1e09b.webp"
+        },
+        {
+          "id": "savanna_gazelle_jump",
+          "title": {
+            "uk": "Газель",
+            "en": "Gazelle",
+            "ru": "Газель"
+          },
+          "free": false,
+          "url": "pictures/savanna_gazelle_jump-457a6bf9.webp",
+          "sha256": "457a6bf90c21e40912d70f4299d5e050fa4bbcbc7e16d0ffbc0572acbaecd482",
+          "bytes": 262354,
+          "thumb": "thumbs/savanna_gazelle_jump.webp",
+          "thumbUrl": "thumbs/savanna_gazelle_jump-7b070f0e.webp"
+        },
+        {
+          "id": "savanna_flamingo_lake",
+          "title": {
+            "uk": "Фламінго",
+            "en": "Flamingo",
+            "ru": "Фламинго"
+          },
+          "free": false,
+          "url": "pictures/savanna_flamingo_lake-7bb2f09c.webp",
+          "sha256": "7bb2f09cca2cf4fbcb74abb6f19f769bf4e7f062494c7f57c34dd8a2460313cd",
+          "bytes": 175346,
+          "thumb": "thumbs/savanna_flamingo_lake.webp",
+          "thumbUrl": "thumbs/savanna_flamingo_lake-98b0b820.webp"
+        },
+        {
+          "id": "savanna_hyena_den",
+          "title": {
+            "uk": "Гієна",
+            "en": "Hyena",
+            "ru": "Гиена"
+          },
+          "free": false,
+          "url": "pictures/savanna_hyena_den-d6d70719.webp",
+          "sha256": "d6d70719f206328d46b6cd5df1f62946377ac94fbc340dcaead944d955d3d928",
+          "bytes": 379352,
+          "thumb": "thumbs/savanna_hyena_den.webp",
+          "thumbUrl": "thumbs/savanna_hyena_den-8ff890ae.webp"
+        },
+        {
+          "id": "savanna_elephant_calf",
+          "title": {
+            "uk": "Слоненя",
+            "en": "Baby Elephant",
+            "ru": "Слонёнок"
+          },
+          "free": false,
+          "url": "pictures/savanna_elephant_calf-b6597934.webp",
+          "sha256": "b659793499da9e854e493a83cb1834cb1e4ca3fa21bd6cce0412b5c63cf4a748",
+          "bytes": 292586,
+          "thumb": "thumbs/savanna_elephant_calf.webp",
+          "thumbUrl": "thumbs/savanna_elephant_calf-40d0305f.webp"
+        },
+        {
+          "id": "savanna_giraffe_sunset",
+          "title": {
+            "uk": "Жирафа на заході сонця",
+            "en": "Giraffe at Sunset",
+            "ru": "Жираф на закате"
+          },
+          "free": false,
+          "url": "pictures/savanna_giraffe_sunset-c2302cc9.webp",
+          "sha256": "c2302cc94e1f198238dc6fa6ef2b8d06f684315b75db374aa6c1108938e8327d",
+          "bytes": 196748,
+          "thumb": "thumbs/savanna_giraffe_sunset.webp",
+          "thumbUrl": "thumbs/savanna_giraffe_sunset-d87484d2.webp"
+        },
+        {
+          "id": "savanna_zebra_foal",
+          "title": {
+            "uk": "Зебреня",
+            "en": "Zebra Foal",
+            "ru": "Жеребёнок зебры"
+          },
+          "free": false,
+          "url": "pictures/savanna_zebra_foal-676c58c7.webp",
+          "sha256": "676c58c7459f9d43bdd28a80b8d41f3acbd7971f8753b3574ab7a2b92f1810b7",
+          "bytes": 288720,
+          "thumb": "thumbs/savanna_zebra_foal.webp",
+          "thumbUrl": "thumbs/savanna_zebra_foal-c29da2e3.webp"
+        },
+        {
+          "id": "savanna_lion_cub",
+          "title": {
+            "uk": "Левеня",
+            "en": "Lion Cub",
+            "ru": "Львёнок"
+          },
+          "free": false,
+          "url": "pictures/savanna_lion_cub-8edbf0b6.webp",
+          "sha256": "8edbf0b608f2715639a14a8036ae13a07279b778faedc371a89070257a4b3023",
+          "bytes": 341934,
+          "thumb": "thumbs/savanna_lion_cub.webp",
+          "thumbUrl": "thumbs/savanna_lion_cub-a428f9a0.webp"
+        },
+        {
+          "id": "savanna_cheetah_log",
+          "title": {
+            "uk": "Гепард на колоді",
+            "en": "Cheetah on a Log",
+            "ru": "Гепард на бревне"
+          },
+          "free": false,
+          "url": "pictures/savanna_cheetah_log-19d63de0.webp",
+          "sha256": "19d63de0cdc01e12a2f5482102d8fca95e654be7ceed891801f324323e39dd5f",
+          "bytes": 325550,
+          "thumb": "thumbs/savanna_cheetah_log.webp",
+          "thumbUrl": "thumbs/savanna_cheetah_log-c241ba4a.webp"
+        },
+        {
+          "id": "savanna_buffalo_pond",
+          "title": {
+            "uk": "Буйвіл",
+            "en": "Buffalo",
+            "ru": "Буйвол"
+          },
+          "free": false,
+          "url": "pictures/savanna_buffalo_pond-41b6b435.webp",
+          "sha256": "41b6b4351a681aab904bc56234c20bea860b320c9cf4344c9675e9b80876db71",
+          "bytes": 284286,
+          "thumb": "thumbs/savanna_buffalo_pond.webp",
+          "thumbUrl": "thumbs/savanna_buffalo_pond-104c6c7f.webp"
+        },
+        {
+          "id": "savanna_impala_rain",
+          "title": {
+            "uk": "Імпала",
+            "en": "Impala",
+            "ru": "Импала"
+          },
+          "free": false,
+          "url": "pictures/savanna_impala_rain-f851d24c.webp",
+          "sha256": "f851d24ccae388194a056c68e106bbec0689c3f9503386fda2091697d5973dfc",
+          "bytes": 291636,
+          "thumb": "thumbs/savanna_impala_rain.webp",
+          "thumbUrl": "thumbs/savanna_impala_rain-4e9bdce6.webp"
+        },
+        {
+          "id": "savanna_secretary_bird",
+          "title": {
+            "uk": "Птах-секретар",
+            "en": "Secretary Bird",
+            "ru": "Птица-секретарь"
+          },
+          "free": false,
+          "url": "pictures/savanna_secretary_bird-b97a5be1.webp",
+          "sha256": "b97a5be1ebe6c384a9c675b812154ef05c36ec4ddaafcf0348a21cb760107568",
+          "bytes": 351494,
+          "thumb": "thumbs/savanna_secretary_bird.webp",
+          "thumbUrl": "thumbs/savanna_secretary_bird-2085d45d.webp"
+        },
+        {
+          "id": "savanna_kudu_bushes",
+          "title": {
+            "uk": "Куду",
+            "en": "Kudu",
+            "ru": "Куду"
+          },
+          "free": false,
+          "url": "pictures/savanna_kudu_bushes-75743c98.webp",
+          "sha256": "75743c9811a902834111a4e7d6de9b917b0ae73f7fd974b16aacac1b658b38c7",
+          "bytes": 314126,
+          "thumb": "thumbs/savanna_kudu_bushes.webp",
+          "thumbUrl": "thumbs/savanna_kudu_bushes-00980103.webp"
+        },
+        {
+          "id": "savanna_aardvark_night",
+          "title": {
+            "uk": "Трубкозуб",
+            "en": "Aardvark",
+            "ru": "Трубкозуб"
+          },
+          "free": false,
+          "url": "pictures/savanna_aardvark_night-93be2143.webp",
+          "sha256": "93be2143bf553d96fd30466c7d21ca62a5b12c113b4a536b59e021f4ddb22040",
+          "bytes": 228580,
+          "thumb": "thumbs/savanna_aardvark_night.webp",
+          "thumbUrl": "thumbs/savanna_aardvark_night-59933717.webp"
+        },
+        {
+          "id": "savanna_dikdik_bush",
+          "title": {
+            "uk": "Дік-дік",
+            "en": "Dik-dik",
+            "ru": "Дик-дик"
+          },
+          "free": false,
+          "url": "pictures/savanna_dikdik_bush-aa44ddaa.webp",
+          "sha256": "aa44ddaa141583a4cc895628c2f5f72e76a33dfaaf687d0e5fd0118dcdb82169",
+          "bytes": 399632,
+          "thumb": "thumbs/savanna_dikdik_bush.webp",
+          "thumbUrl": "thumbs/savanna_dikdik_bush-9d68950d.webp"
+        },
+        {
+          "id": "savanna_crowned_crane",
+          "title": {
+            "uk": "Вінценосний журавель",
+            "en": "Crowned Crane",
+            "ru": "Венценосный журавль"
+          },
+          "free": false,
+          "url": "pictures/savanna_crowned_crane-8336e0f2.webp",
+          "sha256": "8336e0f29d4858ee72fc5f211bdd29f6a69d256c1a18ab9e790230145218e0e3",
+          "bytes": 427224,
+          "thumb": "thumbs/savanna_crowned_crane.webp",
+          "thumbUrl": "thumbs/savanna_crowned_crane-68c6f300.webp"
+        },
+        {
+          "id": "savanna_mongoose_log",
+          "title": {
+            "uk": "Мангуст",
+            "en": "Mongoose",
+            "ru": "Мангуст"
+          },
+          "free": false,
+          "url": "pictures/savanna_mongoose_log-e073aee1.webp",
+          "sha256": "e073aee14f1d811d1733a7bda8ea8a14688a8e85b1898fb72b85a6bf8b2111e1",
+          "bytes": 332056,
+          "thumb": "thumbs/savanna_mongoose_log.webp",
+          "thumbUrl": "thumbs/savanna_mongoose_log-7783a733.webp"
+        },
+        {
+          "id": "savanna_lioness_tree",
+          "title": {
+            "uk": "Левиця на дереві",
+            "en": "Lioness in a Tree",
+            "ru": "Львица на дереве"
+          },
+          "free": false,
+          "url": "pictures/savanna_lioness_tree-7123f875.webp",
+          "sha256": "7123f875b73b7c85318e26b6395517627a7c4d3c2a2af72b1be7abb86e4af55e",
+          "bytes": 443644,
+          "thumb": "thumbs/savanna_lioness_tree.webp",
+          "thumbUrl": "thumbs/savanna_lioness_tree-86b13b78.webp"
+        }
+      ]
+    },
+    {
+      "id": "desert",
+      "title": {
+        "uk": "У пустелі",
+        "en": "In the desert",
+        "ru": "В пустыне"
+      },
+      "puzzles": [
+        {
+          "id": "desert_camel",
+          "title": {
+            "uk": "Верблюд",
+            "en": "Camel",
+            "ru": "Верблюд"
+          },
+          "free": true,
+          "asset": "images/free/desert_camel.webp",
+          "url": "pictures/desert_camel-34a5544f.webp",
+          "sha256": "34a5544f18cc73f72d9153e2d71bb914446f2a3d656e28bd7e98783c8dbcf1f3",
+          "bytes": 239110,
+          "thumb": "thumbs/desert_camel.webp",
+          "thumbUrl": "thumbs/desert_camel-fd0b6aa7.webp"
+        },
+        {
+          "id": "desert_fennec_dunes",
+          "title": {
+            "uk": "Фенек",
+            "en": "Fennec Fox",
+            "ru": "Фенек"
+          },
+          "free": true,
+          "asset": "images/free/desert_fennec_dunes.webp",
+          "url": "pictures/desert_fennec_dunes-859870b3.webp",
+          "sha256": "859870b35a9e1d1c7a23e31557c65a28d9ffcf5a5f3d43a9cdb41c7e72883fb5",
+          "bytes": 165568,
+          "thumb": "thumbs/desert_fennec_dunes.webp",
+          "thumbUrl": "thumbs/desert_fennec_dunes-04a17f32.webp"
+        },
+        {
+          "id": "desert_meerkat_burrow",
+          "title": {
+            "uk": "Сурикат",
+            "en": "Meerkat",
+            "ru": "Сурикат"
+          },
+          "free": true,
+          "asset": "images/free/desert_meerkat_burrow.webp",
+          "url": "pictures/desert_meerkat_burrow-27b567d5.webp",
+          "sha256": "27b567d5d3d4382cd9cc546350177e6e31ab6c26a152250b32c0abe2b0c16943",
+          "bytes": 259512,
+          "thumb": "thumbs/desert_meerkat_burrow.webp",
+          "thumbUrl": "thumbs/desert_meerkat_burrow-209dc79a.webp"
+        },
+        {
+          "id": "desert_tortoise_cactus",
+          "title": {
+            "uk": "Черепаха",
+            "en": "Tortoise",
+            "ru": "Черепаха"
+          },
+          "free": true,
+          "asset": "images/free/desert_tortoise_cactus.webp",
+          "url": "pictures/desert_tortoise_cactus-53c53d7c.webp",
+          "sha256": "53c53d7cb452fb59c563aec3990ece0b2715eeed3b5e69e5d1bf75cee4d26c9f",
+          "bytes": 339048,
+          "thumb": "thumbs/desert_tortoise_cactus.webp",
+          "thumbUrl": "thumbs/desert_tortoise_cactus-3654d8a4.webp"
+        },
+        {
+          "id": "desert_camel_calf",
+          "title": {
+            "uk": "Верблюденя",
+            "en": "Baby Camel",
+            "ru": "Верблюжонок"
+          },
+          "free": true,
+          "asset": "images/free/desert_camel_calf.webp",
+          "url": "pictures/desert_camel_calf-e70ae416.webp",
+          "sha256": "e70ae4167d38109376bd26d56d1f9d4ec0829364027e90158365a4ca77f912de",
+          "bytes": 291998,
+          "thumb": "thumbs/desert_camel_calf.webp",
+          "thumbUrl": "thumbs/desert_camel_calf-26a88689.webp"
+        },
+        {
+          "id": "desert_roadrunner_path",
+          "title": {
+            "uk": "Земляна зозуля",
+            "en": "Roadrunner",
+            "ru": "Земляная кукушка"
+          },
+          "free": false,
+          "url": "pictures/desert_roadrunner_path-55ed5081.webp",
+          "sha256": "55ed50814d4348ec8a2d6f073823bc87022b31583f346c00cede218e767e53e3",
+          "bytes": 319262,
+          "thumb": "thumbs/desert_roadrunner_path.webp",
+          "thumbUrl": "thumbs/desert_roadrunner_path-adda3b58.webp"
+        },
+        {
+          "id": "desert_jerboa_night",
+          "title": {
+            "uk": "Тушканчик",
+            "en": "Jerboa",
+            "ru": "Тушканчик"
+          },
+          "free": false,
+          "url": "pictures/desert_jerboa_night-37f7c313.webp",
+          "sha256": "37f7c3132a43f1d084cf1e53d6c2ff64c0c4322f0a31f46e4e252dfe73ae370c",
+          "bytes": 217254,
+          "thumb": "thumbs/desert_jerboa_night.webp",
+          "thumbUrl": "thumbs/desert_jerboa_night-9b39b4e1.webp"
+        },
+        {
+          "id": "desert_armadillo_cactus",
+          "title": {
+            "uk": "Броненосець",
+            "en": "Armadillo",
+            "ru": "Броненосец"
+          },
+          "free": false,
+          "url": "pictures/desert_armadillo_cactus-45cfb706.webp",
+          "sha256": "45cfb70699208f1c208c244a2ad8c628546deb4d785fb80477d95f1c66d8feed",
+          "bytes": 328594,
+          "thumb": "thumbs/desert_armadillo_cactus.webp",
+          "thumbUrl": "thumbs/desert_armadillo_cactus-76f25920.webp"
+        },
+        {
+          "id": "desert_quail_rock",
+          "title": {
+            "uk": "Каліфорнійська перепілка",
+            "en": "Desert quail",
+            "ru": "Калифорнийская перепёлка"
+          },
+          "free": false,
+          "url": "pictures/desert_quail_rock-d9597109.webp",
+          "sha256": "d95971098de4e0be38dc08ca17a1cd751e7f98ee3c50662c8e0b7e5509cd69e9",
+          "bytes": 228762,
+          "thumb": "thumbs/desert_quail_rock.webp",
+          "thumbUrl": "thumbs/desert_quail_rock-87100278.webp"
+        },
+        {
+          "id": "desert_lizard_rock",
+          "title": {
+            "uk": "Ящірка",
+            "en": "Lizard",
+            "ru": "Ящерица"
+          },
+          "free": false,
+          "url": "pictures/desert_lizard_rock-28074c70.webp",
+          "sha256": "28074c7086650178642a8ff8285294a89b5072288e52499b2e7bd7492aca877d",
+          "bytes": 244766,
+          "thumb": "thumbs/desert_lizard_rock.webp",
+          "thumbUrl": "thumbs/desert_lizard_rock-d4450c3e.webp"
+        },
+        {
+          "id": "desert_gila_monster",
+          "title": {
+            "uk": "Ядозуб",
+            "en": "Gila Monster",
+            "ru": "Ядозуб"
+          },
+          "free": false,
+          "url": "pictures/desert_gila_monster-c8078c0b.webp",
+          "sha256": "c8078c0be82bbbd74d81a3a38069a2ab7a7fc108e41454fd4bc95262ed817fa0",
+          "bytes": 313780,
+          "thumb": "thumbs/desert_gila_monster.webp",
+          "thumbUrl": "thumbs/desert_gila_monster-a764090d.webp"
+        },
+        {
+          "id": "desert_oryx_dune",
+          "title": {
+            "uk": "Орикс",
+            "en": "Oryx",
+            "ru": "Орикс"
+          },
+          "free": false,
+          "url": "pictures/desert_oryx_dune-341cc2e8.webp",
+          "sha256": "341cc2e8ed3291e22e333142843bba74c60c7b793503374d540aa50e2e666e8f",
+          "bytes": 215858,
+          "thumb": "thumbs/desert_oryx_dune.webp",
+          "thumbUrl": "thumbs/desert_oryx_dune-0ae59941.webp"
+        },
+        {
+          "id": "desert_sand_cat",
+          "title": {
+            "uk": "Барханний кіт",
+            "en": "Sand Cat",
+            "ru": "Барханный кот"
+          },
+          "free": false,
+          "url": "pictures/desert_sand_cat-32bdab56.webp",
+          "sha256": "32bdab56544aba935fbd9d35d48c6a30def562e2cbbb09bba4bead4ea48459d6",
+          "bytes": 172962,
+          "thumb": "thumbs/desert_sand_cat.webp",
+          "thumbUrl": "thumbs/desert_sand_cat-dcdafb47.webp"
+        },
+        {
+          "id": "desert_owl_cactus",
+          "title": {
+            "uk": "Сова в кактусі",
+            "en": "Owl in a Cactus",
+            "ru": "Сова в кактусе"
+          },
+          "free": false,
+          "url": "pictures/desert_owl_cactus-30196d9b.webp",
+          "sha256": "30196d9b1da9b37558b500925e35d80e7c2fe2469b233c76718ed88399d5bf37",
+          "bytes": 268662,
+          "thumb": "thumbs/desert_owl_cactus.webp",
+          "thumbUrl": "thumbs/desert_owl_cactus-e4a7daf6.webp"
+        },
+        {
+          "id": "desert_camel_sunset",
+          "title": {
+            "uk": "Верблюд на заході сонця",
+            "en": "Camel at Sunset",
+            "ru": "Верблюд на закате"
+          },
+          "free": false,
+          "url": "pictures/desert_camel_sunset-4b1b7c29.webp",
+          "sha256": "4b1b7c29dab67f8bce999149d4e6e89b74de057382c852daef892ea3279840f4",
+          "bytes": 133582,
+          "thumb": "thumbs/desert_camel_sunset.webp",
+          "thumbUrl": "thumbs/desert_camel_sunset-dd13fb80.webp"
+        },
+        {
+          "id": "desert_fennec_burrow",
+          "title": {
+            "uk": "Фенек у норі",
+            "en": "Fennec in a Burrow",
+            "ru": "Фенек в норе"
+          },
+          "free": false,
+          "url": "pictures/desert_fennec_burrow-8452e5a5.webp",
+          "sha256": "8452e5a5750e4d72fec55eaf54bea0fc893c357925114f3ade1ef30a25a804a8",
+          "bytes": 251466,
+          "thumb": "thumbs/desert_fennec_burrow.webp",
+          "thumbUrl": "thumbs/desert_fennec_burrow-5f91c2b6.webp"
+        },
+        {
+          "id": "desert_thorny_devil",
+          "title": {
+            "uk": "Молох",
+            "en": "Thorny Devil",
+            "ru": "Молох"
+          },
+          "free": false,
+          "url": "pictures/desert_thorny_devil-c5460a0a.webp",
+          "sha256": "c5460a0a5562539375c84b637fb05dadb510991a16a7a9be291b7e77ba5ad3e5",
+          "bytes": 263816,
+          "thumb": "thumbs/desert_thorny_devil.webp",
+          "thumbUrl": "thumbs/desert_thorny_devil-4526fb29.webp"
+        },
+        {
+          "id": "desert_addax_dunes",
+          "title": {
+            "uk": "Аддакс",
+            "en": "Addax",
+            "ru": "Аддакс"
+          },
+          "free": false,
+          "url": "pictures/desert_addax_dunes-79503be7.webp",
+          "sha256": "79503be71553fd6e2d4d04e3b257478384fec1ad7ed2f880569115fbb62990b4",
+          "bytes": 200776,
+          "thumb": "thumbs/desert_addax_dunes.webp",
+          "thumbUrl": "thumbs/desert_addax_dunes-bc2b6622.webp"
+        },
+        {
+          "id": "desert_bighorn_canyon",
+          "title": {
+            "uk": "Товсторог",
+            "en": "Bighorn Sheep",
+            "ru": "Толсторог"
+          },
+          "free": false,
+          "url": "pictures/desert_bighorn_canyon-04c22b84.webp",
+          "sha256": "04c22b8420d3ff25e9a51ed213fe8aa1808f46e355729efae94d32cb0fa70e8e",
+          "bytes": 281888,
+          "thumb": "thumbs/desert_bighorn_canyon.webp",
+          "thumbUrl": "thumbs/desert_bighorn_canyon-167b5814.webp"
+        },
+        {
+          "id": "desert_jackrabbit",
+          "title": {
+            "uk": "Заєць",
+            "en": "Jackrabbit",
+            "ru": "Заяц"
+          },
+          "free": false,
+          "url": "pictures/desert_jackrabbit-09547b28.webp",
+          "sha256": "09547b28ef7e390b51cd7a30548a2fb3903966bde0ff1d50db4b667644841c7e",
+          "bytes": 283022,
+          "thumb": "thumbs/desert_jackrabbit.webp",
+          "thumbUrl": "thumbs/desert_jackrabbit-2bad7f56.webp"
+        },
+        {
+          "id": "desert_hedgehog_flowers",
+          "title": {
+            "uk": "Вухатий їжак",
+            "en": "Desert Hedgehog",
+            "ru": "Ушастый ёж"
+          },
+          "free": false,
+          "url": "pictures/desert_hedgehog_flowers-721f75a9.webp",
+          "sha256": "721f75a97fb053322d04c47e195968b3db185c3ab13160fe6994f1e25c1ab049",
+          "bytes": 340530,
+          "thumb": "thumbs/desert_hedgehog_flowers.webp",
+          "thumbUrl": "thumbs/desert_hedgehog_flowers-9a041ef9.webp"
+        },
+        {
+          "id": "desert_gerbil_seeds",
+          "title": {
+            "uk": "Піщанка",
+            "en": "Gerbil",
+            "ru": "Песчанка"
+          },
+          "free": false,
+          "url": "pictures/desert_gerbil_seeds-a4797c27.webp",
+          "sha256": "a4797c27eaea872004671bca701c53746738d562b0e7b27bda59e11605838c2a",
+          "bytes": 237548,
+          "thumb": "thumbs/desert_gerbil_seeds.webp",
+          "thumbUrl": "thumbs/desert_gerbil_seeds-d31cbbc6.webp"
+        },
+        {
+          "id": "desert_coyote_mesa",
+          "title": {
+            "uk": "Койот",
+            "en": "Coyote",
+            "ru": "Койот"
+          },
+          "free": false,
+          "url": "pictures/desert_coyote_mesa-571542cc.webp",
+          "sha256": "571542cc901192efe40cd7f5be4dfcbd294cd1942585e7c6d0b7669fa4e84852",
+          "bytes": 270556,
+          "thumb": "thumbs/desert_coyote_mesa.webp",
+          "thumbUrl": "thumbs/desert_coyote_mesa-d08c542b.webp"
+        },
+        {
+          "id": "desert_scarab_beetle",
+          "title": {
+            "uk": "Жук-скарабей",
+            "en": "Scarab Beetle",
+            "ru": "Жук-скарабей"
+          },
+          "free": false,
+          "url": "pictures/desert_scarab_beetle-c4a4a572.webp",
+          "sha256": "c4a4a5721e23367904dfc91d01dff8dee727c1704c2ca87c6f011f6330b76837",
+          "bytes": 140990,
+          "thumb": "thumbs/desert_scarab_beetle.webp",
+          "thumbUrl": "thumbs/desert_scarab_beetle-a17a5e41.webp"
+        },
+        {
+          "id": "desert_hummingbird",
+          "title": {
+            "uk": "Колібрі",
+            "en": "Hummingbird",
+            "ru": "Колибри"
+          },
+          "free": false,
+          "url": "pictures/desert_hummingbird-e8201e4b.webp",
+          "sha256": "e8201e4b1f896f129f4c293285796d534a7b8c7538d3ccfa1d7b810686636f33",
+          "bytes": 331152,
+          "thumb": "thumbs/desert_hummingbird.webp",
+          "thumbUrl": "thumbs/desert_hummingbird-958effc2.webp"
+        },
+        {
+          "id": "desert_tortoise_rain",
+          "title": {
+            "uk": "Черепаха під дощем",
+            "en": "Tortoise in the Rain",
+            "ru": "Черепаха под дождём"
+          },
+          "free": false,
+          "url": "pictures/desert_tortoise_rain-1e6564ff.webp",
+          "sha256": "1e6564ff22fdaeb310f59a8fb1d9c102f787153d56f1ea1e1172acdd4aa9f957",
+          "bytes": 249480,
+          "thumb": "thumbs/desert_tortoise_rain.webp",
+          "thumbUrl": "thumbs/desert_tortoise_rain-95e2340d.webp"
+        },
+        {
+          "id": "desert_burrowing_owl",
+          "title": {
+            "uk": "Кролича сова",
+            "en": "Burrowing Owl",
+            "ru": "Кроличья сова"
+          },
+          "free": false,
+          "url": "pictures/desert_burrowing_owl-7d0308ef.webp",
+          "sha256": "7d0308ef8661e63edf570f822ba05a8c01dddfcf5480613237509c024c7d14a0",
+          "bytes": 283608,
+          "thumb": "thumbs/desert_burrowing_owl.webp",
+          "thumbUrl": "thumbs/desert_burrowing_owl-40dade1d.webp"
+        }
+      ]
+    },
+    {
+      "id": "spiders",
+      "title": {
+        "uk": "Павучки",
+        "en": "Little spiders",
+        "ru": "Паучки"
+      },
+      "puzzles": [
+        {
+          "id": "spiders_garden",
+          "title": {
+            "uk": "Садовий павук",
+            "en": "Garden spider",
+            "ru": "Садовый паук"
+          },
+          "free": true,
+          "asset": "images/free/spiders_garden.webp",
+          "url": "pictures/spiders_garden-9b25db6c.webp",
+          "sha256": "9b25db6c4e3778abc448da5ec9b810479a06dca43e90ff68df11b0da8046b2c0",
+          "bytes": 356010,
+          "thumb": "thumbs/spiders_garden.webp",
+          "thumbUrl": "thumbs/spiders_garden-5d02c433.webp"
+        },
+        {
+          "id": "spiders_jumping_daisy",
+          "title": {
+            "uk": "Павук-стрибунець",
+            "en": "Jumping spider",
+            "ru": "Паук-скакун"
+          },
+          "free": true,
+          "asset": "images/free/spiders_jumping_daisy.webp",
+          "url": "pictures/spiders_jumping_daisy-f2315306.webp",
+          "sha256": "f231530689ef4e9ee581bf00cff14fef8e34c96c123ce9df3c3523701a9c32f2",
+          "bytes": 398818,
+          "thumb": "thumbs/spiders_jumping_daisy.webp",
+          "thumbUrl": "thumbs/spiders_jumping_daisy-98e391c9.webp"
+        },
+        {
+          "id": "spiders_peacock_leaf",
+          "title": {
+            "uk": "Павук-павич",
+            "en": "Peacock spider",
+            "ru": "Паук-павлин"
+          },
+          "free": true,
+          "asset": "images/free/spiders_peacock_leaf.webp",
+          "url": "pictures/spiders_peacock_leaf-680d3577.webp",
+          "sha256": "680d3577ecaa49c7870606b0ad2d495ea39783ebe99464a5242c509638577ffd",
+          "bytes": 289326,
+          "thumb": "thumbs/spiders_peacock_leaf.webp",
+          "thumbUrl": "thumbs/spiders_peacock_leaf-5a5d0f4f.webp"
+        },
+        {
+          "id": "spiders_golden_orb_sunrise",
+          "title": {
+            "uk": "Золотий павук",
+            "en": "Golden orb spider",
+            "ru": "Золотой паук"
+          },
+          "free": true,
+          "asset": "images/free/spiders_golden_orb_sunrise.webp",
+          "url": "pictures/spiders_golden_orb_sunrise-c5fb19f8.webp",
+          "sha256": "c5fb19f80f837bf3fb0b92e50a53861c83913b5a82a4406d8ab11f4b9c44611c",
+          "bytes": 389236,
+          "thumb": "thumbs/spiders_golden_orb_sunrise.webp",
+          "thumbUrl": "thumbs/spiders_golden_orb_sunrise-1383d334.webp"
+        },
+        {
+          "id": "spiders_crab_flower",
+          "title": {
+            "uk": "Павук-краб",
+            "en": "Crab spider",
+            "ru": "Паук-краб"
+          },
+          "free": true,
+          "asset": "images/free/spiders_crab_flower.webp",
+          "url": "pictures/spiders_crab_flower-b4074149.webp",
+          "sha256": "b407414942dfbd5cb00bcf662e0546303c59ea0202294647029eb3fdc7a04289",
+          "bytes": 295526,
+          "thumb": "thumbs/spiders_crab_flower.webp",
+          "thumbUrl": "thumbs/spiders_crab_flower-2836a90f.webp"
+        },
+        {
+          "id": "spiders_wolf_forest",
+          "title": {
+            "uk": "Павук-вовк",
+            "en": "Wolf spider",
+            "ru": "Паук-волк"
+          },
+          "free": false,
+          "url": "pictures/spiders_wolf_forest-bea74a59.webp",
+          "sha256": "bea74a59a5b0d4e326245724027519bfdd8e5fdb7ebae05dca38608dc6caa170",
+          "bytes": 353466,
+          "thumb": "thumbs/spiders_wolf_forest.webp",
+          "thumbUrl": "thumbs/spiders_wolf_forest-842041e0.webp"
+        },
+        {
+          "id": "spiders_tarantula_desert",
+          "title": {
+            "uk": "Тарантул",
+            "en": "Tarantula",
+            "ru": "Тарантул"
+          },
+          "free": false,
+          "url": "pictures/spiders_tarantula_desert-7d97aa95.webp",
+          "sha256": "7d97aa954f31f46274bbffe6307d4eef80b0690de3e235f5b3d74afd0c280ef5",
+          "bytes": 314398,
+          "thumb": "thumbs/spiders_tarantula_desert.webp",
+          "thumbUrl": "thumbs/spiders_tarantula_desert-156e2592.webp"
+        },
+        {
+          "id": "spiders_water_bubble",
+          "title": {
+            "uk": "Водяний павук",
+            "en": "Water spider",
+            "ru": "Водяной паук"
+          },
+          "free": false,
+          "url": "pictures/spiders_water_bubble-a34b30ab.webp",
+          "sha256": "a34b30abf99e1938932a78e0372b5715dfc7037f5330181ab0c104fb4d2b6c0b",
+          "bytes": 336610,
+          "thumb": "thumbs/spiders_water_bubble.webp",
+          "thumbUrl": "thumbs/spiders_water_bubble-5a00fb8a.webp"
+        },
+        {
+          "id": "spiders_cross_moon",
+          "title": {
+            "uk": "Хрестовик",
+            "en": "Cross spider",
+            "ru": "Крестовик"
+          },
+          "free": false,
+          "url": "pictures/spiders_cross_moon-7eeb7933.webp",
+          "sha256": "7eeb7933350495875b8093f95cf08493c387d08ff05c301763ad18a3a15fcf86",
+          "bytes": 357938,
+          "thumb": "thumbs/spiders_cross_moon.webp",
+          "thumbUrl": "thumbs/spiders_cross_moon-5750c06e.webp"
+        },
+        {
+          "id": "spiders_autumn_maple",
+          "title": {
+            "uk": "Осінній павучок",
+            "en": "Autumn spider",
+            "ru": "Осенний паучок"
+          },
+          "free": false,
+          "url": "pictures/spiders_autumn_maple-0a71bb0a.webp",
+          "sha256": "0a71bb0a98898c665bce292b2f6c2f11b51b8d8a85f76f55507b912e38cb88a9",
+          "bytes": 437686,
+          "thumb": "thumbs/spiders_autumn_maple.webp",
+          "thumbUrl": "thumbs/spiders_autumn_maple-92291721.webp"
+        },
+        {
+          "id": "spiders_green_rain",
+          "title": {
+            "uk": "Зелений павучок",
+            "en": "Green spider",
+            "ru": "Зелёный паучок"
+          },
+          "free": false,
+          "url": "pictures/spiders_green_rain-a23cdc66.webp",
+          "sha256": "a23cdc66c08d0c4536c0bf4d7d429a84241b47a273b52fcda6a3918a76aaa11b",
+          "bytes": 389526,
+          "thumb": "thumbs/spiders_green_rain.webp",
+          "thumbUrl": "thumbs/spiders_green_rain-7611993f.webp"
+        },
+        {
+          "id": "spiders_winter_pine",
+          "title": {
+            "uk": "Зимовий павучок",
+            "en": "Winter spider",
+            "ru": "Зимний паучок"
+          },
+          "free": false,
+          "url": "pictures/spiders_winter_pine-74aff43c.webp",
+          "sha256": "74aff43cac5e44f31ecd172c1fbcf31f2e9be557c1605f0d78fc24eb50346cdc",
+          "bytes": 359368,
+          "thumb": "thumbs/spiders_winter_pine.webp",
+          "thumbUrl": "thumbs/spiders_winter_pine-0d202ce4.webp"
+        },
+        {
+          "id": "spiders_wasp_sunflower",
+          "title": {
+            "uk": "Павучок на соняшнику",
+            "en": "Spider on a sunflower",
+            "ru": "Паучок на подсолнухе"
+          },
+          "free": false,
+          "url": "pictures/spiders_wasp_sunflower-99b59722.webp",
+          "sha256": "99b597223549ab7dddd3852fc23c8a1f51b2b3dd5e9969aa12ee9ef1e8cfd2f3",
+          "bytes": 363516,
+          "thumb": "thumbs/spiders_wasp_sunflower.webp",
+          "thumbUrl": "thumbs/spiders_wasp_sunflower-f90e43dd.webp"
+        },
+        {
+          "id": "spiders_mom_babies",
+          "title": {
+            "uk": "Мама-павучиха",
+            "en": "Spider mom",
+            "ru": "Мама-паучиха"
+          },
+          "free": false,
+          "url": "pictures/spiders_mom_babies-87545985.webp",
+          "sha256": "8754598554077781aa8be69c21b91ef53894e4cbee8f44d449e0196f2acce2a9",
+          "bytes": 465208,
+          "thumb": "thumbs/spiders_mom_babies.webp",
+          "thumbUrl": "thumbs/spiders_mom_babies-27aa1c42.webp"
+        },
+        {
+          "id": "spiders_pinktoe_rainforest",
+          "title": {
+            "uk": "Тропічний павук",
+            "en": "Tropical spider",
+            "ru": "Тропический паук"
+          },
+          "free": false,
+          "url": "pictures/spiders_pinktoe_rainforest-51e770b4.webp",
+          "sha256": "51e770b461735d484f09a45c93421d3f63c97fb1fbf790164f6c3f5a888fdeeb",
+          "bytes": 373826,
+          "thumb": "thumbs/spiders_pinktoe_rainforest.webp",
+          "thumbUrl": "thumbs/spiders_pinktoe_rainforest-2dbe86fb.webp"
+        },
+        {
+          "id": "spiders_mushroom_glade",
+          "title": {
+            "uk": "Павучок на грибі",
+            "en": "Spider on a mushroom",
+            "ru": "Паучок на грибе"
+          },
+          "free": false,
+          "url": "pictures/spiders_mushroom_glade-479d1a21.webp",
+          "sha256": "479d1a21525ee893a013d5ed7609e9695639a8f5f485e06493c78f6d935afdf1",
+          "bytes": 322234,
+          "thumb": "thumbs/spiders_mushroom_glade.webp",
+          "thumbUrl": "thumbs/spiders_mushroom_glade-e963f35d.webp"
+        },
+        {
+          "id": "spiders_beach_sand",
+          "title": {
+            "uk": "Пляжний павучок",
+            "en": "Beach spider",
+            "ru": "Пляжный паучок"
+          },
+          "free": false,
+          "url": "pictures/spiders_beach_sand-da9dad75.webp",
+          "sha256": "da9dad751efc4224a321d32f8f958b4bf6702a5840897e6e14ef6663f093a041",
+          "bytes": 254678,
+          "thumb": "thumbs/spiders_beach_sand.webp",
+          "thumbUrl": "thumbs/spiders_beach_sand-2805c4c2.webp"
+        },
+        {
+          "id": "spiders_crystal_cave",
+          "title": {
+            "uk": "Печерний павучок",
+            "en": "Cave spider",
+            "ru": "Пещерный паучок"
+          },
+          "free": false,
+          "url": "pictures/spiders_crystal_cave-cffd2de0.webp",
+          "sha256": "cffd2de0a439693e512ec75fbcccab33968036f05145764cd705a90a7c06fce9",
+          "bytes": 264918,
+          "thumb": "thumbs/spiders_crystal_cave.webp",
+          "thumbUrl": "thumbs/spiders_crystal_cave-ade12fbb.webp"
+        },
+        {
+          "id": "spiders_lavender_field",
+          "title": {
+            "uk": "Павучок у лаванді",
+            "en": "Spider in lavender",
+            "ru": "Паучок в лаванде"
+          },
+          "free": false,
+          "url": "pictures/spiders_lavender_field-5424a52d.webp",
+          "sha256": "5424a52d96016ceb09f7ce5630e70509b061764389c04abca3b84c66b37c144b",
+          "bytes": 394684,
+          "thumb": "thumbs/spiders_lavender_field.webp",
+          "thumbUrl": "thumbs/spiders_lavender_field-863b58af.webp"
+        },
+        {
+          "id": "spiders_strawberry_patch",
+          "title": {
+            "uk": "Павучок на полуниці",
+            "en": "Spider on a strawberry",
+            "ru": "Паучок на клубнике"
+          },
+          "free": false,
+          "url": "pictures/spiders_strawberry_patch-ef17ba4a.webp",
+          "sha256": "ef17ba4a61f9f117095a0d6ee6f9944c5681c54375b5c65b4b646bac5641f5bd",
+          "bytes": 330674,
+          "thumb": "thumbs/spiders_strawberry_patch.webp",
+          "thumbUrl": "thumbs/spiders_strawberry_patch-a7250d3d.webp"
+        },
+        {
+          "id": "spiders_oak_bark",
+          "title": {
+            "uk": "Павучок на дереві",
+            "en": "Spider on a tree",
+            "ru": "Паучок на дереве"
+          },
+          "free": false,
+          "url": "pictures/spiders_oak_bark-a255cfdc.webp",
+          "sha256": "a255cfdc89595a19803f4d7d6405d22d34064f8b8446c83230465f0bbd75a2fb",
+          "bytes": 525748,
+          "thumb": "thumbs/spiders_oak_bark.webp",
+          "thumbUrl": "thumbs/spiders_oak_bark-24e13b0a.webp"
+        },
+        {
+          "id": "spiders_meadow_hammock",
+          "title": {
+            "uk": "Павучок у гамаку",
+            "en": "Spider in a hammock",
+            "ru": "Паучок в гамаке"
+          },
+          "free": false,
+          "url": "pictures/spiders_meadow_hammock-742c3ec4.webp",
+          "sha256": "742c3ec458029a8ba04de32e2c7ce78a32718af52785edcdfa6a0e858d3801e1",
+          "bytes": 407448,
+          "thumb": "thumbs/spiders_meadow_hammock.webp",
+          "thumbUrl": "thumbs/spiders_meadow_hammock-655128e9.webp"
+        },
+        {
+          "id": "spiders_cherry_blossom",
+          "title": {
+            "uk": "Павучок у сакурі",
+            "en": "Spider in cherry blossoms",
+            "ru": "Паучок в сакуре"
+          },
+          "free": false,
+          "url": "pictures/spiders_cherry_blossom-dc946c70.webp",
+          "sha256": "dc946c70984eeaecf15f189a0bf87d87543461e83db36e20e85306c1e11137bd",
+          "bytes": 449248,
+          "thumb": "thumbs/spiders_cherry_blossom.webp",
+          "thumbUrl": "thumbs/spiders_cherry_blossom-4ab0bca1.webp"
+        },
+        {
+          "id": "spiders_mountain_flowers",
+          "title": {
+            "uk": "Гірський павучок",
+            "en": "Mountain spider",
+            "ru": "Горный паучок"
+          },
+          "free": false,
+          "url": "pictures/spiders_mountain_flowers-1d0b5cd8.webp",
+          "sha256": "1d0b5cd836d389992a559b88fcea730445e9379eeb89d08af2d011a55b548759",
+          "bytes": 315308,
+          "thumb": "thumbs/spiders_mountain_flowers.webp",
+          "thumbUrl": "thumbs/spiders_mountain_flowers-dd9b27a8.webp"
+        },
+        {
+          "id": "spiders_pumpkin_patch",
+          "title": {
+            "uk": "Павучок на гарбузі",
+            "en": "Spider on a pumpkin",
+            "ru": "Паучок на тыкве"
+          },
+          "free": false,
+          "url": "pictures/spiders_pumpkin_patch-53d4d1ee.webp",
+          "sha256": "53d4d1ee1653b1addb9b992068f540eeedc61a46686b29e297b028574a1dd5de",
+          "bytes": 360800,
+          "thumb": "thumbs/spiders_pumpkin_patch.webp",
+          "thumbUrl": "thumbs/spiders_pumpkin_patch-71d76527.webp"
+        },
+        {
+          "id": "spiders_rainbow_web",
+          "title": {
+            "uk": "Павучок і веселка",
+            "en": "Spider and rainbow",
+            "ru": "Паучок и радуга"
+          },
+          "free": false,
+          "url": "pictures/spiders_rainbow_web-e92dea72.webp",
+          "sha256": "e92dea726416ab84c2fbdbfae7aa07d2b56d38b3c8c8d02eb261c652e6788092",
+          "bytes": 341230,
+          "thumb": "thumbs/spiders_rainbow_web.webp",
+          "thumbUrl": "thumbs/spiders_rainbow_web-bbf8f194.webp"
+        },
+        {
+          "id": "spiders_firefly_night",
+          "title": {
+            "uk": "Павучок і світлячки",
+            "en": "Spider and fireflies",
+            "ru": "Паучок и светлячки"
+          },
+          "free": false,
+          "url": "pictures/spiders_firefly_night-7072a5f4.webp",
+          "sha256": "7072a5f4138f8b2fa811d8d92c6ef49935971cb3f2e77bfe3eac44b41861af36",
+          "bytes": 298212,
+          "thumb": "thumbs/spiders_firefly_night.webp",
+          "thumbUrl": "thumbs/spiders_firefly_night-061d8b02.webp"
+        }
+      ]
+    },
+    {
+      "id": "sharks",
+      "title": {
+        "uk": "Акули",
+        "en": "Sharks",
+        "ru": "Акулы"
+      },
+      "puzzles": [
+        {
+          "id": "sharks_whale_shark_plankton",
+          "title": {
+            "uk": "Китова акула",
+            "en": "Whale shark",
+            "ru": "Китовая акула"
+          },
+          "free": true,
+          "asset": "images/free/sharks_whale_shark_plankton.webp",
+          "url": "pictures/sharks_whale_shark_plankton-a71d842a.webp",
+          "sha256": "a71d842adc2803f1dc56495c70481259566214f2484dde6b8d9466d19901aeac",
+          "bytes": 297232,
+          "thumb": "thumbs/sharks_whale_shark_plankton.webp",
+          "thumbUrl": "thumbs/sharks_whale_shark_plankton-ea903013.webp"
+        },
+        {
+          "id": "sharks_hammerhead_reef",
+          "title": {
+            "uk": "Акула-молот",
+            "en": "Hammerhead shark",
+            "ru": "Акула-молот"
+          },
+          "free": true,
+          "asset": "images/free/sharks_hammerhead_reef.webp",
+          "url": "pictures/sharks_hammerhead_reef-6155b08d.webp",
+          "sha256": "6155b08d8db22d865cc91f037f774008dd1ce4670c2a6ac042a48d28e996b024",
+          "bytes": 263062,
+          "thumb": "thumbs/sharks_hammerhead_reef.webp",
+          "thumbUrl": "thumbs/sharks_hammerhead_reef-97dda5be.webp"
+        },
+        {
+          "id": "sharks_great_white_blue",
+          "title": {
+            "uk": "Біла акула",
+            "en": "Great white shark",
+            "ru": "Белая акула"
+          },
+          "free": true,
+          "asset": "images/free/sharks_great_white_blue.webp",
+          "url": "pictures/sharks_great_white_blue-ccadfa1d.webp",
+          "sha256": "ccadfa1d1718be1a9b19746e1d4e34aa8c5cc49827dde9d040235cf872a1c71d",
+          "bytes": 239358,
+          "thumb": "thumbs/sharks_great_white_blue.webp",
+          "thumbUrl": "thumbs/sharks_great_white_blue-6fe0b1e1.webp"
+        },
+        {
+          "id": "sharks_baby_shark_seagrass",
+          "title": {
+            "uk": "Акуленя",
+            "en": "Baby shark",
+            "ru": "Акулёнок"
+          },
+          "free": true,
+          "asset": "images/free/sharks_baby_shark_seagrass.webp",
+          "url": "pictures/sharks_baby_shark_seagrass-fd6b0c06.webp",
+          "sha256": "fd6b0c0626f808ee9074e2b85921bc85234ee809ace35237d54a9b892c71ad92",
+          "bytes": 236100,
+          "thumb": "thumbs/sharks_baby_shark_seagrass.webp",
+          "thumbUrl": "thumbs/sharks_baby_shark_seagrass-8e483cff.webp"
+        },
+        {
+          "id": "sharks_nurse_shark_sand",
+          "title": {
+            "uk": "Акула-нянька",
+            "en": "Nurse shark",
+            "ru": "Акула-нянька"
+          },
+          "free": true,
+          "asset": "images/free/sharks_nurse_shark_sand.webp",
+          "url": "pictures/sharks_nurse_shark_sand-a18322a6.webp",
+          "sha256": "a18322a635102bfcbdbb013c1dfb5092173d401bb7214202270de26001f84b37",
+          "bytes": 183624,
+          "thumb": "thumbs/sharks_nurse_shark_sand.webp",
+          "thumbUrl": "thumbs/sharks_nurse_shark_sand-14b054e3.webp"
+        },
+        {
+          "id": "sharks_reef_shark_lagoon",
+          "title": {
+            "uk": "Рифова акула",
+            "en": "Reef shark",
+            "ru": "Рифовая акула"
+          },
+          "free": false,
+          "url": "pictures/sharks_reef_shark_lagoon-a513d8a3.webp",
+          "sha256": "a513d8a3637bbd2e19af383e786cf5c267c56bcfecd0d2ce782516f5e4a879e0",
+          "bytes": 297806,
+          "thumb": "thumbs/sharks_reef_shark_lagoon.webp",
+          "thumbUrl": "thumbs/sharks_reef_shark_lagoon-0df6f562.webp"
+        },
+        {
+          "id": "sharks_tiger_shark_kelp",
+          "title": {
+            "uk": "Тигрова акула",
+            "en": "Tiger shark",
+            "ru": "Тигровая акула"
+          },
+          "free": false,
+          "url": "pictures/sharks_tiger_shark_kelp-d3ddae31.webp",
+          "sha256": "d3ddae314fa8651289f5448706a12816d9eeef6f3ff082f38b67bea51e97a42d",
+          "bytes": 252596,
+          "thumb": "thumbs/sharks_tiger_shark_kelp.webp",
+          "thumbUrl": "thumbs/sharks_tiger_shark_kelp-78896c85.webp"
+        },
+        {
+          "id": "sharks_whale_shark_night",
+          "title": {
+            "uk": "Китова акула вночі",
+            "en": "Whale shark at night",
+            "ru": "Китовая акула ночью"
+          },
+          "free": false,
+          "url": "pictures/sharks_whale_shark_night-928eacd5.webp",
+          "sha256": "928eacd5cc170dcb0d745a78c3623c80dfc04435bae0f9b8e2bdda9937214be4",
+          "bytes": 210488,
+          "thumb": "thumbs/sharks_whale_shark_night.webp",
+          "thumbUrl": "thumbs/sharks_whale_shark_night-21664669.webp"
+        },
+        {
+          "id": "sharks_hammerhead_sunrise",
+          "title": {
+            "uk": "Акула-молот на світанку",
+            "en": "Hammerhead at sunrise",
+            "ru": "Акула-молот на рассвете"
+          },
+          "free": false,
+          "url": "pictures/sharks_hammerhead_sunrise-451cf8de.webp",
+          "sha256": "451cf8de478ad116b6991338daccd14420bb996d76a3054372b9a6ee2451d20d",
+          "bytes": 220136,
+          "thumb": "thumbs/sharks_hammerhead_sunrise.webp",
+          "thumbUrl": "thumbs/sharks_hammerhead_sunrise-e6a2b7b7.webp"
+        },
+        {
+          "id": "sharks_baby_shark_shells",
+          "title": {
+            "uk": "Акуленя з мушлями",
+            "en": "Baby shark with shells",
+            "ru": "Акулёнок с ракушками"
+          },
+          "free": false,
+          "url": "pictures/sharks_baby_shark_shells-63f569d2.webp",
+          "sha256": "63f569d24765ad5d8af1b740568f71f21a0032e31aded22f0c5eb7fb52764df9",
+          "bytes": 268902,
+          "thumb": "thumbs/sharks_baby_shark_shells.webp",
+          "thumbUrl": "thumbs/sharks_baby_shark_shells-a44c5adb.webp"
+        },
+        {
+          "id": "sharks_leopard_shark_bay",
+          "title": {
+            "uk": "Леопардова акула",
+            "en": "Leopard shark",
+            "ru": "Леопардовая акула"
+          },
+          "free": false,
+          "url": "pictures/sharks_leopard_shark_bay-18800485.webp",
+          "sha256": "1880048543a399b212175023933951c177206300b204902a712dd334801a8f7d",
+          "bytes": 240394,
+          "thumb": "thumbs/sharks_leopard_shark_bay.webp",
+          "thumbUrl": "thumbs/sharks_leopard_shark_bay-8b0dd4e3.webp"
+        },
+        {
+          "id": "sharks_angel_shark_reef",
+          "title": {
+            "uk": "Морський ангел",
+            "en": "Angel shark",
+            "ru": "Морской ангел"
+          },
+          "free": false,
+          "url": "pictures/sharks_angel_shark_reef-7bca4c51.webp",
+          "sha256": "7bca4c51b885f41738349ad8a0252c31076f62e7d66a55fdb1c4f9c5a2fa61d2",
+          "bytes": 350736,
+          "thumb": "thumbs/sharks_angel_shark_reef.webp",
+          "thumbUrl": "thumbs/sharks_angel_shark_reef-723e4299.webp"
+        },
+        {
+          "id": "sharks_zebra_shark_arch",
+          "title": {
+            "uk": "Зеброва акула",
+            "en": "Zebra shark",
+            "ru": "Зебровая акула"
+          },
+          "free": false,
+          "url": "pictures/sharks_zebra_shark_arch-a81b152e.webp",
+          "sha256": "a81b152efbe2b84c7e3ecde48bfc001205bf4d34e87d4304874afbe2a9829d90",
+          "bytes": 313648,
+          "thumb": "thumbs/sharks_zebra_shark_arch.webp",
+          "thumbUrl": "thumbs/sharks_zebra_shark_arch-1e31048b.webp"
+        },
+        {
+          "id": "sharks_great_white_waves",
+          "title": {
+            "uk": "Біла акула на хвилях",
+            "en": "Great white in waves",
+            "ru": "Белая акула на волнах"
+          },
+          "free": false,
+          "url": "pictures/sharks_great_white_waves-349c64a5.webp",
+          "sha256": "349c64a57d82de5c2dd9cb071753ac5ead0c29bd5adb56795efd468187ee170e",
+          "bytes": 234644,
+          "thumb": "thumbs/sharks_great_white_waves.webp",
+          "thumbUrl": "thumbs/sharks_great_white_waves-67398324.webp"
+        },
+        {
+          "id": "sharks_lemon_shark_mangrove",
+          "title": {
+            "uk": "Лимонна акула",
+            "en": "Lemon shark",
+            "ru": "Лимонная акула"
+          },
+          "free": false,
+          "url": "pictures/sharks_lemon_shark_mangrove-d7a95adb.webp",
+          "sha256": "d7a95adb17c8f71a4eb637c4a0388fb9dc8f873b3943ae0c6a42084ff923497e",
+          "bytes": 270082,
+          "thumb": "thumbs/sharks_lemon_shark_mangrove.webp",
+          "thumbUrl": "thumbs/sharks_lemon_shark_mangrove-bf529f51.webp"
+        },
+        {
+          "id": "sharks_basking_shark_green",
+          "title": {
+            "uk": "Гігантська акула",
+            "en": "Basking shark",
+            "ru": "Гигантская акула"
+          },
+          "free": false,
+          "url": "pictures/sharks_basking_shark_green-303d6565.webp",
+          "sha256": "303d65655b50a3d64bf05df75a63ac6b55d51fb3bda5c490d92e90c53ae8a3b6",
+          "bytes": 224096,
+          "thumb": "thumbs/sharks_basking_shark_green.webp",
+          "thumbUrl": "thumbs/sharks_basking_shark_green-7a28bd52.webp"
+        },
+        {
+          "id": "sharks_shipwreck",
+          "title": {
+            "uk": "Акула біля корабля",
+            "en": "Shark by a shipwreck",
+            "ru": "Акула у корабля"
+          },
+          "free": false,
+          "url": "pictures/sharks_shipwreck-d763140f.webp",
+          "sha256": "d763140fe033888f254b553a7577319c051ee63813dc7ce8842bf7ad9c60dcda",
+          "bytes": 346896,
+          "thumb": "thumbs/sharks_shipwreck.webp",
+          "thumbUrl": "thumbs/sharks_shipwreck-8244cc06.webp"
+        },
+        {
+          "id": "sharks_greenland_ice",
+          "title": {
+            "uk": "Полярна акула",
+            "en": "Greenland shark",
+            "ru": "Полярная акула"
+          },
+          "free": false,
+          "url": "pictures/sharks_greenland_ice-1124e63b.webp",
+          "sha256": "1124e63bbdd9d3461d2d4caa6c4afa8d424645525a14efa7b624d8115d2a0d9f",
+          "bytes": 314612,
+          "thumb": "thumbs/sharks_greenland_ice.webp",
+          "thumbUrl": "thumbs/sharks_greenland_ice-d14fef56.webp"
+        },
+        {
+          "id": "sharks_baby_egg_case",
+          "title": {
+            "uk": "Акуленя і яйце",
+            "en": "Baby shark and egg",
+            "ru": "Акулёнок и яйцо"
+          },
+          "free": false,
+          "url": "pictures/sharks_baby_egg_case-64a7969d.webp",
+          "sha256": "64a7969d604c74378ec02ed27c2e37d8d239eb94f2774a2389a9e7de4b038002",
+          "bytes": 393044,
+          "thumb": "thumbs/sharks_baby_egg_case.webp",
+          "thumbUrl": "thumbs/sharks_baby_egg_case-8f8a636d.webp"
+        },
+        {
+          "id": "sharks_horn_shark_rocks",
+          "title": {
+            "uk": "Рогата акула",
+            "en": "Horn shark",
+            "ru": "Рогатая акула"
+          },
+          "free": false,
+          "url": "pictures/sharks_horn_shark_rocks-6d938241.webp",
+          "sha256": "6d9382412a080a2f50fdb41c5f83d56306157f64c2016d5b713341be77b0ae7c",
+          "bytes": 239756,
+          "thumb": "thumbs/sharks_horn_shark_rocks.webp",
+          "thumbUrl": "thumbs/sharks_horn_shark_rocks-f7c85e23.webp"
+        },
+        {
+          "id": "sharks_whitetip_cave",
+          "title": {
+            "uk": "Акула в печері",
+            "en": "Shark in a cave",
+            "ru": "Акула в пещере"
+          },
+          "free": false,
+          "url": "pictures/sharks_whitetip_cave-4751b53b.webp",
+          "sha256": "4751b53b02c2c5325d69e456b7309932699a44842aa329341c917a891c49f30a",
+          "bytes": 297554,
+          "thumb": "thumbs/sharks_whitetip_cave.webp",
+          "thumbUrl": "thumbs/sharks_whitetip_cave-51a164ed.webp"
+        },
+        {
+          "id": "sharks_blue_shark_jellyfish",
+          "title": {
+            "uk": "Акула і медузи",
+            "en": "Shark and jellyfish",
+            "ru": "Акула и медузы"
+          },
+          "free": false,
+          "url": "pictures/sharks_blue_shark_jellyfish-55ea99b6.webp",
+          "sha256": "55ea99b61633f60a669474a68aab2a4f34b30ec3bb5a2e22720c69c4ab0c271e",
+          "bytes": 184410,
+          "thumb": "thumbs/sharks_blue_shark_jellyfish.webp",
+          "thumbUrl": "thumbs/sharks_blue_shark_jellyfish-952391b4.webp"
+        },
+        {
+          "id": "sharks_mako_sardines",
+          "title": {
+            "uk": "Акула мако",
+            "en": "Mako shark",
+            "ru": "Акула мако"
+          },
+          "free": false,
+          "url": "pictures/sharks_mako_sardines-d3dd7d5d.webp",
+          "sha256": "d3dd7d5d4f6cb3d6ccb0e2d679934b98cc67edc7e1141b7721b964d2f165dc23",
+          "bytes": 219984,
+          "thumb": "thumbs/sharks_mako_sardines.webp",
+          "thumbUrl": "thumbs/sharks_mako_sardines-51544d24.webp"
+        },
+        {
+          "id": "sharks_sunset_island",
+          "title": {
+            "uk": "Акула на заході сонця",
+            "en": "Shark at sunset",
+            "ru": "Акула на закате"
+          },
+          "free": false,
+          "url": "pictures/sharks_sunset_island-dd7f61f4.webp",
+          "sha256": "dd7f61f4eb87f90daf0ad723b428bae0866ef8c9c2ff221f713c1774ce837e16",
+          "bytes": 244254,
+          "thumb": "thumbs/sharks_sunset_island.webp",
+          "thumbUrl": "thumbs/sharks_sunset_island-89908e0e.webp"
+        },
+        {
+          "id": "sharks_bamboo_shark_bubbles",
+          "title": {
+            "uk": "Бамбукова акула",
+            "en": "Bamboo shark",
+            "ru": "Бамбуковая акула"
+          },
+          "free": false,
+          "url": "pictures/sharks_bamboo_shark_bubbles-6bf77ba9.webp",
+          "sha256": "6bf77ba93e350c9517d48bdf913f400d9d42448a695266a235f5a0d5d1a0e1e2",
+          "bytes": 332392,
+          "thumb": "thumbs/sharks_bamboo_shark_bubbles.webp",
+          "thumbUrl": "thumbs/sharks_bamboo_shark_bubbles-129643c8.webp"
+        },
+        {
+          "id": "sharks_whale_shark_friends",
+          "title": {
+            "uk": "Китова акула з друзями",
+            "en": "Whale shark with friends",
+            "ru": "Китовая акула с друзьями"
+          },
+          "free": false,
+          "url": "pictures/sharks_whale_shark_friends-968da41f.webp",
+          "sha256": "968da41fb5e417b01bd63b2bb64c3606935e3a1c016f4b0f746bb5230397bc5f",
+          "bytes": 301538,
+          "thumb": "thumbs/sharks_whale_shark_friends.webp",
+          "thumbUrl": "thumbs/sharks_whale_shark_friends-02ba0ecd.webp"
+        },
+        {
+          "id": "sharks_carpet_shark_night",
+          "title": {
+            "uk": "Килимова акула",
+            "en": "Carpet shark",
+            "ru": "Ковровая акула"
+          },
+          "free": false,
+          "url": "pictures/sharks_carpet_shark_night-65d3854f.webp",
+          "sha256": "65d3854f2630e82ae32c7cf4a577d963ef3fd82d91631b05858437116b059290",
+          "bytes": 331546,
+          "thumb": "thumbs/sharks_carpet_shark_night.webp",
+          "thumbUrl": "thumbs/sharks_carpet_shark_night-7711d979.webp"
+        }
+      ]
+    },
+    {
+      "id": "snakes",
+      "title": {
+        "uk": "Змійки",
+        "en": "Snakes",
+        "ru": "Змейки"
+      },
+      "puzzles": [
+        {
+          "id": "snake_jungle",
+          "title": {
+            "uk": "Змійка",
+            "en": "Snake",
+            "ru": "Змейка"
+          },
+          "free": true,
+          "asset": "images/free/snake_jungle.webp",
+          "url": "pictures/snake_jungle-3b72d323.webp",
+          "sha256": "3b72d323ad7e1236cb2fb06b83461a795b81b45f69e8186d60265ef4e0735a96",
+          "bytes": 339960,
+          "thumb": "thumbs/snake_jungle.webp",
+          "thumbUrl": "thumbs/snake_jungle-383be824.webp"
+        },
+        {
+          "id": "snakes_python_tree",
+          "title": {
+            "uk": "Пітон",
+            "en": "Python",
+            "ru": "Питон"
+          },
+          "free": true,
+          "asset": "images/free/snakes_python_tree.webp",
+          "url": "pictures/snakes_python_tree-00b2f3a6.webp",
+          "sha256": "00b2f3a65d74d53bc84adea1e32c6d20770d30f81d6e39f2f2a2d4a5ccc84569",
+          "bytes": 488160,
+          "thumb": "thumbs/snakes_python_tree.webp",
+          "thumbUrl": "thumbs/snakes_python_tree-5218d1de.webp"
+        },
+        {
+          "id": "snakes_grass_snake_pond",
+          "title": {
+            "uk": "Вуж",
+            "en": "Grass snake",
+            "ru": "Уж"
+          },
+          "free": true,
+          "asset": "images/free/snakes_grass_snake_pond.webp",
+          "url": "pictures/snakes_grass_snake_pond-ee967396.webp",
+          "sha256": "ee96739646264f3c03b593feb6b8dd60efa9f8c26b888f0cf7e6dbd1876c8c4b",
+          "bytes": 346578,
+          "thumb": "thumbs/snakes_grass_snake_pond.webp",
+          "thumbUrl": "thumbs/snakes_grass_snake_pond-73a821fb.webp"
+        },
+        {
+          "id": "snakes_desert_dunes",
+          "title": {
+            "uk": "Пустельна змійка",
+            "en": "Desert snake",
+            "ru": "Пустынная змейка"
+          },
+          "free": true,
+          "asset": "images/free/snakes_desert_dunes.webp",
+          "url": "pictures/snakes_desert_dunes-6820cc01.webp",
+          "sha256": "6820cc0166f3b0f0c298df83153c302d855fbf05e3418c53f9d8c9120fc26867",
+          "bytes": 211714,
+          "thumb": "thumbs/snakes_desert_dunes.webp",
+          "thumbUrl": "thumbs/snakes_desert_dunes-7369e8b9.webp"
+        },
+        {
+          "id": "snakes_corn_snake_flowers",
+          "title": {
+            "uk": "Маїсовий полоз",
+            "en": "Corn snake",
+            "ru": "Маисовый полоз"
+          },
+          "free": true,
+          "asset": "images/free/snakes_corn_snake_flowers.webp",
+          "url": "pictures/snakes_corn_snake_flowers-cd163350.webp",
+          "sha256": "cd163350ace210219134cc69f4cbdc041827086e7a75f11204ca45db2cebf746",
+          "bytes": 505516,
+          "thumb": "thumbs/snakes_corn_snake_flowers.webp",
+          "thumbUrl": "thumbs/snakes_corn_snake_flowers-b6d2f6b3.webp"
+        },
+        {
+          "id": "snakes_rainbow_boa",
+          "title": {
+            "uk": "Райдужний удав",
+            "en": "Rainbow boa",
+            "ru": "Радужный удав"
+          },
+          "free": false,
+          "url": "pictures/snakes_rainbow_boa-5d115813.webp",
+          "sha256": "5d1158131c9cdf1ed03722d39a4a7284c5734e744c9c960c702d3e4853d31274",
+          "bytes": 385852,
+          "thumb": "thumbs/snakes_rainbow_boa.webp",
+          "thumbUrl": "thumbs/snakes_rainbow_boa-06cc72c3.webp"
+        },
+        {
+          "id": "snakes_garter_garden",
+          "title": {
+            "uk": "Смугаста змійка",
+            "en": "Garter snake",
+            "ru": "Полосатая змейка"
+          },
+          "free": false,
+          "url": "pictures/snakes_garter_garden-e810079a.webp",
+          "sha256": "e810079a95a195a3b826b562ef40b7616353d458d62b2d1e5ac6bc1f84ec4e8d",
+          "bytes": 467272,
+          "thumb": "thumbs/snakes_garter_garden.webp",
+          "thumbUrl": "thumbs/snakes_garter_garden-d1234e91.webp"
+        },
+        {
+          "id": "snakes_ball_python_autumn",
+          "title": {
+            "uk": "Королівський пітон",
+            "en": "Ball python",
+            "ru": "Королевский питон"
+          },
+          "free": false,
+          "url": "pictures/snakes_ball_python_autumn-74dceceb.webp",
+          "sha256": "74dceceb84937052f7c73133a39cc2a43f547d47fe99a416b05bd2b5ca279c69",
+          "bytes": 412272,
+          "thumb": "thumbs/snakes_ball_python_autumn.webp",
+          "thumbUrl": "thumbs/snakes_ball_python_autumn-c45b7279.webp"
+        },
+        {
+          "id": "snakes_milk_snake_rocks",
+          "title": {
+            "uk": "Молочна змійка",
+            "en": "Milk snake",
+            "ru": "Молочная змейка"
+          },
+          "free": false,
+          "url": "pictures/snakes_milk_snake_rocks-6241a184.webp",
+          "sha256": "6241a184a20e03aa0ac50e9799e766242bb3b70103f1ff0748c56805ebb8da93",
+          "bytes": 411046,
+          "thumb": "thumbs/snakes_milk_snake_rocks.webp",
+          "thumbUrl": "thumbs/snakes_milk_snake_rocks-1a1b4031.webp"
+        },
+        {
+          "id": "snakes_sea_snake_lagoon",
+          "title": {
+            "uk": "Морська змійка",
+            "en": "Sea snake",
+            "ru": "Морская змейка"
+          },
+          "free": false,
+          "url": "pictures/snakes_sea_snake_lagoon-0b9f9b75.webp",
+          "sha256": "0b9f9b7568561b0bc97c3cecefdad71933787a9a00b6ae29e6d505d91e7ced8a",
+          "bytes": 249602,
+          "thumb": "thumbs/snakes_sea_snake_lagoon.webp",
+          "thumbUrl": "thumbs/snakes_sea_snake_lagoon-532ca782.webp"
+        },
+        {
+          "id": "snakes_vine_snake_bamboo",
+          "title": {
+            "uk": "Змійка в бамбуку",
+            "en": "Snake in bamboo",
+            "ru": "Змейка в бамбуке"
+          },
+          "free": false,
+          "url": "pictures/snakes_vine_snake_bamboo-c04342b2.webp",
+          "sha256": "c04342b260747c6925552f31b285500e6328f7dec01aabc3b821965ab62c9aeb",
+          "bytes": 333454,
+          "thumb": "thumbs/snakes_vine_snake_bamboo.webp",
+          "thumbUrl": "thumbs/snakes_vine_snake_bamboo-a9da1cae.webp"
+        },
+        {
+          "id": "snakes_kingsnake_night",
+          "title": {
+            "uk": "Королівська змія",
+            "en": "Kingsnake",
+            "ru": "Королевская змея"
+          },
+          "free": false,
+          "url": "pictures/snakes_kingsnake_night-4a3c5154.webp",
+          "sha256": "4a3c5154f59a785d70ab3ae163ea1f8fadb564d276ab19f8c835d80db63bd9f7",
+          "bytes": 226132,
+          "thumb": "thumbs/snakes_kingsnake_night.webp",
+          "thumbUrl": "thumbs/snakes_kingsnake_night-8bb823ad.webp"
+        },
+        {
+          "id": "snakes_anaconda_river",
+          "title": {
+            "uk": "Анаконда",
+            "en": "Anaconda",
+            "ru": "Анаконда"
+          },
+          "free": false,
+          "url": "pictures/snakes_anaconda_river-82b02077.webp",
+          "sha256": "82b0207782dab4d0980c112a0e05a2f6bed901d516e83a7dbd03239e851a2157",
+          "bytes": 329706,
+          "thumb": "thumbs/snakes_anaconda_river.webp",
+          "thumbUrl": "thumbs/snakes_anaconda_river-347c2753.webp"
+        },
+        {
+          "id": "snakes_spring_orchard",
+          "title": {
+            "uk": "Змійка навесні",
+            "en": "Spring snake",
+            "ru": "Змейка весной"
+          },
+          "free": false,
+          "url": "pictures/snakes_spring_orchard-62fda272.webp",
+          "sha256": "62fda2723bfcbb3841642bb50a439f93d87fa5df2f616a4f2b1408ba551a57c4",
+          "bytes": 408408,
+          "thumb": "thumbs/snakes_spring_orchard.webp",
+          "thumbUrl": "thumbs/snakes_spring_orchard-4c977cfa.webp"
+        },
+        {
+          "id": "snakes_smooth_snake_forest",
+          "title": {
+            "uk": "Мідянка",
+            "en": "Smooth snake",
+            "ru": "Медянка"
+          },
+          "free": false,
+          "url": "pictures/snakes_smooth_snake_forest-0314ab61.webp",
+          "sha256": "0314ab61651f478e3f242b51e8a853f21dd456aec24ec454a5fc93aef5f567b9",
+          "bytes": 414658,
+          "thumb": "thumbs/snakes_smooth_snake_forest.webp",
+          "thumbUrl": "thumbs/snakes_smooth_snake_forest-bb36d1cc.webp"
+        },
+        {
+          "id": "snakes_tree_python_rain",
+          "title": {
+            "uk": "Зелений пітон",
+            "en": "Green tree python",
+            "ru": "Зелёный питон"
+          },
+          "free": false,
+          "url": "pictures/snakes_tree_python_rain-8db32930.webp",
+          "sha256": "8db32930997bb5dbeca17e311807dab0a02020b6fac9c8ee3cb3714ef893eb6d",
+          "bytes": 340308,
+          "thumb": "thumbs/snakes_tree_python_rain.webp",
+          "thumbUrl": "thumbs/snakes_tree_python_rain-e7d658a1.webp"
+        },
+        {
+          "id": "snakes_rosy_boa_desert",
+          "title": {
+            "uk": "Рожевий удав",
+            "en": "Rosy boa",
+            "ru": "Розовый удав"
+          },
+          "free": false,
+          "url": "pictures/snakes_rosy_boa_desert-aef1e88a.webp",
+          "sha256": "aef1e88afb35b14b2934e738dcdafb615736b063e6c3693cba3424a2ddc96d58",
+          "bytes": 183062,
+          "thumb": "thumbs/snakes_rosy_boa_desert.webp",
+          "thumbUrl": "thumbs/snakes_rosy_boa_desert-9c3a2e65.webp"
+        },
+        {
+          "id": "snakes_carpet_python_outback",
+          "title": {
+            "uk": "Килимовий пітон",
+            "en": "Carpet python",
+            "ru": "Ковровый питон"
+          },
+          "free": false,
+          "url": "pictures/snakes_carpet_python_outback-6aac05dc.webp",
+          "sha256": "6aac05dc51ee2408dff603f0e634634f8e07f796bbf840ade28deaa9d169a401",
+          "bytes": 411860,
+          "thumb": "thumbs/snakes_carpet_python_outback.webp",
+          "thumbUrl": "thumbs/snakes_carpet_python_outback-140ea5b8.webp"
+        },
+        {
+          "id": "snakes_emerald_boa",
+          "title": {
+            "uk": "Смарагдовий удав",
+            "en": "Emerald tree boa",
+            "ru": "Изумрудный удав"
+          },
+          "free": false,
+          "url": "pictures/snakes_emerald_boa-1cb93039.webp",
+          "sha256": "1cb93039ef151d2774dacec5a029d93164411474c27a5a7c278fe5583a641680",
+          "bytes": 406830,
+          "thumb": "thumbs/snakes_emerald_boa.webp",
+          "thumbUrl": "thumbs/snakes_emerald_boa-ba5e0b86.webp"
+        },
+        {
+          "id": "snakes_sunflower_field",
+          "title": {
+            "uk": "Змійка в соняшниках",
+            "en": "Snake in sunflowers",
+            "ru": "Змейка в подсолнухах"
+          },
+          "free": false,
+          "url": "pictures/snakes_sunflower_field-c5be5045.webp",
+          "sha256": "c5be5045b4442b1648b73618495a79760d8ae07eab7579374586c0d1dd7168c2",
+          "bytes": 347878,
+          "thumb": "thumbs/snakes_sunflower_field.webp",
+          "thumbUrl": "thumbs/snakes_sunflower_field-d7448ad0.webp"
+        },
+        {
+          "id": "snakes_water_snake_lake",
+          "title": {
+            "uk": "Водяний вуж",
+            "en": "Water snake",
+            "ru": "Водяной уж"
+          },
+          "free": false,
+          "url": "pictures/snakes_water_snake_lake-ee0a800f.webp",
+          "sha256": "ee0a800f36fc770d354aadd258426f1490779ef7a8d18a99ed91ce8b8e7770d8",
+          "bytes": 267086,
+          "thumb": "thumbs/snakes_water_snake_lake.webp",
+          "thumbUrl": "thumbs/snakes_water_snake_lake-fa24ee6c.webp"
+        },
+        {
+          "id": "snakes_baby_egg",
+          "title": {
+            "uk": "Змієня",
+            "en": "Baby snake",
+            "ru": "Змеёныш"
+          },
+          "free": false,
+          "url": "pictures/snakes_baby_egg-58f97310.webp",
+          "sha256": "58f97310d61b67d5a3c18a4a35c5d7167d3e02d30f82ec67da30650d32d73ad6",
+          "bytes": 402284,
+          "thumb": "thumbs/snakes_baby_egg.webp",
+          "thumbUrl": "thumbs/snakes_baby_egg-6247f846.webp"
+        },
+        {
+          "id": "snakes_savanna_acacia",
+          "title": {
+            "uk": "Змійка в савані",
+            "en": "Savanna snake",
+            "ru": "Змейка в саванне"
+          },
+          "free": false,
+          "url": "pictures/snakes_savanna_acacia-2f006057.webp",
+          "sha256": "2f006057119e9a57301c9ba6e985556041a6554508a9782171b53be49176f66a",
+          "bytes": 251070,
+          "thumb": "thumbs/snakes_savanna_acacia.webp",
+          "thumbUrl": "thumbs/snakes_savanna_acacia-b9f80660.webp"
+        },
+        {
+          "id": "snakes_forest_stream",
+          "title": {
+            "uk": "Змійка біля струмка",
+            "en": "Snake by the stream",
+            "ru": "Змейка у ручья"
+          },
+          "free": false,
+          "url": "pictures/snakes_forest_stream-99efe2fc.webp",
+          "sha256": "99efe2fcfa1732c1d3d50a10dec28ecc71c35a4c556bc37e732db482305a0879",
+          "bytes": 526304,
+          "thumb": "thumbs/snakes_forest_stream.webp",
+          "thumbUrl": "thumbs/snakes_forest_stream-8732503c.webp"
+        },
+        {
+          "id": "snakes_blue_rainbow",
+          "title": {
+            "uk": "Блакитна змійка",
+            "en": "Blue snake",
+            "ru": "Голубая змейка"
+          },
+          "free": false,
+          "url": "pictures/snakes_blue_rainbow-252f73ee.webp",
+          "sha256": "252f73eee7242a7024cc82e13cdb5b69773e0b6d5e6fcb5cc8e7b4a5ede14492",
+          "bytes": 340036,
+          "thumb": "thumbs/snakes_blue_rainbow.webp",
+          "thumbUrl": "thumbs/snakes_blue_rainbow-544e6455.webp"
+        },
+        {
+          "id": "snakes_sleepy_burrow",
+          "title": {
+            "uk": "Сонна змійка",
+            "en": "Sleepy snake",
+            "ru": "Сонная змейка"
+          },
+          "free": false,
+          "url": "pictures/snakes_sleepy_burrow-d5b3634e.webp",
+          "sha256": "d5b3634e92c8dbaf5af21571315c76c75e3d2ff731dc0d3f0122db931421c2c5",
+          "bytes": 342724,
+          "thumb": "thumbs/snakes_sleepy_burrow.webp",
+          "thumbUrl": "thumbs/snakes_sleepy_burrow-e8f5b744.webp"
+        },
+        {
+          "id": "snakes_lotus_pond",
+          "title": {
+            "uk": "Змійка на лотосі",
+            "en": "Snake on a lotus",
+            "ru": "Змейка на лотосе"
+          },
+          "free": false,
+          "url": "pictures/snakes_lotus_pond-392e9284.webp",
+          "sha256": "392e92845f2a78797a3c8b606469ffe0ec17d09cb8ddea79467e6d9af9dbade0",
+          "bytes": 349220,
+          "thumb": "thumbs/snakes_lotus_pond.webp",
+          "thumbUrl": "thumbs/snakes_lotus_pond-70affee0.webp"
+        }
+      ]
+    },
+    {
+      "id": "felines",
+      "title": {
+        "uk": "Котики",
+        "en": "Cats big and small",
+        "ru": "Котики"
+      },
+      "puzzles": [
+        {
+          "id": "felines_cat",
+          "title": {
+            "uk": "Кіт",
+            "en": "Cat",
+            "ru": "Кошка"
+          },
+          "free": true,
+          "asset": "images/free/felines_cat.webp",
+          "url": "pictures/felines_cat-085177c9.webp",
+          "sha256": "085177c944d154d01550e7c8536adfc6c5ec8b98f6ecbbfb89e73332a3bac2c6",
+          "bytes": 513634,
+          "thumb": "thumbs/felines_cat.webp",
+          "thumbUrl": "thumbs/felines_cat-7c0e069a.webp"
+        },
+        {
+          "id": "felines_tiger_jungle",
+          "title": {
+            "uk": "Тигр",
+            "en": "Tiger",
+            "ru": "Тигр"
+          },
+          "free": true,
+          "asset": "images/free/felines_tiger_jungle.webp",
+          "url": "pictures/felines_tiger_jungle-41155db7.webp",
+          "sha256": "41155db7c97756a2578442ac07c84937027b3a00d9e94609f19b7e5d274d00fd",
+          "bytes": 385040,
+          "thumb": "thumbs/felines_tiger_jungle.webp",
+          "thumbUrl": "thumbs/felines_tiger_jungle-8c7d72b7.webp"
+        },
+        {
+          "id": "felines_snow_leopard",
+          "title": {
+            "uk": "Сніжний барс",
+            "en": "Snow Leopard",
+            "ru": "Снежный барс"
+          },
+          "free": true,
+          "asset": "images/free/felines_snow_leopard.webp",
+          "url": "pictures/felines_snow_leopard-164ca93b.webp",
+          "sha256": "164ca93bf762a9bbd6ca72d4e696971a69fdc982cc745539576879cc7406eaa7",
+          "bytes": 222114,
+          "thumb": "thumbs/felines_snow_leopard.webp",
+          "thumbUrl": "thumbs/felines_snow_leopard-4d00da64.webp"
+        },
+        {
+          "id": "felines_kitten_window",
+          "title": {
+            "uk": "Кошеня",
+            "en": "Kitten",
+            "ru": "Котёнок"
+          },
+          "free": true,
+          "asset": "images/free/felines_kitten_window.webp",
+          "url": "pictures/felines_kitten_window-0c40f7a2.webp",
+          "sha256": "0c40f7a293f45d8a09efcc97e78864eed5d6ebbec8f99f14e1eafdf97ea14431",
+          "bytes": 283140,
+          "thumb": "thumbs/felines_kitten_window.webp",
+          "thumbUrl": "thumbs/felines_kitten_window-39f0f823.webp"
+        },
+        {
+          "id": "felines_lion_cub_rocks",
+          "title": {
+            "uk": "Левеня",
+            "en": "Lion Cub",
+            "ru": "Львёнок"
+          },
+          "free": true,
+          "asset": "images/free/felines_lion_cub_rocks.webp",
+          "url": "pictures/felines_lion_cub_rocks-80495987.webp",
+          "sha256": "80495987200e1b76abcd48cf0083c130119b777d729b3abd074262456ed19829",
+          "bytes": 388416,
+          "thumb": "thumbs/felines_lion_cub_rocks.webp",
+          "thumbUrl": "thumbs/felines_lion_cub_rocks-85c0fb5f.webp"
+        },
+        {
+          "id": "felines_lynx_forest",
+          "title": {
+            "uk": "Рись",
+            "en": "Lynx",
+            "ru": "Рысь"
+          },
+          "free": false,
+          "url": "pictures/felines_lynx_forest-201fd584.webp",
+          "sha256": "201fd584be3aff849753fa284bf31013f78e32fa5cdccf5afde5052c7d891ae6",
+          "bytes": 438000,
+          "thumb": "thumbs/felines_lynx_forest.webp",
+          "thumbUrl": "thumbs/felines_lynx_forest-fa64cccb.webp"
+        },
+        {
+          "id": "felines_jaguar_river",
+          "title": {
+            "uk": "Ягуар",
+            "en": "Jaguar",
+            "ru": "Ягуар"
+          },
+          "free": false,
+          "url": "pictures/felines_jaguar_river-122688ee.webp",
+          "sha256": "122688eee54a375e3125a0581c24456d3fa324a0331b1e2122b3e3829c743d37",
+          "bytes": 340500,
+          "thumb": "thumbs/felines_jaguar_river.webp",
+          "thumbUrl": "thumbs/felines_jaguar_river-1e87ee12.webp"
+        },
+        {
+          "id": "felines_panther_night",
+          "title": {
+            "uk": "Пантера",
+            "en": "Panther",
+            "ru": "Пантера"
+          },
+          "free": false,
+          "url": "pictures/felines_panther_night-95eceed4.webp",
+          "sha256": "95eceed407a1603da4eacfd1ebe4a00c902882273e65418c475ed3d453683df9",
+          "bytes": 294674,
+          "thumb": "thumbs/felines_panther_night.webp",
+          "thumbUrl": "thumbs/felines_panther_night-b2758fd0.webp"
+        },
+        {
+          "id": "felines_ocelot_cloudforest",
+          "title": {
+            "uk": "Оцелот",
+            "en": "Ocelot",
+            "ru": "Оцелот"
+          },
+          "free": false,
+          "url": "pictures/felines_ocelot_cloudforest-83536802.webp",
+          "sha256": "83536802da3cc6b71891c02bbc2f0ff9d3c0325e9d6423cc12a567516d0655d8",
+          "bytes": 432556,
+          "thumb": "thumbs/felines_ocelot_cloudforest.webp",
+          "thumbUrl": "thumbs/felines_ocelot_cloudforest-19a0029f.webp"
+        },
+        {
+          "id": "felines_puma_canyon",
+          "title": {
+            "uk": "Пума",
+            "en": "Puma",
+            "ru": "Пума"
+          },
+          "free": false,
+          "url": "pictures/felines_puma_canyon-94d8e2b3.webp",
+          "sha256": "94d8e2b30ef7932edd35188fa2199e136c29b98a3d807ccb7cfc12a519413c8d",
+          "bytes": 262500,
+          "thumb": "thumbs/felines_puma_canyon.webp",
+          "thumbUrl": "thumbs/felines_puma_canyon-57e5d150.webp"
+        },
+        {
+          "id": "felines_siamese_cushion",
+          "title": {
+            "uk": "Сіамська кішка",
+            "en": "Siamese Cat",
+            "ru": "Сиамская кошка"
+          },
+          "free": false,
+          "url": "pictures/felines_siamese_cushion-b3037396.webp",
+          "sha256": "b3037396adeef4ee6b88195e4856f27fae3b10f045b7c383403e4a1b5eca09cb",
+          "bytes": 228564,
+          "thumb": "thumbs/felines_siamese_cushion.webp",
+          "thumbUrl": "thumbs/felines_siamese_cushion-28ad53bf.webp"
+        },
+        {
+          "id": "felines_maine_coon_porch",
+          "title": {
+            "uk": "Мейн-кун",
+            "en": "Maine Coon",
+            "ru": "Мейн-кун"
+          },
+          "free": false,
+          "url": "pictures/felines_maine_coon_porch-21da52a6.webp",
+          "sha256": "21da52a62a8b04d8aa16b642e6d1d7573a8809fe66ed9e0618be67f8553fb1e6",
+          "bytes": 447484,
+          "thumb": "thumbs/felines_maine_coon_porch.webp",
+          "thumbUrl": "thumbs/felines_maine_coon_porch-9dbfb556.webp"
+        },
+        {
+          "id": "felines_persian_greenhouse",
+          "title": {
+            "uk": "Перська кішка",
+            "en": "Persian Cat",
+            "ru": "Персидская кошка"
+          },
+          "free": false,
+          "url": "pictures/felines_persian_greenhouse-276f17f7.webp",
+          "sha256": "276f17f78961fa9b88d5819a6c8edc7ecc7e5ae78c46502268e5cbbd3a64d109",
+          "bytes": 411510,
+          "thumb": "thumbs/felines_persian_greenhouse.webp",
+          "thumbUrl": "thumbs/felines_persian_greenhouse-e93db062.webp"
+        },
+        {
+          "id": "felines_tabby_snow",
+          "title": {
+            "uk": "Смугасте кошеня",
+            "en": "Tabby Kitten",
+            "ru": "Полосатый котёнок"
+          },
+          "free": false,
+          "url": "pictures/felines_tabby_snow-f463055f.webp",
+          "sha256": "f463055f99642e93b997eccca3718e50daf1d03b450368aab4d0de9941b6e8fc",
+          "bytes": 252590,
+          "thumb": "thumbs/felines_tabby_snow.webp",
+          "thumbUrl": "thumbs/felines_tabby_snow-fe143e6d.webp"
+        },
+        {
+          "id": "felines_black_cat_roof",
+          "title": {
+            "uk": "Чорний кіт",
+            "en": "Black Cat",
+            "ru": "Чёрный кот"
+          },
+          "free": false,
+          "url": "pictures/felines_black_cat_roof-2f674651.webp",
+          "sha256": "2f674651d0ab3d539b2dd360dab0f33347ee5c7b77589f4816e6aa72cd912440",
+          "bytes": 202324,
+          "thumb": "thumbs/felines_black_cat_roof.webp",
+          "thumbUrl": "thumbs/felines_black_cat_roof-7dcc2531.webp"
+        },
+        {
+          "id": "felines_tiger_cub_taiga",
+          "title": {
+            "uk": "Тигреня",
+            "en": "Tiger Cub",
+            "ru": "Тигрёнок"
+          },
+          "free": false,
+          "url": "pictures/felines_tiger_cub_taiga-d7845139.webp",
+          "sha256": "d7845139b999bd3b5cbbadf52f0658a3011676b8e222d8933b1478a4877af047",
+          "bytes": 355898,
+          "thumb": "thumbs/felines_tiger_cub_taiga.webp",
+          "thumbUrl": "thumbs/felines_tiger_cub_taiga-5b4cc896.webp"
+        },
+        {
+          "id": "felines_clouded_leopard",
+          "title": {
+            "uk": "Димчастий леопард",
+            "en": "Clouded Leopard",
+            "ru": "Дымчатый леопард"
+          },
+          "free": false,
+          "url": "pictures/felines_clouded_leopard-c96bde90.webp",
+          "sha256": "c96bde907c973b47751a449c1d8f9d378335376daf013745e1e7df945abd5e80",
+          "bytes": 350390,
+          "thumb": "thumbs/felines_clouded_leopard.webp",
+          "thumbUrl": "thumbs/felines_clouded_leopard-21fc53f3.webp"
+        },
+        {
+          "id": "felines_leopard_river",
+          "title": {
+            "uk": "Леопард",
+            "en": "Leopard",
+            "ru": "Леопард"
+          },
+          "free": false,
+          "url": "pictures/felines_leopard_river-f33c6b95.webp",
+          "sha256": "f33c6b95afb1a68e1efea2c2d32b09b462fbc88e8871b80c72d0c53875221370",
+          "bytes": 516600,
+          "thumb": "thumbs/felines_leopard_river.webp",
+          "thumbUrl": "thumbs/felines_leopard_river-722b4973.webp"
+        },
+        {
+          "id": "felines_pallas_cat",
+          "title": {
+            "uk": "Манул",
+            "en": "Pallas Cat",
+            "ru": "Манул"
+          },
+          "free": false,
+          "url": "pictures/felines_pallas_cat-ccc1ccf1.webp",
+          "sha256": "ccc1ccf10e42e3f9b5a99f36d3f79474724fbff7dc5ea0906535dd8b9708b3c7",
+          "bytes": 379218,
+          "thumb": "thumbs/felines_pallas_cat.webp",
+          "thumbUrl": "thumbs/felines_pallas_cat-1a3efc73.webp"
+        },
+        {
+          "id": "felines_british_armchair",
+          "title": {
+            "uk": "Британська кішка",
+            "en": "British Cat",
+            "ru": "Британская кошка"
+          },
+          "free": false,
+          "url": "pictures/felines_british_armchair-ecc52bdb.webp",
+          "sha256": "ecc52bdb4f2523d4dba6c5d04e8c77851fd136a65381be4313be9cc3fddd898e",
+          "bytes": 266406,
+          "thumb": "thumbs/felines_british_armchair.webp",
+          "thumbUrl": "thumbs/felines_british_armchair-ca596a1a.webp"
+        },
+        {
+          "id": "felines_kitten_box",
+          "title": {
+            "uk": "Кошеня в коробці",
+            "en": "Kitten in Box",
+            "ru": "Котёнок в коробке"
+          },
+          "free": false,
+          "url": "pictures/felines_kitten_box-618aed69.webp",
+          "sha256": "618aed697c9d5c78c9cdd9d0feb3e9762f558cb1a5ed2e5875b089d24cbd7fed",
+          "bytes": 224704,
+          "thumb": "thumbs/felines_kitten_box.webp",
+          "thumbUrl": "thumbs/felines_kitten_box-4ba8b52c.webp"
+        },
+        {
+          "id": "felines_ragdoll_fireplace",
+          "title": {
+            "uk": "Регдол",
+            "en": "Ragdoll Cat",
+            "ru": "Рэгдолл"
+          },
+          "free": false,
+          "url": "pictures/felines_ragdoll_fireplace-847f2aad.webp",
+          "sha256": "847f2aad6da2ad5236409173cdfb07efbe47b827866f84d4cdc6fedeb348cdeb",
+          "bytes": 389710,
+          "thumb": "thumbs/felines_ragdoll_fireplace.webp",
+          "thumbUrl": "thumbs/felines_ragdoll_fireplace-3e135b86.webp"
+        },
+        {
+          "id": "felines_bobcat_bluebells",
+          "title": {
+            "uk": "Руда рись",
+            "en": "Bobcat",
+            "ru": "Рыжая рысь"
+          },
+          "free": false,
+          "url": "pictures/felines_bobcat_bluebells-71ac8340.webp",
+          "sha256": "71ac834002a181658a8ea78b9d24fe7166b7760403da6a47c0c9cbdb3b3b3850",
+          "bytes": 464078,
+          "thumb": "thumbs/felines_bobcat_bluebells.webp",
+          "thumbUrl": "thumbs/felines_bobcat_bluebells-6a69e633.webp"
+        },
+        {
+          "id": "felines_white_tiger_lotus",
+          "title": {
+            "uk": "Білий тигр",
+            "en": "White Tiger",
+            "ru": "Белый тигр"
+          },
+          "free": false,
+          "url": "pictures/felines_white_tiger_lotus-fa837692.webp",
+          "sha256": "fa837692283a109e2745089589deb660e5b53ba09cd375ac5a8b6343887ffac4",
+          "bytes": 375278,
+          "thumb": "thumbs/felines_white_tiger_lotus.webp",
+          "thumbUrl": "thumbs/felines_white_tiger_lotus-7a7ed669.webp"
+        },
+        {
+          "id": "felines_cat_seaside",
+          "title": {
+            "uk": "Кіт біля моря",
+            "en": "Cat by the Sea",
+            "ru": "Кот у моря"
+          },
+          "free": false,
+          "url": "pictures/felines_cat_seaside-e50948e2.webp",
+          "sha256": "e50948e289acf0fefd908f56e6b652094c47d6e279781ea609ca1750aa5d4d3a",
+          "bytes": 242706,
+          "thumb": "thumbs/felines_cat_seaside.webp",
+          "thumbUrl": "thumbs/felines_cat_seaside-6bdb7a6d.webp"
+        },
+        {
+          "id": "felines_kitten_leaves",
+          "title": {
+            "uk": "Кошеня в листі",
+            "en": "Kitten in Leaves",
+            "ru": "Котёнок в листьях"
+          },
+          "free": false,
+          "url": "pictures/felines_kitten_leaves-df9cd486.webp",
+          "sha256": "df9cd486b01d7ba5163ebad24adde1ba83bcd4ceb612fc2363ea1ebd5245c153",
+          "bytes": 420022,
+          "thumb": "thumbs/felines_kitten_leaves.webp",
+          "thumbUrl": "thumbs/felines_kitten_leaves-921c83ac.webp"
+        },
+        {
+          "id": "felines_bengal_cat_tree",
+          "title": {
+            "uk": "Бенгальська кішка",
+            "en": "Bengal Cat",
+            "ru": "Бенгальская кошка"
+          },
+          "free": false,
+          "url": "pictures/felines_bengal_cat_tree-55864b46.webp",
+          "sha256": "55864b465397dfdea672f733094af75c00ed61aad179817967256e1628647d5d",
+          "bytes": 376014,
+          "thumb": "thumbs/felines_bengal_cat_tree.webp",
+          "thumbUrl": "thumbs/felines_bengal_cat_tree-b71d0f52.webp"
+        }
+      ]
+    },
+    {
+      "id": "canines",
+      "title": {
+        "uk": "Собача родина",
+        "en": "Dog family",
+        "ru": "Собачья семейка"
+      },
+      "puzzles": [
+        {
+          "id": "canines_fox",
+          "title": {
+            "uk": "Лисиця",
+            "en": "Fox",
+            "ru": "Лиса"
+          },
+          "free": true,
+          "asset": "images/free/canines_fox.webp",
+          "url": "pictures/canines_fox-f788de8e.webp",
+          "sha256": "f788de8e725b7f815b5f56ab1a21436695510eea01c0648104ae783cf48cf025",
+          "bytes": 446736,
+          "thumb": "thumbs/canines_fox.webp",
+          "thumbUrl": "thumbs/canines_fox-7669ab74.webp"
+        },
+        {
+          "id": "canines_puppy_meadow",
+          "title": {
+            "uk": "Цуценя",
+            "en": "Puppy",
+            "ru": "Щенок"
+          },
+          "free": true,
+          "asset": "images/free/canines_puppy_meadow.webp",
+          "url": "pictures/canines_puppy_meadow-231a916c.webp",
+          "sha256": "231a916c5d4c5b7ad1a6f80cb4c7e345b8a2491cdd21c86f76211dc3e34b391b",
+          "bytes": 370428,
+          "thumb": "thumbs/canines_puppy_meadow.webp",
+          "thumbUrl": "thumbs/canines_puppy_meadow-d5811842.webp"
+        },
+        {
+          "id": "canines_wolf_valley",
+          "title": {
+            "uk": "Вовк",
+            "en": "Wolf",
+            "ru": "Волк"
+          },
+          "free": true,
+          "asset": "images/free/canines_wolf_valley.webp",
+          "url": "pictures/canines_wolf_valley-1b81fd72.webp",
+          "sha256": "1b81fd72d2c7b5117050098eda731d57588bdd4b4881bb61c779fdbf29b690eb",
+          "bytes": 228912,
+          "thumb": "thumbs/canines_wolf_valley.webp",
+          "thumbUrl": "thumbs/canines_wolf_valley-c628fb5b.webp"
+        },
+        {
+          "id": "canines_arctic_fox_ice",
+          "title": {
+            "uk": "Песець",
+            "en": "Arctic Fox",
+            "ru": "Песец"
+          },
+          "free": true,
+          "asset": "images/free/canines_arctic_fox_ice.webp",
+          "url": "pictures/canines_arctic_fox_ice-5f1cbbab.webp",
+          "sha256": "5f1cbbab506686df0411c10656a22e6fbe8a0fdeeb99eaa780acddd5d8140037",
+          "bytes": 199124,
+          "thumb": "thumbs/canines_arctic_fox_ice.webp",
+          "thumbUrl": "thumbs/canines_arctic_fox_ice-f5ba01fa.webp"
+        },
+        {
+          "id": "canines_dalmatian_garden",
+          "title": {
+            "uk": "Далматинець",
+            "en": "Dalmatian",
+            "ru": "Далматинец"
+          },
+          "free": true,
+          "asset": "images/free/canines_dalmatian_garden.webp",
+          "url": "pictures/canines_dalmatian_garden-0067ffc3.webp",
+          "sha256": "0067ffc379c8d28261cabd3107c8a79dd358d0d486d2061fd6fec13bc447e551",
+          "bytes": 340284,
+          "thumb": "thumbs/canines_dalmatian_garden.webp",
+          "thumbUrl": "thumbs/canines_dalmatian_garden-0e1433dd.webp"
+        },
+        {
+          "id": "canines_husky_sled",
+          "title": {
+            "uk": "Хаскі",
+            "en": "Husky",
+            "ru": "Хаски"
+          },
+          "free": false,
+          "url": "pictures/canines_husky_sled-d9225ad6.webp",
+          "sha256": "d9225ad63818a1f313f21c16f3714312b005fccfbdddd67cf57d768e0d0f7211",
+          "bytes": 292796,
+          "thumb": "thumbs/canines_husky_sled.webp",
+          "thumbUrl": "thumbs/canines_husky_sled-4142baa2.webp"
+        },
+        {
+          "id": "canines_corgi_park",
+          "title": {
+            "uk": "Коргі",
+            "en": "Corgi",
+            "ru": "Корги"
+          },
+          "free": false,
+          "url": "pictures/canines_corgi_park-35d1d341.webp",
+          "sha256": "35d1d34180b795e7cf28025536e09e9fb8e17b8d3e717c2734308cc371f1dcfd",
+          "bytes": 356170,
+          "thumb": "thumbs/canines_corgi_park.webp",
+          "thumbUrl": "thumbs/canines_corgi_park-7d3d14f2.webp"
+        },
+        {
+          "id": "canines_beagle_clover",
+          "title": {
+            "uk": "Бігль",
+            "en": "Beagle",
+            "ru": "Бигль"
+          },
+          "free": false,
+          "url": "pictures/canines_beagle_clover-65d3add0.webp",
+          "sha256": "65d3add0afb1ed7830b1143cedd1c392a26b7cf1c11b8de864d815dc2c95556a",
+          "bytes": 252782,
+          "thumb": "thumbs/canines_beagle_clover.webp",
+          "thumbUrl": "thumbs/canines_beagle_clover-d17823ac.webp"
+        },
+        {
+          "id": "canines_poodle_roses",
+          "title": {
+            "uk": "Пудель",
+            "en": "Poodle",
+            "ru": "Пудель"
+          },
+          "free": false,
+          "url": "pictures/canines_poodle_roses-5b5e822f.webp",
+          "sha256": "5b5e822f72b0c0d7e3113a96ba135655ae3abf9dbe99da536891562feb37df3d",
+          "bytes": 421448,
+          "thumb": "thumbs/canines_poodle_roses.webp",
+          "thumbUrl": "thumbs/canines_poodle_roses-e5e16cad.webp"
+        },
+        {
+          "id": "canines_dachshund_picnic",
+          "title": {
+            "uk": "Такса",
+            "en": "Dachshund",
+            "ru": "Такса"
+          },
+          "free": false,
+          "url": "pictures/canines_dachshund_picnic-2b9825f5.webp",
+          "sha256": "2b9825f5c786e3aba7df9734f3f21ffbf5d7ba5d797758a5db087dfcd39609c2",
+          "bytes": 333744,
+          "thumb": "thumbs/canines_dachshund_picnic.webp",
+          "thumbUrl": "thumbs/canines_dachshund_picnic-3f3669a2.webp"
+        },
+        {
+          "id": "canines_coyote_prairie",
+          "title": {
+            "uk": "Койот",
+            "en": "Coyote",
+            "ru": "Койот"
+          },
+          "free": false,
+          "url": "pictures/canines_coyote_prairie-ab49a427.webp",
+          "sha256": "ab49a427c61d28ec374ab73e7b03f6422693c0af39125e3e16bb0a134b65f6ca",
+          "bytes": 265376,
+          "thumb": "thumbs/canines_coyote_prairie.webp",
+          "thumbUrl": "thumbs/canines_coyote_prairie-7c440a08.webp"
+        },
+        {
+          "id": "canines_jackal_olives",
+          "title": {
+            "uk": "Шакал",
+            "en": "Jackal",
+            "ru": "Шакал"
+          },
+          "free": false,
+          "url": "pictures/canines_jackal_olives-266b9d39.webp",
+          "sha256": "266b9d39c02159c565ba9d33c15c094f9691eb87aa68992f68b81acbaac28d61",
+          "bytes": 528874,
+          "thumb": "thumbs/canines_jackal_olives.webp",
+          "thumbUrl": "thumbs/canines_jackal_olives-4e9e44a6.webp"
+        },
+        {
+          "id": "canines_dingo_eucalyptus",
+          "title": {
+            "uk": "Дінго",
+            "en": "Dingo",
+            "ru": "Динго"
+          },
+          "free": false,
+          "url": "pictures/canines_dingo_eucalyptus-1bcc809d.webp",
+          "sha256": "1bcc809d20013f9c627b61213dca962a11bdb0183b8df38c9d489504f007ffed",
+          "bytes": 405332,
+          "thumb": "thumbs/canines_dingo_eucalyptus.webp",
+          "thumbUrl": "thumbs/canines_dingo_eucalyptus-1f9b3cef.webp"
+        },
+        {
+          "id": "canines_wolf_pup_den",
+          "title": {
+            "uk": "Вовченя",
+            "en": "Wolf Pup",
+            "ru": "Волчонок"
+          },
+          "free": false,
+          "url": "pictures/canines_wolf_pup_den-01901c71.webp",
+          "sha256": "01901c71334e7bc00cbbb9b3ac698d0652e9794e386f7ff01ad4c9e1503f24ff",
+          "bytes": 578002,
+          "thumb": "thumbs/canines_wolf_pup_den.webp",
+          "thumbUrl": "thumbs/canines_wolf_pup_den-442ce69c.webp"
+        },
+        {
+          "id": "canines_fox_cub_dawn",
+          "title": {
+            "uk": "Лисеня",
+            "en": "Fox Cub",
+            "ru": "Лисёнок"
+          },
+          "free": false,
+          "url": "pictures/canines_fox_cub_dawn-f78c94b9.webp",
+          "sha256": "f78c94b96b339d0387977801c74226c89f29841c9d2f08a8832982b8932519eb",
+          "bytes": 323350,
+          "thumb": "thumbs/canines_fox_cub_dawn.webp",
+          "thumbUrl": "thumbs/canines_fox_cub_dawn-c3fe2128.webp"
+        },
+        {
+          "id": "canines_labrador_lake",
+          "title": {
+            "uk": "Лабрадор",
+            "en": "Labrador",
+            "ru": "Лабрадор"
+          },
+          "free": false,
+          "url": "pictures/canines_labrador_lake-becc48b7.webp",
+          "sha256": "becc48b7798de31a577fd8fae0f01908e8f5c664747e9dbbb8562ee623948ebc",
+          "bytes": 244950,
+          "thumb": "thumbs/canines_labrador_lake.webp",
+          "thumbUrl": "thumbs/canines_labrador_lake-39d4c5a5.webp"
+        },
+        {
+          "id": "canines_shiba_blossoms",
+          "title": {
+            "uk": "Шиба-іну",
+            "en": "Shiba Inu",
+            "ru": "Сиба-ину"
+          },
+          "free": false,
+          "url": "pictures/canines_shiba_blossoms-6a2e28a4.webp",
+          "sha256": "6a2e28a436a55320c4897d2b3451b8acaeb8cdd400371cee1fd3a821714d1fad",
+          "bytes": 409196,
+          "thumb": "thumbs/canines_shiba_blossoms.webp",
+          "thumbUrl": "thumbs/canines_shiba_blossoms-c814188d.webp"
+        },
+        {
+          "id": "canines_border_collie_hills",
+          "title": {
+            "uk": "Бордер-колі",
+            "en": "Border Collie",
+            "ru": "Бордер-колли"
+          },
+          "free": false,
+          "url": "pictures/canines_border_collie_hills-56c1eded.webp",
+          "sha256": "56c1eded5c3ab5ec6ae5d82120b347b1d20f89683c7ee6a8556e686127ac9696",
+          "bytes": 248608,
+          "thumb": "thumbs/canines_border_collie_hills.webp",
+          "thumbUrl": "thumbs/canines_border_collie_hills-a22b6abe.webp"
+        },
+        {
+          "id": "canines_saint_bernard_alps",
+          "title": {
+            "uk": "Сенбернар",
+            "en": "Saint Bernard",
+            "ru": "Сенбернар"
+          },
+          "free": false,
+          "url": "pictures/canines_saint_bernard_alps-cc74591b.webp",
+          "sha256": "cc74591b76ba4a79cc87e45397f97a92d875103aabf866c7327da2cb8d24bd22",
+          "bytes": 216310,
+          "thumb": "thumbs/canines_saint_bernard_alps.webp",
+          "thumbUrl": "thumbs/canines_saint_bernard_alps-5d648369.webp"
+        },
+        {
+          "id": "canines_pug_balloons",
+          "title": {
+            "uk": "Мопс",
+            "en": "Pug",
+            "ru": "Мопс"
+          },
+          "free": false,
+          "url": "pictures/canines_pug_balloons-476a60c1.webp",
+          "sha256": "476a60c19798bad0aa0e454062dfee5f22109928a0821471582b69e30388e79d",
+          "bytes": 301568,
+          "thumb": "thumbs/canines_pug_balloons.webp",
+          "thumbUrl": "thumbs/canines_pug_balloons-7897f983.webp"
+        },
+        {
+          "id": "canines_spaniel_lavender",
+          "title": {
+            "uk": "Спанієль",
+            "en": "Spaniel",
+            "ru": "Спаниель"
+          },
+          "free": false,
+          "url": "pictures/canines_spaniel_lavender-10bfa024.webp",
+          "sha256": "10bfa0241beb928d94edea0ba7e57c998646eb8efcd0a61d77f216da322bb902",
+          "bytes": 419262,
+          "thumb": "thumbs/canines_spaniel_lavender.webp",
+          "thumbUrl": "thumbs/canines_spaniel_lavender-32eef1dc.webp"
+        },
+        {
+          "id": "canines_fox_winter",
+          "title": {
+            "uk": "Лисиця взимку",
+            "en": "Fox in Winter",
+            "ru": "Лиса зимой"
+          },
+          "free": false,
+          "url": "pictures/canines_fox_winter-8fcc642f.webp",
+          "sha256": "8fcc642f38e48a10b27785918a28c9ceecf62f9073c14e515072d95dfb83e168",
+          "bytes": 355304,
+          "thumb": "thumbs/canines_fox_winter.webp",
+          "thumbUrl": "thumbs/canines_fox_winter-e830142b.webp"
+        },
+        {
+          "id": "canines_samoyed_cosmos",
+          "title": {
+            "uk": "Самоїд",
+            "en": "Samoyed",
+            "ru": "Самоед"
+          },
+          "free": false,
+          "url": "pictures/canines_samoyed_cosmos-d6175a98.webp",
+          "sha256": "d6175a98184ed8e9a872f4e02aa86d8c007ca09019e6b935165d173207bed24d",
+          "bytes": 289320,
+          "thumb": "thumbs/canines_samoyed_cosmos.webp",
+          "thumbUrl": "thumbs/canines_samoyed_cosmos-ad69c198.webp"
+        },
+        {
+          "id": "canines_jack_russell_beach",
+          "title": {
+            "uk": "Джек-рассел",
+            "en": "Jack Russell",
+            "ru": "Джек-рассел"
+          },
+          "free": false,
+          "url": "pictures/canines_jack_russell_beach-81041ff3.webp",
+          "sha256": "81041ff319517de6f071a5f01066d014a01bf967887799228a333be7ec56ba78",
+          "bytes": 227778,
+          "thumb": "thumbs/canines_jack_russell_beach.webp",
+          "thumbUrl": "thumbs/canines_jack_russell_beach-d5926514.webp"
+        },
+        {
+          "id": "canines_shepherd_trail",
+          "title": {
+            "uk": "Вівчарка",
+            "en": "Shepherd Dog",
+            "ru": "Овчарка"
+          },
+          "free": false,
+          "url": "pictures/canines_shepherd_trail-7f68871a.webp",
+          "sha256": "7f68871acdfa1e7dcb1938de8376d36bffea51890fe03c0dd9e896d28b0c99bc",
+          "bytes": 315486,
+          "thumb": "thumbs/canines_shepherd_trail.webp",
+          "thumbUrl": "thumbs/canines_shepherd_trail-7337f872.webp"
+        },
+        {
+          "id": "canines_spitz_puddle",
+          "title": {
+            "uk": "Шпіц",
+            "en": "Spitz",
+            "ru": "Шпиц"
+          },
+          "free": false,
+          "url": "pictures/canines_spitz_puddle-e9e64700.webp",
+          "sha256": "e9e64700a857533077fa6639fb0ab7af7c697a6d1142f7307939fd00c47a6f1f",
+          "bytes": 372948,
+          "thumb": "thumbs/canines_spitz_puddle.webp",
+          "thumbUrl": "thumbs/canines_spitz_puddle-10f4c795.webp"
+        },
+        {
+          "id": "canines_sheepdog_orchard",
+          "title": {
+            "uk": "Кудлатий пес",
+            "en": "Shaggy Dog",
+            "ru": "Лохматый пёс"
+          },
+          "free": false,
+          "url": "pictures/canines_sheepdog_orchard-895f0501.webp",
+          "sha256": "895f0501c88f2a617199d4969a6ef6237b9c44328d8bbc2dd5d454322eef5e16",
+          "bytes": 459824,
+          "thumb": "thumbs/canines_sheepdog_orchard.webp",
+          "thumbUrl": "thumbs/canines_sheepdog_orchard-ffd525fe.webp"
+        }
+      ]
+    }
+  ]
+}

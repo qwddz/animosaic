@@ -1,0 +1,8 @@
+Create a new illustration in the same art style as the reference image:
+bold dark outlines, smooth cartoon shading, bright saturated colors,
+big expressive cartoon eyes, children's book style.
+Take only the art style from the reference, not its animal, setting or composition.
+Subject: a cute friendly {animal} in {habitat}, {scene}, full body,
+large in frame. Rich detailed background spread across the whole image,
+no large empty areas. No sharp teeth, no text, no frame, no watermark.
+Aspect ratio 4:3.

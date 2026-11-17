@@ -1,0 +1,252 @@
+"""Synthesizes the game's sounds into assets/audio/.
+
+Everything is additive synthesis with soft envelopes, so the output is the
+same on every run (the only randomness is a seeded velocity jitter).
+
+    uv run synth.py
+"""
+
+from __future__ import annotations
+
+from pathlib import Path
+
+import numpy as np
+import soundfile as sf
+
+RATE = 44100
+SEED = 6
+OUT = Path(__file__).resolve().parents[2] / "assets" / "audio"
+
+# Sound effects peak at -3 dBFS; the music sits well below them.
+SFX_PEAK_DB = -3.0
+MUSIC_RMS_DB = -20.0
+MUSIC_PEAK_DB = -4.0
+
+
+def db(x: float) -> float:
+    return 20 * np.log10(max(x, 1e-12))
+
+
+def midi_hz(note: float) -> float:
+    return 440.0 * 2 ** ((note - 69) / 12)
+
+
+def envelope(n: int, attack: float, decay: float, release: float = 0.03) -> np.ndarray:
+    """Raised-cosine attack, exponential decay, raised-cosine fade at the end."""
+    t = np.arange(n) / RATE
+    env = np.exp(-t / decay)
+    a = max(1, int(attack * RATE))
+    env[:a] *= 0.5 - 0.5 * np.cos(np.linspace(0, np.pi, a))
+    r = min(n, max(1, int(release * RATE)))
+    env[n - r :] *= 0.5 + 0.5 * np.cos(np.linspace(0, np.pi, r))
+    return env
+
+
+def partials(
+    freq: float,
+    length: float,
+    ratios: list[float],
+    amps: list[float],
+    decay: float,
+    attack: float,
+    glide: float = 0.0,
+) -> np.ndarray:
+    """Sum of sines; higher partials decay faster, which keeps the tone soft.
+
+    `glide` bends the pitch down by that share over the first 60 ms
+    (a woody "tuk").
+    """
+    n = int(length * RATE)
+    t = np.arange(n) / RATE
+    bend = 1 - glide * (1 - np.exp(-t / 0.06))
+    out = np.zeros(n)
+    for k, (ratio, amp) in enumerate(zip(ratios, amps)):
+        f = freq * ratio
+        if f > 7000:  # nothing shrill for small ears
+            continue
+        phase = 2 * np.pi * np.cumsum(f * bend) / RATE
+        out += amp * np.sin(phase) * envelope(n, attack, decay / (1 + 1.6 * k))
+    return out
+
+
+def bell(note: float, length: float = 2.0, decay: float = 0.55) -> np.ndarray:
+    """Soft marimba/celesta-like voice."""
+    return partials(
+        midi_hz(note), length, [1, 2, 3, 4.01], [1, 0.32, 0.1, 0.04], decay, 0.006
+    )
+
+
+def pad(note: float, length: float) -> np.ndarray:
+    """Quiet chord tone: slow attack, mostly fundamental."""
+    return partials(midi_hz(note), length, [1, 2], [1, 0.15], 1.4, 0.06)
+
+
+def bass(note: float, length: float = 1.6) -> np.ndarray:
+    """Warm round bass."""
+    return partials(midi_hz(note), length, [1, 2, 3], [1, 0.22, 0.06], 0.7, 0.02)
+
+
+def mix(buf: np.ndarray, sound: np.ndarray, at: float, gain: float) -> None:
+    start = int(round(at * RATE))
+    end = min(len(buf), start + len(sound))
+    buf[start:end] += gain * sound[: end - start]
+
+
+def finish(x: np.ndarray, peak_db: float) -> np.ndarray:
+    x = x - x.mean()
+    return x * (10 ** (peak_db / 20) / np.abs(x).max())
+
+
+# --- Sound effects ----------------------------------------------------------
+
+
+def pick() -> np.ndarray:
+    """Soft wooden "tuk" when a piece is lifted."""
+    buf = np.zeros(int(0.22 * RATE))
+    mix(buf, partials(midi_hz(67), 0.22, [1, 2.0, 3.0], [1, 0.25, 0.06], 0.07, 0.003, glide=0.12), 0, 1.0)
+    mix(buf, partials(midi_hz(55), 0.22, [1], [1], 0.05, 0.003, glide=0.1), 0, 0.5)
+    return finish(buf, SFX_PEAK_DB)
+
+
+def place() -> np.ndarray:
+    """Little two-note "ding" when a piece snaps into place."""
+    buf = np.zeros(int(0.75 * RATE))
+    mix(buf, bell(79, 0.75, 0.25), 0.0, 0.7)  # G5
+    mix(buf, bell(84, 0.68, 0.32), 0.07, 1.0)  # C6
+    return finish(buf, SFX_PEAK_DB)
+
+
+def win() -> np.ndarray:
+    """Happy arpeggio up to a ringing C major chord, about 2.6 s."""
+    length = 2.7
+    buf = np.zeros(int(length * RATE))
+    step = 0.13
+    for i, note in enumerate([72, 76, 79, 84, 88]):  # C5 E5 G5 C6 E6
+        mix(buf, bell(note, 1.2, 0.35), i * step, 0.8)
+    chord_at = 5 * step + 0.08
+    for note in [72, 76, 79, 84]:
+        mix(buf, bell(note, length - chord_at, 0.9), chord_at, 0.55)
+    mix(buf, bass(48, length - chord_at), chord_at, 0.9)
+    mix(buf, bass(36, length - chord_at), chord_at, 0.5)
+    return finish(buf, SFX_PEAK_DB)
+
+
+# --- Music --------------------------------------------------------------------
+
+BPM = 100
+BEAT = 60 / BPM
+CHORDS = {  # root for the bass, chord tones in octave 4
+    "C": (48, [60, 64, 67]),
+    "G": (43, [59, 62, 67]),
+    "Am": (45, [60, 64, 69]),
+    "F": (41, [60, 65, 69]),
+}
+PROGRESSION = "C G Am F C G F C Am F C G F G C G".split()
+# (beat, length in beats, midi note) per bar.
+MELODY = [
+    [(0, 1, 76), (1, 1, 79), (2, 1, 76), (3, 1, 72)],
+    [(0, 1, 74), (1, 1, 79), (2, 2, 71)],
+    [(0, 1, 72), (1, 1, 76), (2, 1, 81), (3, 1, 79)],
+    [(0, 2, 77), (2, 1, 76), (3, 1, 74)],
+    [(0, 1, 76), (1, 1, 79), (2, 1, 84), (3, 1, 79)],
+    [(0, 1, 74), (1, 1, 71), (2, 1, 74), (3, 1, 79)],
+    [(0, 1, 81), (1, 1, 79), (2, 1, 77), (3, 1, 76)],
+    [(0, 3, 72)],
+    [(0, 1, 69), (1, 1, 72), (2, 2, 76)],
+    [(0, 1, 77), (1, 1, 76), (2, 1, 74), (3, 1, 72)],
+    [(0, 1, 76), (1, 2, 79), (3, 1, 76)],
+    [(0, 2, 74), (2, 1, 71), (3, 1, 67)],
+    [(0, 1, 69), (1, 1, 72), (2, 1, 77), (3, 1, 81)],
+    [(0, 1, 79), (1, 1, 77), (2, 1, 74), (3, 1, 71)],
+    [(0, 2, 72), (2, 1, 76), (3, 1, 79)],
+    [(0, 2, 74), (2, 1, 71)],
+]
+
+
+def music() -> np.ndarray:
+    """16 bars over I-V-vi-IV, rendered with tails that wrap to the start.
+
+    The last bar is V, which resolves into the I of the first bar. Notes
+    ringing past the loop end are added onto the beginning, so the end
+    flows into the start exactly as it would if the piece were played
+    twice in a row.
+    """
+    rng = np.random.default_rng(SEED)
+    bar = 4 * BEAT
+    loop = int(round(len(PROGRESSION) * bar * RATE))
+    tail = int(3 * RATE)
+    buf = np.zeros(loop + tail)
+    for i, (name, notes) in enumerate(zip(PROGRESSION, MELODY)):
+        root, chord = CHORDS[name]
+        t0 = i * bar
+        mix(buf, bass(root), t0, 0.55)
+        mix(buf, bass(root + 7, 1.2), t0 + 2 * BEAT, 0.35)
+        for half in (0, 2):
+            for k, note in enumerate(chord):
+                mix(buf, pad(note, 2.4), t0 + half * BEAT + k * 0.02, 0.12)
+        # Soft off-beat marimba ticks on the chord, very quiet.
+        for beat in (1.5, 3.5):
+            mix(buf, bell(chord[(i + int(beat)) % 3] + 12, 0.6, 0.12), t0 + beat * BEAT, 0.08)
+        for beat, length, note in notes:
+            velocity = 0.42 * (1 + rng.uniform(-0.08, 0.08))
+            decay = 0.35 + 0.25 * length
+            mix(buf, bell(note, 2.2, decay), t0 + beat * BEAT, velocity)
+    out = buf[:loop].copy()
+    out[:tail] += buf[loop:]
+    out -= out.mean()
+    out *= 10 ** (MUSIC_RMS_DB / 20) / np.sqrt(np.mean(out**2))
+    peak = np.abs(out).max()
+    limit = 10 ** (MUSIC_PEAK_DB / 20)
+    if peak > limit:
+        out *= limit / peak
+    return out
+
+
+# --- Output and analysis -----------------------------------------------------
+
+
+def write(name: str, data: np.ndarray) -> Path:
+    OUT.mkdir(parents=True, exist_ok=True)
+    path = OUT / f"{name}.ogg"
+    try:
+        sf.write(path, data, RATE, format="OGG", subtype="VORBIS")
+    except Exception as error:  # libsndfile without Vorbis
+        raise SystemExit(
+            f"Cannot write {path.name}: libsndfile has no Ogg Vorbis support "
+            f"({error}). Install a libsndfile build with Vorbis."
+        ) from error
+    return path
+
+
+def report(name: str, path: Path, source: np.ndarray, loops: bool) -> None:
+    decoded, rate = sf.read(path)
+    peak = np.abs(decoded).max()
+    rms = np.sqrt(np.mean(decoded**2))
+    line = (
+        f"{path.name:10} {path.stat().st_size / 1024:6.1f} KiB "
+        f"{len(decoded) / rate:6.2f} s  peak {db(peak):6.2f} dBFS  "
+        f"RMS {db(rms):6.2f} dBFS  DC {decoded.mean():+.1e}"
+    )
+    if loops:
+        # Jump across the seam compared with ordinary sample-to-sample steps.
+        steps = np.abs(np.diff(source))
+        seam = abs(source[0] - source[-1])
+        decoded_seam = abs(decoded[0] - decoded[-1])
+        line += (
+            f"\n{'':10} loop seam {seam:.5f} (source), {decoded_seam:.5f} (decoded); "
+            f"median step {np.median(steps):.5f}, 99th pct {np.percentile(steps, 99):.5f}"
+        )
+    else:
+        line += f"  start {abs(decoded[0]):.4f} end {abs(decoded[-1]):.4f}"
+    print(line)
+
+
+def main() -> None:
+    sounds = {"pick": pick(), "place": place(), "win": win(), "music": music()}
+    for name, data in sounds.items():
+        assert np.abs(data).max() < 1.0, f"{name} clips"
+        report(name, write(name, data), data, loops=name == "music")
+
+
+if __name__ == "__main__":
+    main()

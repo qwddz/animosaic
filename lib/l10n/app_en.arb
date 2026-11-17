@@ -1,0 +1,144 @@
+{
+  "@@locale": "en",
+  "appTitle": "Animosaic",
+  "@appTitle": {
+    "description": "App name shown in the task switcher and on the home screen"
+  },
+  "chooseDifficulty": "Choose difficulty",
+  "difficultyEasy": "Easy",
+  "difficultyMedium": "Medium",
+  "difficultyHard": "Hard",
+  "difficultyExpert": "Expert",
+  "pieceCount": "{count, plural, one{{count} piece} other{{count} pieces}}",
+  "@pieceCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "puzzleCompleted": "Well done!",
+  "playAgain": "Play again",
+  "nextPuzzle": "Next",
+  "back": "Back",
+  "loadError": "Couldn't load the picture",
+  "retry": "Try again",
+  "difficultyOption": "{level} · {pieces}",
+  "@difficultyOption": {
+    "placeholders": {
+      "level": {
+        "type": "String"
+      },
+      "pieces": {
+        "type": "String"
+      }
+    }
+  },
+  "catalogLoadError": "Couldn't load the pictures",
+  "settings": "Settings",
+  "soundEffects": "Sounds",
+  "music": "Music",
+  "pictureHint": "Picture hint on the board",
+  "handHintSetting": "Hand hints",
+  "language": "Language",
+  "languageSystem": "Same as device",
+  "languageUkrainian": "Українська",
+  "languageEnglish": "English",
+  "languageRussian": "Русский",
+  "collectedCount": "{done} of {total}",
+  "@collectedCount": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "bestDifficulty": "Completed: {level}",
+  "@bestDifficulty": {
+    "placeholders": {
+      "level": {
+        "type": "String"
+      }
+    }
+  },
+  "categoryMissing": "This category is not available",
+  "downloadingPicture": "Downloading the picture… {percent}%",
+  "@downloadingPicture": {
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "pictureOffline": "No internet connection. Connect to the internet to download this picture.",
+  "pictureCorrupt": "The picture didn't download correctly. Try again.",
+  "pictureUnavailable": "This picture can't be downloaded right now. Try again later.",
+  "lockedPicture": "In the full version",
+  "parentalGateTitle": "For grown-ups",
+  "parentalGateQuestion": "How much is {a} × {b}? Type the answer in digits.",
+  "@parentalGateQuestion": {
+    "placeholders": {
+      "a": {
+        "type": "int"
+      },
+      "b": {
+        "type": "int"
+      }
+    }
+  },
+  "parentalGateAnswer": "Answer",
+  "parentalGateCooldown": "Please wait a few seconds and try again.",
+  "cancel": "Cancel",
+  "ok": "OK",
+  "fullVersionTitle": "Full version",
+  "fullVersionIncludes": "{count, plural, one{All {count} picture in every category, and new ones as they arrive} other{All {count} pictures in every category, and new ones as they arrive}}",
+  "@fullVersionIncludes": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "oneTimePurchase": "One-time purchase, no subscription",
+  "buyFor": "Buy for {price}",
+  "@buyFor": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "restorePurchases": "Restore purchases",
+  "testStore": "Test store: nothing is charged",
+  "priceLoadError": "Couldn't reach the store",
+  "purchaseCancelled": "Purchase cancelled",
+  "purchaseFailed": "The purchase didn't go through. Try again.",
+  "purchasePending": "Payment is pending. The full version opens as soon as it completes.",
+  "nothingToRestore": "No purchases to restore",
+  "purchasesRestored": "Full version restored",
+  "restoreFailed": "Couldn't restore purchases. Try again.",
+  "fullVersionUnlocked": "Full version unlocked",
+  "privacyPolicy": "Privacy policy",
+  "termsOfUse": "Terms of use",
+  "pictureLocked": "This picture is in the full version",
+  "about": "About",
+  "appVersion": "Version {version}",
+  "@appVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "contactUs": "Contact us",
+  "credits": "Credits",
+  "creditsPictures": "Pictures were created with AI image generation.",
+  "creditsSounds": "Sounds and music were synthesized.",
+  "haveAccessCode": "I have an access code",
+  "accessCodeTitle": "Access code",
+  "accessCodeField": "Code",
+  "accessCodeInvalid": "This code doesn't work"
+}

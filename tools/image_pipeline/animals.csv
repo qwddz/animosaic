@@ -1,0 +1,298 @@
+id,category,title_uk,title_en,title_ru,animal,habitat,scene,free,order
+sea_turtle,sea,Морська черепаха,Sea turtle,Морская черепаха,sea turtle,a sunny coral reef,swimming past corals with small fish around,true,1
+farm_pig,farm,Порося,Piglet,Поросёнок,piglet,a farmyard with a red barn and a wooden fence,standing in the grass near a small mud puddle with chickens nearby,true,1
+savanna_giraffe,savanna,Жирафа,Giraffe,Жираф,giraffe,the African savanna with acacia trees,reaching for acacia leaves with birds and bushes around,true,1
+canines_fox,canines,Лисиця,Fox,Лиса,red fox,an autumn forest clearing,sitting among fallen leaves with mushrooms and berries around,true,1
+felines_cat,felines,Кіт,Cat,Кошка,ginger kitten,a cozy garden with flowers,playing with a ball of yarn among flower pots and butterflies,true,1
+snake_jungle,snakes,Змійка,Snake,Змейка,green tree snake,a lush jungle,coiled on a branch among big leaves and tropical flowers,true,1
+spiders_garden,spiders,Садовий павук,Garden spider,Садовый паук,round friendly garden spider with exactly eight legs,a flower garden,sitting on a dewy web between flowers with ladybugs and bees around,true,1
+desert_camel,desert,Верблюд,Camel,Верблюд,two-humped camel,a sandy desert with dunes and an oasis,walking near an oasis with palm trees cacti and lizards around,true,1
+sea_dolphin_waves,sea,Дельфін на хвилях,Dolphin on waves,Дельфин на волнах,playful gray dolphin,the open blue sea on a sunny day,leaping over sparkling waves with seagulls and fluffy clouds and a small rocky island,true,2
+sea_octopus_reef,sea,Восьминіг,Octopus,Осьминог,round orange octopus,a colorful coral reef,waving its arms among sea anemones and seashells and tiny striped fish,true,3
+sea_clownfish_anemone,sea,Риба-клоун,Clownfish,Рыба-клоун,orange and white clownfish,a warm tropical reef,peeking out of a pink sea anemone with bubbles and starfish and branching corals,true,4
+sea_whale_spout,sea,Кит,Whale,Кит,big blue whale,the wide blue ocean,spouting a fountain of water with seagulls and gentle waves and a bright sun,true,5
+sea_seal_ice,sea,Тюлень,Seal,Тюлень,fluffy white baby seal,an icy arctic shore,lying on an ice floe with falling snowflakes and icebergs and a pale pink sky,false,6
+sea_seahorse_seagrass,sea,Морський коник,Seahorse,Морской конёк,yellow seahorse,a green seagrass meadow,holding onto a seagrass blade with its tail with tiny shrimp and bubbles and pebbles,false,7
+sea_crab_beach,sea,Краб,Crab,Краб,red crab,a sandy beach,walking sideways past seashells and pebbles and a small tide pool,false,8
+sea_starfish_tidepool,sea,Морська зірка,Starfish,Морская звезда,orange starfish,a rocky tide pool,resting on a smooth stone with sea snails and seaweed and tiny crabs,false,9
+sea_jellyfish_glow,sea,Медуза,Jellyfish,Медуза,glowing pink jellyfish,the deep night sea,drifting gently with glowing plankton and bubbles and small lantern fish,false,10
+sea_penguin_slide,sea,Пінгвін,Penguin,Пингвин,emperor penguin,an Antarctic iceberg,sliding on its belly down the snow with snowflakes and ice blocks and a pale sun,false,11
+sea_walrus_rocks,sea,Морж,Walrus,Морж,chubby walrus with small blunt tusks,a cold rocky shore,relaxing on a big rock with splashing waves and seagulls and floating ice,false,12
+sea_manatee_lagoon,sea,Ламантин,Manatee,Ламантин,gentle gray manatee,a clear green lagoon,floating slowly with seagrass and small fish and sunbeams through the water,false,13
+sea_otter_kelp,sea,Морська видра,Sea otter,Морская выдра,fluffy sea otter,a calm kelp forest bay,floating on its back holding a seashell with kelp and ripples and seagulls,false,14
+sea_manta_ray,sea,Скат-манта,Manta ray,Скат-манта,big manta ray,a sunlit tropical ocean,gliding over the sandy bottom with small fish and corals and bubbles,false,15
+sea_pufferfish_coral,sea,Риба-їжак,Pufferfish,Рыба-ёж,round spotted pufferfish,a bright coral reef,puffed up like a ball with sea fans and tiny fish and bubbles,false,16
+sea_lobster_rocks,sea,Омар,Lobster,Омар,red lobster,the rocky sea floor,crawling between stones with seaweed and seashells and a little starfish,false,17
+sea_narwhal_arctic,sea,Нарвал,Narwhal,Нарвал,narwhal with a long spiral tusk,an icy arctic sea at night,swimming under floating ice with bubbles and small fish and northern lights above,false,18
+sea_turtle_baby_beach,sea,Черепашеня,Baby turtle,Черепашонок,tiny baby sea turtle,a moonlit sandy beach,crawling toward the waves with seashells and beach grass and a big round moon,false,19
+sea_sea_lion_rock,sea,Морський лев,Sea lion,Морской лев,sleek brown sea lion,a sunny rocky beach,sunbathing on a warm rock with crabs and seaweed and foamy waves,false,20
+sea_beluga_bubbles,sea,Білуха,Beluga whale,Белуха,smiling white beluga whale,a cold blue bay,blowing bubble rings with small fish and ice floes floating above,false,21
+sea_orca_sunset,sea,Косатка,Orca,Косатка,black and white orca,a calm sea at sunset,jumping above the water with seagulls and waves and pink clouds,false,22
+sea_hermit_crab,sea,Рак-самітник,Hermit crab,Рак-отшельник,hermit crab in a spiral shell,a shallow sandy lagoon,peeking out of its shell with pebbles and seaweed and small fish,false,23
+sea_puffin_cliff,sea,Тупик,Puffin,Тупик,Atlantic puffin with a bright orange beak,a grassy seaside cliff,standing on mossy rocks with sea pinks and waves below and flying seagulls,false,24
+sea_angelfish_reef,sea,Риба-ангел,Angelfish,Рыба-ангел,striped yellow and blue angelfish,a colorful coral reef,swimming among coral branches with bubbles and sea anemones and a starfish,false,25
+sea_dolphin_baby,sea,Дельфіненя,Baby dolphin,Дельфинёнок,little baby dolphin,a sunny shallow lagoon,playing with bubbles among seagrass and seashells and small fish,false,26
+sea_humpback_moon,sea,Горбатий кит,Humpback whale,Горбатый кит,humpback whale,the night ocean under a full moon,breaching above calm water with stars and glowing plankton and gentle waves,false,27
+snakes_python_tree,snakes,Пітон,Python,Питон,friendly yellow python with no legs,a tropical rainforest,wrapped around a mossy tree trunk with orchids and butterflies and a colorful parrot,true,2
+snakes_grass_snake_pond,snakes,Вуж,Grass snake,Уж,grass snake with yellow head patches with no legs,a sunny pond,gliding along the bank with water lilies and dragonflies and reeds,true,3
+snakes_desert_dunes,snakes,Пустельна змійка,Desert snake,Пустынная змейка,sandy orange desert snake with no legs,a sunny desert,sliding over sand dunes with cacti and desert flowers and a smiling sun,true,4
+snakes_corn_snake_flowers,snakes,Маїсовий полоз,Corn snake,Маисовый полоз,orange corn snake with no legs,a flower meadow,curled among daisies and poppies with butterflies and bees,true,5
+snakes_rainbow_boa,snakes,Райдужний удав,Rainbow boa,Радужный удав,shimmering rainbow boa with no legs,a misty rainforest,resting on a mossy log with ferns and mushrooms and blue butterflies,false,6
+snakes_garter_garden,snakes,Смугаста змійка,Garter snake,Полосатая змейка,single striped garter snake with one continuous body and no legs,a vegetable garden,resting in one smooth curve between pumpkins and carrots with ladybugs and a watering can,false,7
+snakes_ball_python_autumn,snakes,Королівський пітон,Ball python,Королевский питон,ball python with no legs,an autumn forest,curled up in a ball on orange leaves with acorns and mushrooms and falling leaves,false,8
+snakes_milk_snake_rocks,snakes,Молочна змійка,Milk snake,Молочная змейка,red black and white striped milk snake with no legs,sunny mountain rocks,basking on a warm stone with edelweiss flowers and butterflies and distant peaks,false,9
+snakes_sea_snake_lagoon,snakes,Морська змійка,Sea snake,Морская змейка,blue and white banded sea snake with no legs,a turquoise lagoon,swimming above corals with bubbles and starfish and small fish,false,10
+snakes_vine_snake_bamboo,snakes,Змійка в бамбуку,Snake in bamboo,Змейка в бамбуке,slender green vine snake with no legs,a bamboo grove,stretched between bamboo stalks with bamboo leaves and butterflies and a little panda in the distance,false,11
+snakes_kingsnake_night,snakes,Королівська змія,Kingsnake,Королевская змея,black and yellow kingsnake with no legs,a quiet meadow at night,curled on soft grass under the moon with fireflies and stars and clover,false,12
+snakes_anaconda_river,snakes,Анаконда,Anaconda,Анаконда,big green anaconda with no legs,a calm jungle river,floating among water lilies with dragonflies and tropical flowers and a toucan on a branch,false,13
+snakes_spring_orchard,snakes,Змійка навесні,Spring snake,Змейка весной,little brown snake with no legs,a blooming spring orchard,sliding past blossoming cherry trees with tulips and bees and petals in the air,false,14
+snakes_smooth_snake_forest,snakes,Мідянка,Smooth snake,Медянка,small copper brown smooth snake with no legs,a mossy pine forest,curled among red mushrooms with pine cones and ferns and a snail,false,15
+snakes_tree_python_rain,snakes,Зелений пітон,Green tree python,Зелёный питон,bright green tree python with no legs,a rainforest in gentle rain,sheltering under a huge leaf like an umbrella with raindrops and puddles and a rainbow,false,16
+snakes_rosy_boa_desert,snakes,Рожевий удав,Rosy boa,Розовый удав,pink and cream rosy boa with no legs,a desert at night,resting on warm sand with cacti and twinkling stars and a big moon,false,17
+snakes_carpet_python_outback,snakes,Килимовий пітон,Carpet python,Ковровый питон,carpet python with no legs,the Australian outback,coiled on red rocks with eucalyptus trees and wildflowers and a kangaroo in the distance,false,18
+snakes_emerald_boa,snakes,Смарагдовий удав,Emerald tree boa,Изумрудный удав,emerald tree boa with no legs,a misty cloud forest,resting on a mossy branch over a waterfall with orchids and hummingbirds,false,19
+snakes_sunflower_field,snakes,Змійка в соняшниках,Snake in sunflowers,Змейка в подсолнухах,small yellow snake with no legs,a sunflower field,peeking between tall sunflowers with bees and butterflies and a blue sky,false,20
+snakes_water_snake_lake,snakes,Водяний вуж,Water snake,Водяной уж,brown water snake with no legs,a quiet lake,swimming across the water with reeds and water lilies and ducks,false,21
+snakes_baby_egg,snakes,Змієня,Baby snake,Змеёныш,tiny baby snake with no legs,a cozy nest of leaves,hatching from a white egg with other eggs and moss and little flowers around,false,22
+snakes_savanna_acacia,snakes,Змійка в савані,Savanna snake,Змейка в саванне,sandy striped snake with no legs,the African savanna,resting by an acacia tree with tall grass and a golden sunset and a giraffe far away,false,23
+snakes_forest_stream,snakes,Змійка біля струмка,Snake by the stream,Змейка у ручья,orange and black banded snake with no legs,a rocky forest stream,sunbathing on a flat stone with ferns and small waterfalls and butterflies,false,24
+snakes_blue_rainbow,snakes,Блакитна змійка,Blue snake,Голубая змейка,sky blue snake with no legs,a meadow after rain,curled under a rainbow with puddles and clover and snails,false,25
+snakes_sleepy_burrow,snakes,Сонна змійка,Sleepy snake,Сонная змейка,brown snake with no legs,a cozy burrow under a snowy forest,sleeping curled up among roots and dry leaves with snowflakes falling above,false,26
+snakes_lotus_pond,snakes,Змійка на лотосі,Snake on a lotus,Змейка на лотосе,small golden snake with no legs,a lotus pond,resting on a big lotus leaf with pink lotus flowers and dragonflies and koi fish,false,27
+spiders_jumping_daisy,spiders,Павук-стрибунець,Jumping spider,Паук-скакун,fuzzy big-eyed jumping spider with exactly eight legs,a sunny meadow,sitting on a daisy with bees and butterflies and dewdrops,true,2
+spiders_peacock_leaf,spiders,Павук-павич,Peacock spider,Паук-павлин,colorful peacock spider with exactly eight legs,a green flowering bush,dancing on a leaf with flowers and ladybugs and a sunny sky,true,3
+spiders_golden_orb_sunrise,spiders,Золотий павук,Golden orb spider,Золотой паук,golden orb weaver spider with exactly eight legs,a misty forest edge at sunrise,resting on a sparkling golden web between branches with dewdrops and morning mist and wildflowers,true,4
+spiders_crab_flower,spiders,Павук-краб,Crab spider,Паук-краб,pink crab spider with exactly eight legs,a field of flowers,sitting on a pink flower with bees and butterflies and green leaves,true,5
+spiders_wolf_forest,spiders,Павук-вовк,Wolf spider,Паук-волк,fluffy brown wolf spider with exactly eight legs,a forest floor,walking over soft moss with mushrooms and acorns and a snail,false,6
+spiders_tarantula_desert,spiders,Тарантул,Tarantula,Тарантул,soft fuzzy tarantula with exactly eight legs,a sunny desert,sitting on a warm rock with cacti and desert flowers and a lizard,false,7
+spiders_water_bubble,spiders,Водяний павук,Water spider,Водяной паук,water spider with exactly eight legs,a clear pond,holding a silvery air bubble among water plants with pebbles and small snails,false,8
+spiders_cross_moon,spiders,Хрестовик,Cross spider,Крестовик,round cross spider with exactly eight legs,a night garden,resting on a web under the full moon with fireflies and stars and night flowers,false,9
+spiders_autumn_maple,spiders,Осінній павучок,Autumn spider,Осенний паучок,small orange spider with exactly eight legs,an autumn forest,sitting on a big maple leaf with acorns and red berries and falling leaves,false,10
+spiders_green_rain,spiders,Зелений павучок,Green spider,Зелёный паучок,bright green lynx spider with exactly eight legs,a garden after rain,sheltering under a mushroom with raindrops and puddles and a snail,false,11
+spiders_winter_pine,spiders,Зимовий павучок,Winter spider,Зимний паучок,fluffy white spider with exactly eight legs,a snowy winter forest,sitting on a frosty pine branch with snowflakes and red berries and icicles,false,12
+spiders_wasp_sunflower,spiders,Павучок на соняшнику,Spider on a sunflower,Паучок на подсолнухе,yellow and black wasp spider with exactly eight legs,a sunflower field,resting on a big sunflower with bees and butterflies and a blue sky,false,13
+spiders_mom_babies,spiders,Мама-павучиха,Spider mom,Мама-паучиха,wolf spider mom with exactly eight legs,a grassy summer meadow,carrying tiny baby spiders on her back with clover and daisies and ladybugs,false,14
+spiders_pinktoe_rainforest,spiders,Тропічний павук,Tropical spider,Тропический паук,fuzzy pinktoe tarantula with exactly eight legs,a tropical rainforest,resting on a big leaf with orchids and tree frogs and dewdrops,false,15
+spiders_mushroom_glade,spiders,Павучок на грибі,Spider on a mushroom,Паучок на грибе,little brown jumping spider with exactly eight legs,a fairy forest glade,sitting on a red spotted mushroom with fireflies and moss and tiny flowers,false,16
+spiders_beach_sand,spiders,Пляжний павучок,Beach spider,Пляжный паучок,sandy colored spider with exactly eight legs,a sunny beach,walking on warm sand with seashells and beach grass and gentle waves,false,17
+spiders_crystal_cave,spiders,Печерний павучок,Cave spider,Пещерный паучок,pale cave spider with exactly eight legs,a crystal cave,sitting on a sparkly rock with glowing crystals and glowworms and a little underground stream,false,18
+spiders_lavender_field,spiders,Павучок у лаванді,Spider in lavender,Паучок в лаванде,purple jumping spider with exactly eight legs,a lavender field,climbing a lavender stalk with bees and butterflies and a sunny sky,false,19
+spiders_strawberry_patch,spiders,Павучок на полуниці,Spider on a strawberry,Паучок на клубнике,little red spider with exactly eight legs,a strawberry patch,sitting on a ripe strawberry with green leaves and white flowers and a ladybug,false,20
+spiders_oak_bark,spiders,Павучок на дереві,Spider on a tree,Паучок на дереве,fluffy gray bark spider with exactly eight legs,an old oak tree,climbing the mossy bark with acorns and lichen and a curious squirrel,false,21
+spiders_meadow_hammock,spiders,Павучок у гамаку,Spider in a hammock,Паучок в гамаке,round yellow spider with exactly eight legs,a summer meadow,relaxing in a tiny web hammock between grass stems with clover and butterflies and a warm sun,false,22
+spiders_cherry_blossom,spiders,Павучок у сакурі,Spider in cherry blossoms,Паучок в сакуре,pink spider with exactly eight legs,a spring cherry orchard,resting on a blossoming cherry branch with petals and bees and a blue sky,false,23
+spiders_mountain_flowers,spiders,Гірський павучок,Mountain spider,Горный паучок,furry brown spider with exactly eight legs,alpine mountains,resting on a stone among edelweiss and bluebells with snowy peaks and butterflies,false,24
+spiders_pumpkin_patch,spiders,Павучок на гарбузі,Spider on a pumpkin,Паучок на тыкве,round orange spider with exactly eight legs,an autumn pumpkin patch,sitting on a big pumpkin with curly vines and fallen leaves and sunflowers,false,25
+spiders_rainbow_web,spiders,Павучок і веселка,Spider and rainbow,Паучок и радуга,smiling blue spider with exactly eight legs,a green hill after rain,spinning a web glittering with raindrops under a rainbow with flowers and puddles,false,26
+spiders_firefly_night,spiders,Павучок і світлячки,Spider and fireflies,Паучок и светлячки,fuzzy black jumping spider with exactly eight legs,a summer meadow at night,watching glowing fireflies with tall grass and stars and a crescent moon,false,27
+sharks_whale_shark_plankton,sharks,Китова акула,Whale shark,Китовая акула,spotted whale shark with a closed-mouth smile,the sunlit open ocean,gliding through sunbeams with tiny fish and bubbles and floating plankton,true,1
+sharks_hammerhead_reef,sharks,Акула-молот,Hammerhead shark,Акула-молот,hammerhead shark with a closed-mouth smile,a turquoise coral reef,swimming over colorful corals with clownfish and sea anemones and bubbles,true,2
+sharks_great_white_blue,sharks,Біла акула,Great white shark,Белая акула,great white shark with a gentle closed-mouth smile,the deep blue sea,swimming among sunbeams with a school of silver fish and pink jellyfish,true,3
+sharks_baby_shark_seagrass,sharks,Акуленя,Baby shark,Акулёнок,tiny baby shark with a toothless smile,a seagrass meadow,playing among seagrass with starfish and seashells and bubbles,true,4
+sharks_nurse_shark_sand,sharks,Акула-нянька,Nurse shark,Акула-нянька,nurse shark with a closed-mouth smile,a sandy sea floor,resting on soft sand with sea stars and seashells and coral,true,5
+sharks_reef_shark_lagoon,sharks,Рифова акула,Reef shark,Рифовая акула,blacktip reef shark with mouth closed,a shallow sunny lagoon,swimming over white sand with corals and small fish and shells,false,6
+sharks_tiger_shark_kelp,sharks,Тигрова акула,Tiger shark,Тигровая акула,striped tiger shark with mouth closed,a kelp forest,swimming between tall kelp with small fish and bubbles and sunbeams from above,false,7
+sharks_whale_shark_night,sharks,Китова акула вночі,Whale shark at night,Китовая акула ночью,whale shark with a closed-mouth smile,the night ocean,swimming near the surface with a full moon and glowing plankton and reflected stars,false,8
+sharks_hammerhead_sunrise,sharks,Акула-молот на світанку,Hammerhead at sunrise,Акула-молот на рассвете,hammerhead shark with mouth closed,a calm sea at sunrise,swimming near the surface with golden sunbeams and seagulls above and bubbles,false,9
+sharks_baby_shark_shells,sharks,Акуленя з мушлями,Baby shark with shells,Акулёнок с ракушками,tiny baby shark with a toothless smile,a sunny shallow bay,playing with pearly seashells with crabs and starfish and pebbles,false,10
+sharks_leopard_shark_bay,sharks,Леопардова акула,Leopard shark,Леопардовая акула,spotted leopard shark with mouth closed,a sandy kelp bay,gliding over golden sand with kelp and sea stars and small fish,false,11
+sharks_angel_shark_reef,sharks,Морський ангел,Angel shark,Морской ангел,flat angel shark with a closed-mouth smile,a rocky reef,lying near the rocks with sea fans and anemones and small fish,false,12
+sharks_zebra_shark_arch,sharks,Зеброва акула,Zebra shark,Зебровая акула,spotted zebra shark with mouth closed,a colorful reef at noon,resting near a coral arch with sea anemones and butterflyfish and bubbles,false,13
+sharks_great_white_waves,sharks,Біла акула на хвилях,Great white in waves,Белая акула на волнах,great white shark with a closed-mouth smile,a sunny ocean surface,swimming just below the waves with seagulls above and fluffy clouds and sun sparkles,false,14
+sharks_lemon_shark_mangrove,sharks,Лимонна акула,Lemon shark,Лимонная акула,yellowish lemon shark with mouth closed,a mangrove lagoon,swimming between mangrove roots with small fish and seagrass and sunbeams,false,15
+sharks_basking_shark_green,sharks,Гігантська акула,Basking shark,Гигантская акула,huge basking shark with mouth closed,a cool green sea,swimming slowly with jellyfish and bubbles and puffins floating above,false,16
+sharks_shipwreck,sharks,Акула біля корабля,Shark by a shipwreck,Акула у корабля,gray reef shark with mouth closed,a sunken ship covered in coral,swimming past an old ship with a treasure chest and seaweed and small fish,false,17
+sharks_greenland_ice,sharks,Полярна акула,Greenland shark,Полярная акула,slow gray Greenland shark with mouth closed,a cold arctic sea,swimming under floating ice with bubbles and jellyfish and snowflakes above,false,18
+sharks_baby_egg_case,sharks,Акуленя і яйце,Baby shark and egg,Акулёнок и яйцо,tiny spotted catshark pup with a toothless smile,a kelp garden,swimming between tall kelp stalks with snails and pebbles and small fish,false,19
+sharks_horn_shark_rocks,sharks,Рогата акула,Horn shark,Рогатая акула,little horn shark with mouth closed,a rocky reef,resting between rocks with sea urchins and starfish and red seaweed,false,20
+sharks_whitetip_cave,sharks,Акула в печері,Shark in a cave,Акула в пещере,whitetip reef shark with mouth closed,an underwater coral cave,resting at the cave entrance with sunbeams and glowing corals and small fish,false,21
+sharks_blue_shark_jellyfish,sharks,Акула і медузи,Shark and jellyfish,Акула и медузы,blue shark with a closed-mouth smile,the open blue sea,swimming among glowing pink jellyfish with bubbles and sunbeams,false,22
+sharks_mako_sardines,sharks,Акула мако,Mako shark,Акула мако,sleek mako shark with mouth closed,the open ocean,zooming past a shiny school of sardines with bubbles and sunbeams,false,23
+sharks_sunset_island,sharks,Акула на заході сонця,Shark at sunset,Акула на закате,friendly reef shark with a closed-mouth smile,a tropical sea at sunset,swimming in clear water near a palm tree island with an orange sky and seagulls,false,24
+sharks_bamboo_shark_bubbles,sharks,Бамбукова акула,Bamboo shark,Бамбуковая акула,small banded bamboo shark with mouth closed,a shallow reef,blowing bubbles near sea anemones with clownfish and seashells,false,25
+sharks_whale_shark_friends,sharks,Китова акула з друзями,Whale shark with friends,Китовая акула с друзьями,whale shark with a closed-mouth smile,a bright blue lagoon,swimming with small sea turtles and little rays and striped fish around,false,26
+sharks_carpet_shark_night,sharks,Килимова акула,Carpet shark,Ковровая акула,flat spotted carpet shark with a closed-mouth smile,a colorful coral garden at night,resting on a coral ledge with glowing plankton and sea stars and moonlight through the water,false,27
+farm_cow_meadow,farm,Корова на лузі,Cow in Meadow,Корова на лугу,spotted dairy cow,a sunny green meadow with daisies,standing among wildflowers with a wooden windmill and fluffy white clouds in the sky,true,2
+farm_horse_paddock,farm,Кінь,Horse,Лошадь,chestnut horse,a fenced paddock beside a wooden stable,standing by a hay bale with apple trees and swallows flying over the stable roof,true,3
+farm_sheep_hill,farm,Овечка,Sheep,Овечка,fluffy white sheep,a green hillside pasture,grazing near an old stone wall with a little stream and yellow dandelions,true,4
+farm_hen_chicks,farm,Курка з курчатами,Hen and Chicks,Курица с цыплятами,brown hen with fluffy yellow chicks,a farmyard with a wooden henhouse,pecking at grain near a straw nest with eggs and a tin watering can,true,5
+farm_goat_rocks,farm,Коза,Goat,Коза,white goat with a little bell,a farm pasture with big mossy rocks,standing on a rock with clover and a white picket fence and blue hills behind,false,6
+farm_donkey_cart,farm,Віслюк,Donkey,Ослик,grey donkey,a farm lane lined with sunflowers,standing beside a wooden cart filled with carrots and cabbages,false,7
+farm_duck_pond,farm,Качка,Duck,Утка,white duck,a farm pond with tall reeds,swimming among lily pads with a small wooden dock and blue dragonflies,false,8
+farm_goose_orchard,farm,Гуска,Goose,Гусь,white goose,a summer apple orchard,walking past fallen apples with a wheelbarrow and a wooden ladder against a tree,false,9
+farm_turkey_autumn,farm,Індик,Turkey,Индюк,turkey with a fanned tail,an autumn farmyard,standing near orange pumpkins and dry corn stalks with a hay wagon,false,10
+farm_rooster_fence,farm,Півень,Rooster,Петух,colorful rooster,a farmyard at sunrise,perched on a wooden fence with a rising sun and morning mist and a small barn,false,11
+farm_rabbit_garden,farm,Кролик,Rabbit,Кролик,brown farm rabbit,a farm vegetable garden,sitting between rows of carrots and cabbages with a watering can and a garden snail,false,12
+farm_llama_gate,farm,Лама,Llama,Лама,fluffy cream llama with a colorful blanket,a hilly farm field,standing near a wooden gate with green hills and snowy mountains far behind,false,13
+farm_calf_barn,farm,Теля,Calf,Телёнок,brown and white calf,a cozy barn interior,lying in fresh straw near a hay loft and a wooden bucket with swallows above,false,14
+farm_foal_spring,farm,Лоша,Foal,Жеребёнок,spotted foal,a spring meadow with blossoming trees,trotting through tall grass with butterflies and a small pond,false,15
+farm_lamb_snow,farm,Ягня,Lamb,Ягнёнок,little lamb,a snowy farmyard in winter,standing beside a wooden sled with snowy fir trees and a warm glowing barn,false,16
+farm_highland_cow,farm,Кудлата корова,Shaggy Cow,Лохматая корова,highland cow with long ginger fur,a misty highland farm,standing among purple heather with a stone cottage and a little stream,false,17
+farm_pony_stable,farm,Поні,Pony,Пони,shetland pony,a cobbled stable yard,standing beside a water trough with a hay rack and swallows on a wooden beam,false,18
+farm_duckling_puddle,farm,Каченя,Duckling,Утёнок,yellow duckling,a farmyard after rain,splashing in a puddle with a rubber boot and dandelions and a rainbow in the sky,false,19
+farm_goat_kid_hay,farm,Козеня,Goat Kid,Козлёнок,baby goat,a farmyard play area,jumping on stacked hay bales with a wooden barrel and climbing logs,false,20
+farm_alpaca_sunflowers,farm,Альпака,Alpaca,Альпака,brown alpaca,a sunflower field at sunset,standing among tall sunflowers with a wooden fence and birds in the orange sky,false,21
+farm_horse_wheat,farm,Кінь у полі,Horse in Field,Лошадь в поле,white horse,a golden wheat field in summer,standing near round hay bales with red poppies and swallows in the blue sky,false,22
+farm_chick_eggs,farm,Курча,Chick,Цыплёнок,fluffy yellow chick,a cozy henhouse,standing next to a basket of eggs with straw nests and a little wooden ladder,false,23
+farm_pig_harvest,farm,Порося на городі,Piglet in Garden,Поросёнок в огороде,pink piglet,a farm vegetable patch at harvest time,sniffing a big watermelon with red tomatoes and a wooden crate of apples,false,24
+farm_black_sheep,farm,Чорна овечка,Black Sheep,Чёрная овечка,black sheep,an autumn pasture with orange trees,standing among fallen leaves with a stone bridge over a small creek,false,25
+farm_gosling_river,farm,Гусеня,Gosling,Гусёнок,fluffy gosling,a grassy riverbank near a farm,waddling through clover with a small wooden boat and blue forget-me-nots,false,26
+farm_cow_mountains,farm,Корова в горах,Cow in Mountains,Корова в горах,brown cow with a cowbell,an alpine farm meadow at sunset,standing among wildflowers with a wooden chalet and snowy mountain peaks,false,27
+felines_tiger_jungle,felines,Тигр,Tiger,Тигр,tiger,a lush green jungle,lying on a mossy log with tropical flowers and parrots and a waterfall behind,true,2
+felines_snow_leopard,felines,Сніжний барс,Snow Leopard,Снежный барс,snow leopard,snowy mountains,resting on a rock with snowy pine trees and a blue sky with soft clouds,true,3
+felines_kitten_window,felines,Кошеня,Kitten,Котёнок,fluffy grey kitten,a cozy living room,sitting on a windowsill with potted plants and raindrops on the glass and a teapot,true,4
+felines_lion_cub_rocks,felines,Левеня,Lion Cub,Львёнок,lion cub,a forest edge with sunny boulders,sitting on a warm boulder with ferns and wildflowers and butterflies,true,5
+felines_lynx_forest,felines,Рись,Lynx,Рысь,lynx,a pine forest in summer,standing on a fallen log with pinecones and blueberry bushes and a woodpecker,false,6
+felines_jaguar_river,felines,Ягуар,Jaguar,Ягуар,jaguar,a rainforest riverbank,resting on a tree branch over the water with lily pads and toucans,false,7
+felines_panther_night,felines,Пантера,Panther,Пантера,black panther,a moonlit tropical forest,sitting on a branch with glowing fireflies and a big moon and night flowers,false,8
+felines_ocelot_cloudforest,felines,Оцелот,Ocelot,Оцелот,ocelot,a misty cloud forest,curled on a mossy branch with orchids and bromeliads and a hummingbird,false,9
+felines_puma_canyon,felines,Пума,Puma,Пума,puma,a red rock canyon,sitting on a ledge with cactus flowers and an eagle in the blue sky,false,10
+felines_siamese_cushion,felines,Сіамська кішка,Siamese Cat,Сиамская кошка,siamese cat,a sunny bedroom,lounging on a soft cushion with a bookshelf and a toy ball and a sunbeam,false,11
+felines_maine_coon_porch,felines,Мейн-кун,Maine Coon,Мейн-кун,maine coon cat,a wooden porch in autumn,sitting by a pumpkin and a lantern with falling maple leaves,false,12
+felines_persian_greenhouse,felines,Перська кішка,Persian Cat,Персидская кошка,white persian cat,a bright greenhouse,sitting on a velvet pillow with orchids and hanging ferns and a small fountain,false,13
+felines_tabby_snow,felines,Смугасте кошеня,Tabby Kitten,Полосатый котёнок,tabby kitten,a snowy backyard in winter,playing with snowflakes near a little snowman and a bird feeder with bullfinches,false,14
+felines_black_cat_roof,felines,Чорний кіт,Black Cat,Чёрный кот,black cat with green eyes,a rooftop at night,sitting by a chimney with twinkling stars and a crescent moon and other roofs,false,15
+felines_tiger_cub_taiga,felines,Тигреня,Tiger Cub,Тигрёнок,amur tiger cub,a snowy taiga forest,playing in fresh snow with birch trees and a frozen stream,false,16
+felines_clouded_leopard,felines,Димчастий леопард,Clouded Leopard,Дымчатый леопард,clouded leopard,a bamboo forest,resting on a thick tree branch with bamboo stalks and pink blossoms and a little stream,false,17
+felines_leopard_river,felines,Леопард,Leopard,Леопард,leopard,a leafy forest river,lying on a sunlit rock beside the river with ferns and dragonflies,false,18
+felines_pallas_cat,felines,Манул,Pallas Cat,Манул,fluffy pallas cat,a rocky mountain steppe,peeking from behind a rock with tufts of grass and purple wildflowers and distant hills,false,19
+felines_british_armchair,felines,Британська кішка,British Cat,Британская кошка,british shorthair cat,a cozy library room,sitting in an armchair with a stack of books and a reading lamp and a houseplant,false,20
+felines_kitten_box,felines,Кошеня в коробці,Kitten in Box,Котёнок в коробке,calico kitten,a sunny playroom,peeking out of a cardboard box with toy mice and a feather wand and balloons,false,21
+felines_ragdoll_fireplace,felines,Регдол,Ragdoll Cat,Рэгдолл,ragdoll cat,a cozy room in winter,curled on a knitted rug by a fireplace with a cup of cocoa and a knitted blanket,false,22
+felines_bobcat_bluebells,felines,Руда рись,Bobcat,Рыжая рысь,bobcat,a spring meadow by a forest,sitting among bluebells with birch trees and a little brook,false,23
+felines_white_tiger_lotus,felines,Білий тигр,White Tiger,Белый тигр,white tiger,a lotus pond in a tropical garden,standing at the edge of the water with pink lotus flowers and koi fish and a small stone bridge,false,24
+felines_cat_seaside,felines,Кіт біля моря,Cat by the Sea,Кот у моря,white and grey cat,a sunny seashore,sitting on a wooden pier with seashells and seagulls and a small sailboat,false,25
+felines_kitten_leaves,felines,Кошеня в листі,Kitten in Leaves,Котёнок в листьях,tuxedo kitten,an autumn park,jumping into a pile of leaves with acorns and a squirrel on a bench,false,26
+felines_bengal_cat_tree,felines,Бенгальська кішка,Bengal Cat,Бенгальская кошка,bengal cat,a sunny room full of houseplants,climbing a cat tree with hanging plants and a round fishbowl,false,27
+canines_puppy_meadow,canines,Цуценя,Puppy,Щенок,golden retriever puppy,a sunny meadow,running through daisies with a red ball and butterflies and a kite in the sky,true,2
+canines_wolf_valley,canines,Вовк,Wolf,Волк,grey wolf,a mountain valley at sunset,standing on a grassy hill with pine trees and wildflowers and a glowing sunset,true,3
+canines_arctic_fox_ice,canines,Песець,Arctic Fox,Песец,white arctic fox,an icy arctic shore,curled up on the snow with blue icebergs and a little puffin,true,4
+canines_dalmatian_garden,canines,Далматинець,Dalmatian,Далматинец,dalmatian puppy,a backyard garden,playing with a water sprinkler with a doghouse and a picket fence and flowers,true,5
+canines_husky_sled,canines,Хаскі,Husky,Хаски,husky,a snowy winter field,sitting beside a small wooden sled with snowy fir trees and falling snowflakes,false,6
+canines_corgi_park,canines,Коргі,Corgi,Корги,corgi,a city park in spring,trotting along a path with tulips and a fountain and pigeons,false,7
+canines_beagle_clover,canines,Бігль,Beagle,Бигль,beagle,a summer clover field,sniffing a flower with bumblebees and a wooden fence and a hot air balloon in the sky,false,8
+canines_poodle_roses,canines,Пудель,Poodle,Пудель,fluffy white poodle,a rose garden with a gazebo,posing among pink roses with a garden gazebo and a little bird bath,false,9
+canines_dachshund_picnic,canines,Такса,Dachshund,Такса,dachshund,a summer park,sitting on a picnic blanket by a picnic basket with strawberries and a frisbee,false,10
+canines_coyote_prairie,canines,Койот,Coyote,Койот,coyote,a prairie at sunset,sitting on a small hill with tall grass and sunflowers and a big orange sun,false,11
+canines_jackal_olives,canines,Шакал,Jackal,Шакал,golden jackal,a grassy hillside with olive trees,sitting near olive trees with wild poppies and an old stone wall,false,12
+canines_dingo_eucalyptus,canines,Дінго,Dingo,Динго,dingo,a eucalyptus forest,standing among eucalyptus trees with red rocks and colorful parrots,false,13
+canines_wolf_pup_den,canines,Вовченя,Wolf Pup,Волчонок,wolf pup,a spring forest,peeking out of a den under tree roots with ferns and bluebells and a butterfly,false,14
+canines_fox_cub_dawn,canines,Лисеня,Fox Cub,Лисёнок,red fox cub,a flowering meadow near a birch grove at dawn,playing with a dandelion with dew drops and birch trees and a rising sun,false,15
+canines_labrador_lake,canines,Лабрадор,Labrador,Лабрадор,chocolate labrador,a lake shore in summer,splashing in shallow water with a wooden dock and ducks and a stick,false,16
+canines_shiba_blossoms,canines,Шиба-іну,Shiba Inu,Сиба-ину,shiba inu,a japanese garden in spring,sitting under cherry blossoms with a small red bridge and a koi pond,false,17
+canines_border_collie_hills,canines,Бордер-колі,Border Collie,Бордер-колли,border collie,green rolling hills,running through the grass with an old stone wall and a few small sheep far away,false,18
+canines_saint_bernard_alps,canines,Сенбернар,Saint Bernard,Сенбернар,saint bernard with a little barrel on its collar,snowy alpine mountains,sitting in the snow with a wooden chalet and snowy peaks,false,19
+canines_pug_balloons,canines,Мопс,Pug,Мопс,pug,a cozy living room,sitting on a rug with colorful balloons and a gift box and a toy ball,false,20
+canines_spaniel_lavender,canines,Спанієль,Spaniel,Спаниель,cocker spaniel,a lavender field,trotting between lavender rows with bees and a stone farmhouse,false,21
+canines_fox_winter,canines,Лисиця взимку,Fox in Winter,Лиса зимой,red fox,a snowy winter forest,sitting on a snowy stump with snowy fir trees and red berries and a robin,false,22
+canines_samoyed_cosmos,canines,Самоїд,Samoyed,Самоед,fluffy white samoyed,a field of pink cosmos flowers in late summer,sitting among the flowers with bees and a wooden windmill,false,23
+canines_jack_russell_beach,canines,Джек-рассел,Jack Russell,Джек-рассел,jack russell terrier,a sandy beach,running along the shore with seashells and a sandcastle and seagulls,false,24
+canines_shepherd_trail,canines,Вівчарка,Shepherd Dog,Овчарка,german shepherd,a mountain trail in summer,sitting by a stream with pine trees and a small waterfall,false,25
+canines_spitz_puddle,canines,Шпіц,Spitz,Шпиц,fluffy orange pomeranian spitz,a spring garden after rain,splashing in a puddle with tulips and snails and a rainbow,false,26
+canines_sheepdog_orchard,canines,Кудлатий пес,Shaggy Dog,Лохматый пёс,old english sheepdog,an apple orchard in autumn,sitting under an apple tree with a basket of apples and falling leaves,false,27
+pets_hamster_seeds,pets,Хомʼячок,Hamster,Хомячок,golden hamster,a cozy cage with wood shavings,stuffing its cheeks with sunflower seeds beside a tiny wooden house and a water bottle,true,1
+pets_parrot_swing,pets,Папуга,Parrot,Попугай,colorful macaw parrot,a bright sunroom with plants,perched on a wooden swing with tropical plants and a fruit bowl,true,2
+pets_goldfish_bowl,pets,Золота рибка,Goldfish,Золотая рыбка,goldfish,a sunny room,swimming in a round glass bowl on a windowsill with pebbles and water plants and flower pots,true,3
+pets_bunny_playroom,pets,Кролик,Bunny,Кролик,white lop-eared bunny,a cozy playroom,nibbling a carrot on a soft rug with a toy tunnel and a basket of hay,true,4
+pets_tortoise_garden,pets,Черепаха,Tortoise,Черепаха,small tortoise,a backyard garden with clover,crawling past strawberries with a ladybug and a little dish of lettuce,true,5
+pets_guinea_pig_hutch,pets,Морська свинка,Guinea Pig,Морская свинка,tricolor guinea pig,a cozy hutch,munching a lettuce leaf with hay and a wooden tunnel and a cucumber slice,false,6
+pets_budgie_perch,pets,Хвилястий папужка,Budgie,Волнистый попугайчик,green budgie,a bright room with a bird cage,sitting on a perch with a little mirror and a bell and millet sprays,false,7
+pets_ferret_blanket,pets,Фретка,Ferret,Хорёк,ferret,a cozy bedroom,peeking out of a soft blanket fort with pillows and a toy ball,false,8
+pets_chinchilla_shelf,pets,Шиншила,Chinchilla,Шиншилла,grey chinchilla,a pet room with wooden shelves,sitting on a wooden shelf with a dust bath bowl and a hay ball,false,9
+pets_canary_kitchen,pets,Канарка,Canary,Канарейка,yellow canary,a sunny kitchen windowsill,singing on a perch beside a geranium pot and a teacup and lace curtains,false,10
+pets_hamster_wheel,pets,Хомʼяк у колесі,Hamster on Wheel,Хомяк в колесе,dwarf hamster,a colorful hamster cage,running on an exercise wheel with play tubes and a seed bowl,false,11
+pets_puppy_basket,pets,Цуценя в кошику,Puppy in Basket,Щенок в корзинке,fluffy little puppy,a cozy hallway,sleeping in a wicker basket with a bone toy and a leash on a hook and slippers,false,12
+pets_axolotl_aquarium,pets,Аксолотль,Axolotl,Аксолотль,pink axolotl,a home aquarium,smiling among water plants with pebbles and bubbles and a little bridge,false,13
+pets_hedgehog_playpen,pets,Їжачок,Hedgehog,Ёжик,pet hedgehog,a cozy playpen,curled beside a felt mushroom house with soft toys and an apple slice,false,14
+pets_gerbil_tunnels,pets,Піщанка,Gerbil,Песчанка,gerbil,a pet tank with deep bedding,digging tunnels with cardboard tubes and a small ceramic house,false,15
+pets_lovebird_balcony,pets,Нерозлучник,Lovebird,Неразлучник,peach-faced lovebird,a sunny balcony with flower boxes,sitting on a rope perch with flowers and a little bird bath,false,16
+pets_mouse_ladder,pets,Мишка,Mouse,Мышка,white pet mouse,a cozy cage,climbing a little rope ladder with a piece of cheese and sunflower seeds,false,17
+pets_betta_fish,pets,Рибка-півник,Betta Fish,Рыбка-петушок,betta fish with flowing fins,a home aquarium,swimming among red and green water plants with a little treasure chest and bubbles,false,18
+pets_cockatiel_stand,pets,Корела,Cockatiel,Корелла,cockatiel,a cozy room with a play stand,perched on a wooden play stand with ladders and toys and a sunny window,false,19
+pets_kitten_kitchen,pets,Кошеня на кухні,Kitten in Kitchen,Котёнок на кухне,fluffy white kitten,a cozy kitchen,sitting by a saucer of milk with a fruit basket and a checkered tablecloth,false,20
+pets_dwarf_rabbit_balcony,pets,Карликовий кролик,Dwarf Bunny,Карликовый кролик,dwarf rabbit,a balcony garden,hopping around potted herbs with a little wooden hutch and strawberries,false,21
+pets_grey_parrot_ring,pets,Жако,Grey Parrot,Жако,african grey parrot,a living room with a play gym,holding a toy ring with a bookshelf and a big green plant,false,22
+pets_hermit_crab,pets,Рак-відлюдник,Hermit Crab,Рак-отшельник,hermit crab with a colorful shell,a pet terrarium with sand,climbing a piece of driftwood with seashells and a little water dish and moss,false,23
+pets_guinea_pig_lawn,pets,Свинка на травичці,Guinea Pig Outside,Свинка на травке,ginger guinea pig,a backyard lawn playpen,nibbling dandelions with a little wooden fence and daisies and a butterfly,false,24
+pets_koi_pond,pets,Короп кої,Koi Fish,Карп кои,koi fish,a backyard garden pond,swimming among lily pads with water lilies and a stone frog statue,false,25
+pets_water_turtle,pets,Водяна черепаха,Water Turtle,Водяная черепаха,red-eared slider turtle,a turtle tank with a basking rock,sunbathing on a rock under a warm lamp with water plants and pebbles,false,26
+pets_rat_castle,pets,Щурик,Pet Rat,Крыска,fancy rat,a cozy playroom,resting in a tiny hammock with a cardboard castle and a little bowl of berries,false,27
+savanna_elephant_waterhole,savanna,Слон біля водопою,Elephant at Waterhole,Слон у водопоя,African elephant,the African savanna with a waterhole,spraying water with its trunk with white birds and acacia trees and zebras far away,true,2
+savanna_zebra_grass,savanna,Зебра,Zebra,Зебра,zebra,the green savanna with tall grass,standing in tall grass with butterflies and a big baobab tree and white clouds,true,3
+savanna_lion_family,savanna,Лев з левенятами,Lion with Cubs,Лев со львятами,friendly lion with a fluffy mane,the golden savanna,resting on a flat rock with two playful cubs beside him and acacia trees and a warm evening sky,true,4
+savanna_hippo_river,savanna,Бегемот,Hippo,Бегемот,hippo,a calm savanna river,bathing in the river with water lilies and little birds on its back and tall reeds,true,5
+savanna_cheetah_run,savanna,Гепард,Cheetah,Гепард,cheetah,open golden savanna grass,running happily across the grass with small dust clouds and distant hills and acacia trees,false,6
+savanna_rhino_mud,savanna,Носоріг,Rhino,Носорог,rhino,a muddy savanna pond,having a mud bath with oxpecker birds and puddles and green bushes,false,7
+savanna_ostrich_nest,savanna,Страус,Ostrich,Страус,ostrich,dry savanna plains,standing proudly by its nest of big eggs with termite mounds and a bright sun,false,8
+savanna_warthog_burrow,savanna,Бородавочник,Warthog,Бородавочник,warthog,the savanna with red earth,peeking out of its burrow with tall grass and wildflowers and a blue sky,false,9
+savanna_wildebeest_plain,savanna,Антилопа гну,Wildebeest,Антилопа гну,wildebeest,a wide savanna plain,trotting along with a herd far behind and light dust and green hills,false,10
+savanna_gazelle_jump,savanna,Газель,Gazelle,Газель,Thomson gazelle,the morning savanna,leaping over the grass with butterflies and a rising sun and acacia trees,false,11
+savanna_flamingo_lake,savanna,Фламінго,Flamingo,Фламинго,pink flamingo,a shallow savanna lake,standing on one leg in the water with other flamingos far away and reeds and blue mountains,false,12
+savanna_hyena_den,savanna,Гієна,Hyena,Гиена,smiling spotted hyena pup,the savanna at dusk,playing with a stick near its den with grass and fireflies and an orange sky,false,13
+savanna_elephant_calf,savanna,Слоненя,Baby Elephant,Слонёнок,baby elephant,the savanna under a baobab tree,walking in the shade of the baobab with birds and flowers and its mother far away,false,14
+savanna_giraffe_sunset,savanna,Жирафа на заході сонця,Giraffe at Sunset,Жираф на закате,giraffe,the savanna at sunset,walking past baobab trees with an orange sunset sky and birds flying home,false,15
+savanna_zebra_foal,savanna,Зебреня,Zebra Foal,Жеребёнок зебры,baby zebra,the savanna by a little stream,drinking from the stream with dragonflies and smooth stones and flowers,false,16
+savanna_lion_cub,savanna,Левеня,Lion Cub,Львёнок,lion cub,the savanna grassland,playing with a butterfly on a rock with grass and a big acacia tree and clouds,false,17
+savanna_cheetah_log,savanna,Гепард на колоді,Cheetah on a Log,Гепард на бревне,cheetah,the savanna with distant hills,resting on a fallen tree trunk with small birds and tall grass and soft clouds,false,18
+savanna_buffalo_pond,savanna,Буйвіл,Buffalo,Буйвол,African buffalo,a green savanna pond,grazing by the water with white egrets and reeds and acacia trees,false,19
+savanna_impala_rain,savanna,Імпала,Impala,Импала,impala,the savanna in light rain,standing in soft rain with a rainbow and puddles and fresh green grass,false,20
+savanna_secretary_bird,savanna,Птах-секретар,Secretary Bird,Птица-секретарь,secretary bird,the dry savanna,walking through the grass with butterflies and termite mounds and acacia trees,false,21
+savanna_kudu_bushes,savanna,Куду,Kudu,Куду,kudu with spiral horns,the bushy savanna,standing among bushes with weaver bird nests and a red sunset sky,false,22
+savanna_aardvark_night,savanna,Трубкозуб,Aardvark,Трубкозуб,aardvark,the savanna at night,walking past a termite mound under a starry sky with a big moon and fireflies,false,23
+savanna_dikdik_bush,savanna,Дік-дік,Dik-dik,Дик-дик,tiny dik-dik antelope with four thin legs,the savanna with thorny bushes,standing in front of a flowering bush with little birds and tall grass and a sunny sky,false,24
+savanna_crowned_crane,savanna,Вінценосний журавель,Crowned Crane,Венценосный журавль,grey crowned crane,a wet savanna meadow,dancing in the meadow with reeds and shallow water and acacia trees,false,25
+savanna_mongoose_log,savanna,Мангуст,Mongoose,Мангуст,banded mongoose,the savanna grassland,standing up on a log with termite mounds and grass and a blue sky,false,26
+savanna_lioness_tree,savanna,Левиця на дереві,Lioness in a Tree,Львица на дереве,lioness,the savanna with a wide acacia tree,napping on a big acacia branch with birds and grass below and a blue sky,false,27
+desert_fennec_dunes,desert,Фенек,Fennec Fox,Фенек,fennec fox with big ears,golden sand dunes,sitting on top of a dune with small cacti and wind ripples in the sand and a bright sun,true,2
+desert_meerkat_burrow,desert,Сурикат,Meerkat,Сурикат,meerkat,the Kalahari desert,standing on guard at its burrow with sand mounds and dry bushes and a blue sky,true,3
+desert_tortoise_cactus,desert,Черепаха,Tortoise,Черепаха,desert tortoise,a cactus desert with flowers,walking slowly past blooming cacti with butterflies and rocks,true,4
+desert_camel_calf,desert,Верблюденя,Baby Camel,Верблюжонок,baby camel,warm desert sand,lying on the sand with dunes and desert flowers and fluffy clouds,true,5
+desert_roadrunner_path,desert,Земляна зозуля,Roadrunner,Земляная кукушка,roadrunner bird,the American desert with red rocks,running along a dusty path with tall saguaro cacti and red rocks and tumbleweeds,false,6
+desert_jerboa_night,desert,Тушканчик,Jerboa,Тушканчик,jerboa,sand dunes at night,hopping across the sand under a full moon with stars and small desert grass,false,7
+desert_armadillo_cactus,desert,Броненосець,Armadillo,Броненосец,armadillo,a dry scrub desert,peeking out of its shell next to cacti and stones and yellow flowers,false,8
+desert_quail_rock,desert,Каліфорнійська перепілка,Desert quail,Калифорнийская перепёлка,plump desert quail with a curly head plume,a sandy desert,sitting on a flat rock with pebbles and small cacti and dunes and a pale blue sky,false,9
+desert_lizard_rock,desert,Ящірка,Lizard,Ящерица,colorful lizard,a rocky desert,sunbathing on a warm rock with cacti and small flowers and a bright sun,false,10
+desert_gila_monster,desert,Ядозуб,Gila Monster,Ядозуб,gila monster with orange and black beads,the Sonoran desert,resting by a saguaro cactus with rocks and desert flowers and a sunset sky,false,11
+desert_oryx_dune,desert,Орикс,Oryx,Орикс,Arabian oryx with long horns,the Arabian desert,standing on a dune ridge with wind ripples in the sand and a pink morning sky,false,12
+desert_sand_cat,desert,Барханний кіт,Sand Cat,Барханный кот,sand cat kitten,sand dunes in the evening,peeking from behind a dune with dry grass and the first stars in a purple sky,false,13
+desert_owl_cactus,desert,Сова в кактусі,Owl in a Cactus,Сова в кактусе,tiny elf owl,the desert at night,perched on top of a tall saguaro cactus with a big moon and stars and distant mountains,false,14
+desert_camel_sunset,desert,Верблюд на заході сонця,Camel at Sunset,Верблюд на закате,one-humped camel,high sand dunes,walking over the dunes against an orange sunset with long shadows and a rising crescent moon,false,15
+desert_fennec_burrow,desert,Фенек у норі,Fennec in a Burrow,Фенек в норе,fennec fox cub,a sandy desert at night,peeking out of a sandy burrow with dry roots and dunes and a starry sky,false,16
+desert_thorny_devil,desert,Молох,Thorny Devil,Молох,thorny devil lizard,the red Australian desert,walking on red sand with spinifex grass and red rocks and a blue sky,false,17
+desert_addax_dunes,desert,Аддакс,Addax,Аддакс,addax antelope with twisted horns,the Sahara desert,walking past sand dunes with dry shrubs and a hazy sun,false,18
+desert_bighorn_canyon,desert,Товсторог,Bighorn Sheep,Толсторог,desert bighorn sheep,a rocky desert canyon,standing on a red rock ledge with canyon walls and cacti and a blue sky,false,19
+desert_jackrabbit,desert,Заєць,Jackrabbit,Заяц,jackrabbit with long ears,a sagebrush desert,sitting among sagebrush with cacti and a pink morning sky,false,20
+desert_hedgehog_flowers,desert,Вухатий їжак,Desert Hedgehog,Ушастый ёж,long-eared desert hedgehog,a sandy desert,sniffing desert flowers on the sand with pebbles and dunes and a warm evening sky,false,21
+desert_gerbil_seeds,desert,Піщанка,Gerbil,Песчанка,gerbil,a sandy desert,gathering seeds near its burrow with dry grass and dunes and small stones,false,22
+desert_coyote_mesa,desert,Койот,Coyote,Койот,coyote pup,the red rock desert at sunrise,sitting on a flat mesa with red rocks and cacti and a golden sunrise,false,23
+desert_scarab_beetle,desert,Жук-скарабей,Scarab Beetle,Жук-скарабей,cute scarab beetle,golden sand dunes,rolling a little ball of sand over the dunes with tiny tracks and a bright sun,false,24
+desert_hummingbird,desert,Колібрі,Hummingbird,Колибри,hummingbird,a blooming desert after rain,hovering by red cactus flowers with butterflies and green bushes and a rainbow,false,25
+desert_tortoise_rain,desert,Черепаха під дощем,Tortoise in the Rain,Черепаха под дождём,desert tortoise,the desert after a rain shower,drinking from a puddle with wet stones and green sprouts and grey clouds parting,false,26
+desert_burrowing_owl,desert,Кролича сова,Burrowing Owl,Кроличья сова,burrowing owl,a dry grassy desert,standing at its burrow entrance with dry grass and cacti and a sunny sky,false,27
+jungle_monkey_vine,jungle,Мавпочка,Monkey,Обезьянка,little monkey,a lush green jungle,swinging on a vine with big leaves and bright flowers and butterflies,true,1
+jungle_toucan_branch,jungle,Тукан,Toucan,Тукан,toucan with a colorful beak,the rainforest canopy,sitting on a mossy branch with tropical fruit and orchids and big leaves,true,2
+jungle_sloth_vine,jungle,Лінивець,Sloth,Ленивец,sloth,a green rainforest,hanging upside down from a branch with green vines and flowers and a hummingbird,true,3
+jungle_gorilla_ferns,jungle,Горила,Gorilla,Горилла,gorilla,a misty mountain rainforest,sitting among ferns holding a leaf with soft mist and tall trees and butterflies,true,4
+jungle_parrot_waterfall,jungle,Папуга,Parrot,Попугай,scarlet macaw parrot,a jungle with a waterfall,sitting on a branch near the waterfall with flowers and hanging vines,true,5
+jungle_orangutan_rain,jungle,Орангутан,Orangutan,Орангутан,orangutan,the rainforest in the rain,holding a big leaf as an umbrella with raindrops and tall trees and vines,false,6
+jungle_tapir_river,jungle,Тапір,Tapir,Тапир,tapir,a jungle river bank,walking along the river with lily pads and ferns and dragonflies,false,7
+jungle_chameleon_twig,jungle,Хамелеон,Chameleon,Хамелеон,green chameleon,a rainforest branch,curling its tail around a twig with leaves and flowers and dew drops,false,8
+jungle_tree_frog,jungle,Деревна жабка,Tree Frog,Древесная лягушка,red-eyed tree frog,the wet rainforest,sitting on a big leaf with raindrops and flowers and a little snail,false,9
+jungle_okapi_clearing,jungle,Окапі,Okapi,Окапи,okapi,the Congo rainforest,standing in a clearing with ferns and tall trees and sunbeams,false,10
+jungle_red_panda,jungle,Червона панда,Red Panda,Красная панда,red panda,a misty mountain forest with bamboo,resting on a branch with bamboo and pink blossoms and fog,false,11
+jungle_elephant_river,jungle,Слон у джунглях,Jungle Elephant,Слон в джунглях,Asian elephant,a jungle river,splashing in the river with palm trees and big leaves and birds,false,12
+jungle_butterfly_flower,jungle,Метелик,Butterfly,Бабочка,big blue morpho butterfly,the rainforest floor,resting on a pink flower with leaves and water drops and other small butterflies,false,13
+jungle_capybara_pond,jungle,Капібара,Capybara,Капибара,capybara,a jungle pond,relaxing in the pond with water lilies and a small bird on its head and reeds,false,14
+jungle_lemur_branch,jungle,Лемур,Lemur,Лемур,ring-tailed lemur,the Madagascar forest,sitting on a branch with its striped tail hanging down and vines and fruit and leaves,false,15
+jungle_anteater_floor,jungle,Мурахоїд,Anteater,Муравьед,giant anteater,the jungle floor,walking with ferns and mushrooms and fallen logs,false,16
+jungle_pangolin_night,jungle,Панголін,Pangolin,Панголин,pangolin,the jungle at night,walking along a mossy log with fireflies and ferns and moonlight,false,17
+jungle_monkey_banana,jungle,Мавпочка з бананом,Monkey with Banana,Обезьянка с бананом,capuchin monkey,a banana grove in the jungle,eating a banana on a branch with banana leaves and flowers and a parrot far away,false,18
+jungle_peacock_tail,jungle,Павич,Peacock,Павлин,peacock,a jungle clearing,showing its tail feathers with flowers and big trees and butterflies,false,19
+jungle_hornbill_figs,jungle,Птах-носоріг,Hornbill,Птица-носорог,great hornbill,the high rainforest canopy,sitting on a high branch with figs and vines and clouds below,false,20
+jungle_proboscis_monkey,jungle,Носач,Proboscis Monkey,Носач,proboscis monkey,a mangrove forest by a river,sitting in the mangrove trees with roots in the water and dragonflies and leaves,false,21
+jungle_slow_loris,jungle,Товстий лорі,Slow Loris,Толстый лори,slow loris with big eyes,the jungle at night,holding a branch under a bright moon with fireflies and leaves,false,22
+jungle_iguana_branch,jungle,Ігуана,Iguana,Игуана,green iguana,a jungle river,basking on a branch over the river with flowers and vines,false,23
+jungle_hummingbird,jungle,Колібрі,Hummingbird,Колибри,hummingbird,a jungle with a waterfall,hovering near a red heliconia flower with water drops and leaves and a waterfall,false,24
+jungle_otter_river,jungle,Видра,Otter,Выдра,giant river otter,a calm jungle river,floating on its back with water lilies and hanging vines and sunbeams,false,25
+jungle_bird_of_paradise,jungle,Райський птах,Bird of Paradise,Райская птица,bird of paradise,the New Guinea rainforest,dancing on a branch with ferns and orchids and soft morning light,false,26
+jungle_marmoset_trunk,jungle,Ігрунка,Marmoset,Игрунка,pygmy marmoset,a mossy rainforest,clinging to a tree trunk with moss and flowers and a ladybug,false,27
