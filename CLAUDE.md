@@ -8,7 +8,7 @@ Animal jigsaw puzzle game for kids: Flutter + Flame, Android first, landscape on
 
 Android is the only platform: the `ios/`, `macos/`, `linux/`, `windows/` and `web/` folders were removed. Bring one back with `flutter create --platforms=<name> .` when needed.
 
-Git repo: `origin` is https://github.com/qwddz/animosaic.git, branch `main`. Commit or push only when asked; no GitHub CI for now.
+Git repo: `origin` is git@github.com:qwddz/animosaic.git (SSH), branch `main`. Commit or push only when asked; no GitHub CI for now.
 
 ## Commands
 
