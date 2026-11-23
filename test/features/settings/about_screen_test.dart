@@ -98,7 +98,7 @@ void main() {
     final links = {
       'Privacy policy': Uri.parse('https://animosaic.app/privacy'),
       'Terms of use': Uri.parse('https://animosaic.app/terms'),
-      'Contact us': Uri.parse('mailto:pirate.dmitry@gmail.com'),
+      'Contact us': Uri.parse('mailto:contact@animosaic.app'),
     };
     for (final MapEntry(key: title, value: url) in links.entries) {
       await tapLink(tester, title);

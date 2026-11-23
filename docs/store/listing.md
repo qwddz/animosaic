@@ -52,7 +52,7 @@ SAFE FOR KIDS
 WORKS OFFLINE
 Free pictures are built into the app. Pictures from the full version are downloaded once and then work without an internet connection.
 
-Questions or ideas? Write to pirate.dmitry@gmail.com.
+Questions or ideas? Write to contact@animosaic.app.
 ---
 
 ## uk
@@ -96,7 +96,7 @@ Animosaic — спокійна й дружня гра-пазл для дітей
 ПРАЦЮЄ БЕЗ ІНТЕРНЕТУ
 Безкоштовні картинки вже є в застосунку. Картинки повної версії завантажуються один раз, а потім працюють без інтернету.
 
-Питання чи ідеї? Пишіть на pirate.dmitry@gmail.com.
+Питання чи ідеї? Пишіть на contact@animosaic.app.
 ---
 
 ## ru
@@ -140,7 +140,7 @@ Animosaic — спокойная и дружелюбная игра-пазл д�
 РАБОТАЕТ БЕЗ ИНТЕРНЕТА
 Бесплатные картинки уже есть в приложении. Картинки полной версии загружаются один раз, а потом работают без интернета.
 
-Вопросы или идеи? Пишите на pirate.dmitry@gmail.com.
+Вопросы или идеи? Пишите на contact@animosaic.app.
 ---
 
 ## Счёт символов

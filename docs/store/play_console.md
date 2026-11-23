@@ -14,7 +14,7 @@
 | Поле | Ответ |
 |---|---|
 | Privacy policy URL | https://animosaic.app/privacy |
-| Contact e-mail | pirate.dmitry@gmail.com |
+| Contact e-mail | contact@animosaic.app |
 | Website | https://animosaic.app (**проверить**, что главная страница открывается; если нет — оставить пустым) |
 | Phone | не указывать (необязательно) |
 | App or game | Game |
@@ -66,7 +66,7 @@ without paying:
 | Does the app contain unrestricted internet access / web browser? | No (ссылки наружу только за родительской проверкой и открываются во внешнем браузере) |
 | Is the app primarily a news / educational reference? | No |
 
-Ожидаемый результат: IARC 3+, PEGI 3, ESRB Everyone, USK 0, с пометкой «In-App Purchases». **проверить** итог после отправки анкеты.
+Ожидаемый результат: IARC 3+, PEGI 3, ESRB Everyone, USK 0, с пометкой «In-App Purchases». Анкета пересдана 2026-11-23 с «Purchase of digital goods» (первая версия 13.11 его пропустила): IARC 3+, ACB G, PEGI 3 с пометкой покупок; ClassInd (Бразилия) — 14+ из-за покупок (Portaria MJSP 1.048/2025), как у раскраски.
 
 ## Target audience and content
 
@@ -90,7 +90,7 @@ without paying:
 |---|---|
 | Does your app collect or share any of the required user data types? | **Yes** |
 | Is all of the user data collected by your app encrypted in transit? | **Yes** (RevenueCat и CDN — только HTTPS) |
-| Do you provide a way for users to request that their data is deleted? | **Yes** — по e-mail pirate.dmitry@gmail.com; удаление клиента делается в дашборде RevenueCat (Customer → Delete customer) |
+| Do you provide a way for users to request that their data is deleted? | **Yes** — по e-mail contact@animosaic.app; удаление клиента делается в дашборде RevenueCat (Customer → Delete customer) |
 | Data deletion URL | Не требуется: в приложении нет учётных записей. Если Play всё же спросит — https://animosaic.app/privacy (раздел «Your rights») |
 | Independent security review | No |
 | Committed to Families Policy | Yes |
