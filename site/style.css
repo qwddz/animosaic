@@ -14,3 +14,9 @@ h2 { font-size: 19px; margin: 28px 0 6px; }
 .meta { color: var(--muted); margin-top: 0; }
 a { color: var(--link); }
 ul { padding-left: 22px; }
+.apps { display: grid; gap: 12px; margin: 16px 0; }
+@media (min-width: 640px) { .apps { grid-template-columns: 1fr 1fr; } }
+.app { display: block; padding: 14px 16px; border: 1px solid var(--line); border-radius: 12px; color: var(--text); text-decoration: none; }
+.app:hover { border-color: var(--link); }
+.app strong { display: block; font-size: 17px; margin-bottom: 4px; color: var(--link); }
+.app span { color: var(--muted); }
