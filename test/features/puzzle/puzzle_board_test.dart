@@ -78,6 +78,51 @@ void main() {
     expect(board.session.pieces[piece].status, PieceStatus.tray);
   });
 
+  test('a diagonal pull out of the tray picks the piece', () {
+    final board = newBoard(const Size(915, 411), Difficulty.expert);
+    final piece = board.session.trayOrder.first;
+    final along = board.tray.axis * 12;
+    final across = board.tray.axis == const Offset(0, 1)
+        ? const Offset(-8, 0)
+        : const Offset(0, -8);
+    board.dragStart(piece);
+    board.dragUpdate(along + across);
+    expect(board.carriedPiece, piece);
+    expect(board.trayScroll, 0);
+  });
+
+  test('a tray that cannot scroll picks the piece in any direction', () {
+    final board = newBoard(const Size(915, 411), Difficulty.expert);
+    // Place pieces until the rest fit in the tray.
+    while (board.tray.maxScroll(board.session.trayOrder.length) > 0) {
+      final placed = board.session.trayOrder.first;
+      board.dragStart(placed);
+      board.dragUpdate(pickMove(board));
+      board.dragUpdate(board.targetOf(placed) - board.positions[placed]);
+      expect(board.dragEnd(), DropResult.placed);
+    }
+    expect(board.session.trayOrder, isNotEmpty);
+    final piece = board.session.trayOrder.first;
+    board.dragStart(piece);
+    board.dragUpdate(board.tray.axis * 30);
+    expect(board.carriedPiece, piece);
+  });
+
+  test('a touch anywhere on its tray slot grabs a tray piece', () {
+    final board = newBoard(const Size(915, 411), Difficulty.expert);
+    final piece = board.session.trayOrder.first;
+    final half = board.tray.slot / 2;
+    expect(board.hitsTraySlot(piece, Offset(half - 1, -(half - 1))), isTrue);
+    expect(board.hitsTraySlot(piece, Offset(half + 1, 0)), isFalse);
+    board.dragStart(piece);
+    board.dragUpdate(pickMove(board));
+    // Carried out of the tray, only its outline grabs it.
+    expect(board.hitsTraySlot(piece, Offset.zero), isFalse);
+    board.dragUpdate(const Offset(-200, 0));
+    expect(board.dragEnd(), DropResult.loose);
+    expect(board.hitsTraySlot(piece, Offset.zero), isFalse);
+  });
+
   test('scrolling stops at both ends of the tray', () {
     final board = newBoard(const Size(915, 411), Difficulty.expert);
     board.scrollBy(500);

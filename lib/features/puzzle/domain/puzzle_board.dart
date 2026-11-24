@@ -39,6 +39,11 @@ class PuzzleBoard {
   /// Finger travel before a tray gesture is read as scroll or pick.
   static const dragSlop = 10.0;
 
+  /// A tray gesture scrolls only when it runs this many times more along
+  /// the tray than across it; a diagonal pull picks the piece. Children
+  /// rarely pull a piece out at a right angle.
+  static const scrollBias = 2.0;
+
   /// Snap distance as a share of the shorter cell side.
   static const snapRatio = 0.28;
 
@@ -71,6 +76,18 @@ class PuzzleBoard {
   bool isDraggable(int index) =>
       session.pieces[index].status != PieceStatus.placed;
 
+  /// Whether a touch [fromCenter] away from the piece's centre (game
+  /// coordinates) grabs it. A piece resting in the tray is small, so its
+  /// whole slot counts, not only its outline; elsewhere the caller tests the
+  /// outline.
+  bool hitsTraySlot(int index, Offset fromCenter) {
+    if (session.pieces[index].status != PieceStatus.tray || index == _inHand) {
+      return false;
+    }
+    final half = tray.slot / 2;
+    return fromCenter.dx.abs() <= half && fromCenter.dy.abs() <= half;
+  }
+
   bool dragStart(int index) {
     if (_grabbed != null || !isDraggable(index)) return false;
     _grabbed = index;
@@ -93,7 +110,8 @@ class PuzzleBoard {
         if (_pending.distance < dragSlop) return;
         final along = _dot(_pending, tray.axis);
         final across = (_pending - tray.axis * along).distance;
-        if (along.abs() > across) {
+        final canScroll = tray.maxScroll(session.trayOrder.length) > 0;
+        if (canScroll && along.abs() > across * scrollBias) {
           _mode = _GestureMode.scroll;
           scrollBy(along);
         } else {

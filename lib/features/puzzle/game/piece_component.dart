@@ -31,9 +31,17 @@ class PieceComponent extends SpriteComponent
   }
 
   @override
-  bool containsLocalPoint(Vector2 point) =>
-      game.board.isDraggable(index) &&
-      outline.contains(ui.Offset(point.x, point.y));
+  bool containsLocalPoint(Vector2 point) {
+    final board = game.board;
+    if (!board.isDraggable(index)) return false;
+    // Local points are unscaled sprite coordinates.
+    final fromCenter = ui.Offset(
+      (point.x - size.x / 2) * scale.x,
+      (point.y - size.y / 2) * scale.y,
+    );
+    return board.hitsTraySlot(index, fromCenter) ||
+        outline.contains(ui.Offset(point.x, point.y));
+  }
 
   @override
   void onDragStart(DragStartEvent event) {
